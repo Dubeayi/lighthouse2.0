@@ -54,6 +54,9 @@
     "type": "git",
     "url": "git+https://github.com/Dubeayi/lighthouse2.0.git"
   },
+  "styles": [
+    "node_modules/bootstrap/scss/bootstrap.scss"
+],
   "keywords": [
     "react",
     "reactstrap",
