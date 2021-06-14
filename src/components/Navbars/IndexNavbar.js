@@ -53,7 +53,7 @@ function IndexNavbar() {
             target="_blank"
             title="Coded by Creative Tim"
           >
-            Lighthouse Logo area
+            Lighthouse (Logo area)
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
