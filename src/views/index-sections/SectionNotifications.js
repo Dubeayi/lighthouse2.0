@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Paper Kit React - v1.3.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
@@ -31,13 +13,13 @@ function SectionNotifications() {
     <>
       <Container className="tim-container">
         <div className="title">
-          <h3>Notifications</h3>
+          <h3>Notifications for scheduling dates. Might be overkill. </h3>
         </div>
       </Container>
       <div id="notifications">
         <Alert color="info">
           <Container>
-            <span>This is a plain notification!</span>
+            <span>Those dates are available!</span>
           </Container>
         </Alert>
         <Alert color="success" isOpen={alertSuccess}>
@@ -51,7 +33,7 @@ function SectionNotifications() {
             >
               <i className="nc-icon nc-simple-remove" />
             </button>
-            <span>This is a notification with close button.</span>
+            <span>Your dates have been confirmed with lighthouse! Color is too bright though.</span>
           </Container>
         </Alert>
         <Alert
@@ -71,8 +53,7 @@ function SectionNotifications() {
                 <i className="nc-icon nc-simple-remove" />
               </button>
               <div className="message">
-                <i className="nc-icon nc-bell-55" /> This is a notification with
-                close button and icon.
+                <i className="nc-icon nc-bell-55" /> There is a clash with the dates. Experiment with close button and icon.
               </div>
             </div>
           </Container>
@@ -90,11 +71,7 @@ function SectionNotifications() {
                 <i className="nc-icon nc-simple-remove" />
               </button>
               <div className="message">
-                <i className="nc-icon nc-bell-55" /> This is a notification with
-                close button and icon and have many lines. You can see that the
-                icon and the close button are always vertically aligned. This is
-                a beautiful notification. So you don't have to worry about the
-                style.
+                <i className="nc-icon nc-bell-55" /> Sorry, there was an error with the dates you selected. Please contact us directly.
               </div>
             </div>
           </Container>

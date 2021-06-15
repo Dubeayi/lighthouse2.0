@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Paper Kit React - v1.3.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
@@ -138,7 +120,7 @@ function SectionTypography() {
         <div id="images">
           <Container>
             <div className="title">
-              <h3>Images</h3>
+              <h3>Possible Client Reviews?</h3>
             </div>
             <Row>
               <Col md="3" sm="6">
@@ -146,19 +128,20 @@ function SectionTypography() {
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("assets/img/uriel-soberanes.jpg").default}
+                  src="https://pbs.twimg.com/media/EkC1LR2XkAAYsmQ.jpg"
                 />
                 <div className="img-details">
                   <div className="author">
                     <img
                       alt="..."
                       className="img-circle img-no-padding img-responsive"
-                      src={
-                        require("assets/img/faces/joe-gardner-2.jpg").default
-                      }
+                      src="https://static.yafri.ca/wp-content/uploads/2016/11/10054619/President-Buhari.jpg"
                     />
                   </div>
-                  <p>Sonia Green</p>
+                  <p>
+                    Each meal was prepared with much care. Too bad I am a joker
+                    <br />-Mohamadu Buhari
+                  </p>
                 </div>
               </Col>
               <Col className="mr-auto ml-auto" md="2" sm="3">
@@ -168,16 +151,16 @@ function SectionTypography() {
                   className="img-circle img-no-padding img-responsive"
                   src={require("assets/img/faces/kaci-baum-2.jpg").default}
                 />
-                <p className="text-center">Brigitte Bardot</p>
+                <p className="text-center">Client B</p>
               </Col>
               <Col className="mr-auto" md="2" sm="3">
                 <h4 className="images-title">Thumbnail</h4>
                 <img
                   alt="..."
                   className="img-thumbnail img-responsive"
-                  src={require("assets/img/faces/erik-lucatero-2.jpg").default}
+                  src="https://www.oozlemedia.com/wp-content/uploads/2016/10/donald-trump-joker-makeup-batman.jpg"
                 />
-                <p className="text-center">John Keynes</p>
+                <p className="text-center">D.T</p>
               </Col>
             </Row>
           </Container>

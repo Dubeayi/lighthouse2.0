@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Paper Kit React - v1.3.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
@@ -32,38 +14,37 @@ function SectionDownload() {
             <Col className="ml-auto mr-auto text-center" md="8">
               <h2 className="title">Do you like what you see?</h2>
               <p className="description">
-                Cause if you do, it can be yours for Free. Hit the button below
-                and download it. Start a new project or give an old Bootstrap 4
-                project a new look.
+                Cause if you do, feel free to check out our user handbook. Hit the button below
+                and download it.
+                <br />If you have any questions, we have the answers!
               </p>
             </Col>
             <Col className="ml-auto mr-auto download-area" md="5">
               <Button
                 className="btn-round"
                 color="danger"
-                href="http://www.creative-tim.com/product/paper-kit-react?ref=pkr-index-page"
+                href="#"
                 target="_blank"
               >
-                Download free React
+                Download user handbook - need to fix
               </Button>
             </Col>
           </Row>
           <Row className="text-center upgrade-pro">
             <Col className="ml-auto mr-auto" md="8">
-              <h2 className="title">Want more?</h2>
+              <h2 className="title">Want to learn more?</h2>
               <p className="description">
                 We're going to launch{" "}
                 <a className="text-danger" href="#pablo" disabled>
-                  Paper Kit PRO React in a few weeks
+                  an open house tour in a few weeks
                 </a>
-                . It will have a huge number of components, sections and example
-                pages.
+                . It is something you do not want to miss!
               </p>
             </Col>
             <Col className="ml-auto mr-auto" sm="5">
               <Button className="btn-round" color="info" href="#pablo" disabled>
                 <i aria-hidden={true} className="nc-icon nc-spaceship" />{" "}
-                Upgrade to PRO
+                Call us today
               </Button>
             </Col>
           </Row>
@@ -108,7 +89,7 @@ function SectionDownload() {
               <UncontrolledTooltip delay={0} target="tooltip68961360">
                 Share!
               </UncontrolledTooltip>
-              <Button
+              {/* <Button
                 className="sharrre btn-round ml-2"
                 color="github-bg"
                 href="https://github.com/creativetimofficial/paper-kit-react?ref=creativetim"
@@ -119,7 +100,7 @@ function SectionDownload() {
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip864353654">
                 Star on Github
-              </UncontrolledTooltip>
+              </UncontrolledTooltip> */}
             </Col>
           </Row>
         </Container>

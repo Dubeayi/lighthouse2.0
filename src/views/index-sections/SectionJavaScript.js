@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Paper Kit React - v1.3.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 // react plugin used to create datetimepicker
 import ReactDatetime from "react-datetime";
@@ -49,12 +31,12 @@ function SectionJavaScript() {
       <div className="section javascript-components">
         <Container>
           <div className="title">
-            <h2>Javascript Components</h2>
+            <h2>Informative section</h2>
           </div>
           <Row id="modals">
             <Col md="6">
               <div className="title">
-                <h3>Modal</h3>
+                <h3>Possible Modal popups? Maybe FAQ's.. Can be used to track user feedback</h3>
               </div>
               {/* Button trigger modal */}
               <Button
@@ -64,7 +46,7 @@ function SectionJavaScript() {
                 type="button"
                 onClick={toggleModal}
               >
-                Launch demo modal
+                Where are we located
               </Button>
               {/* Modal */}
               <Modal isOpen={modal} toggle={toggleModal}>
@@ -85,17 +67,7 @@ function SectionJavaScript() {
                   </h5>
                 </div>
                 <div className="modal-body">
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove right at the coast of
-                  the Semantics, a large language ocean. A small river named
-                  Duden flows by their place and supplies it with the necessary
-                  regelialia. It is a paradisematic country, in which roasted
-                  parts of sentences fly into your mouth. Even the all-powerful
-                  Pointing has no control about the blind texts it is an almost
-                  unorthographic life One day however a small line of blind text
-                  by the name of Lorem Ipsum decided to leave for the far World
-                  of Grammar.
+                  Somewhere in Lekki Phase 1, past the roundabout.. something yada yada yada ad;lfkadfna;ldkfahdfliaudhfalkkjdshfa
                 </div>
                 <div className="modal-footer">
                   <div className="left-side">
@@ -105,13 +77,13 @@ function SectionJavaScript() {
                       type="button"
                       onClick={toggleModal}
                     >
-                      Never mind
+                      This helps!
                     </Button>
                   </div>
                   <div className="divider" />
                   <div className="right-side">
                     <Button className="btn-link" color="danger" type="button">
-                      Delete
+                      This did not help
                     </Button>
                   </div>
                 </div>
@@ -137,7 +109,7 @@ function SectionJavaScript() {
               >
                 <PopoverHeader>Popover on top</PopoverHeader>
                 <PopoverBody>
-                  Here will be some very useful information about this popover.
+                  Info displaying on top
                 </PopoverBody>
               </UncontrolledPopover>
               <Button
@@ -156,7 +128,7 @@ function SectionJavaScript() {
               >
                 <PopoverHeader>Popover on bottom</PopoverHeader>
                 <PopoverBody>
-                  Here will be some very useful information about this popover.
+                Info displaying on bottom
                 </PopoverBody>
               </UncontrolledPopover>
               <Button
@@ -175,7 +147,7 @@ function SectionJavaScript() {
               >
                 <PopoverHeader>Popover on left</PopoverHeader>
                 <PopoverBody>
-                  Here will be some very useful information about this popover.
+                Info displaying on left
                 </PopoverBody>
               </UncontrolledPopover>
               <Button
@@ -194,14 +166,14 @@ function SectionJavaScript() {
               >
                 <PopoverHeader>Popover on right</PopoverHeader>
                 <PopoverBody>
-                  Here will be some very useful information about this popover.
+                  Now right
                 </PopoverBody>
               </UncontrolledPopover>
             </Col>
             <br />
             <Col md="6">
               <div className="title">
-                <h3>Datepicker</h3>
+                <h3>Datepicker - advanced. Maybe in later stage</h3>
               </div>
               <Row>
                 <Col sm="6">
@@ -291,7 +263,7 @@ function SectionJavaScript() {
             </Col>
           </Row>
           <div className="title">
-            <h3>Carousel</h3>
+            <h3>Possible Picture gallery of Lighthouse!!!</h3>
           </div>
         </Container>
       </div>{" "}

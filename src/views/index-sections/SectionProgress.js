@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Paper Kit React - v1.3.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
@@ -50,7 +32,7 @@ function SectionProgress() {
           <Row>
             <Col md="6">
               <div className="title">
-                <h3>Progress Bar</h3>
+                <h3>Progress Bar - maybe used to track course completion? Possible overkill</h3>
                 <br />
               </div>
               <Progress
@@ -85,7 +67,7 @@ function SectionProgress() {
             </Col>
             <Col md="6">
               <div className="title">
-                <h3>Pagination</h3>
+                <h3>Carousel tings</h3>
                 <br />
               </div>
               <nav aria-label="Page navigation example">
@@ -220,7 +202,7 @@ function SectionProgress() {
           <Row>
             <Col md="6">
               <div className="title">
-                <h3>Navigation Tabs</h3>
+                <h3>Alternate Navigation Tabs</h3>
               </div>
               <div className="nav-tabs-navigation">
                 <div className="nav-tabs-wrapper">
@@ -242,7 +224,7 @@ function SectionProgress() {
                           toggle("2");
                         }}
                       >
-                        Profile
+                        Services
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -261,9 +243,7 @@ function SectionProgress() {
               <TabContent activeTab={activeTab} className="text-center">
                 <TabPane tabId="1">
                   <p>
-                    Larger, yet dramatically thinner. More powerful, but
-                    remarkably power efficient. With a smooth metal surface that
-                    seamlessly meets the new Retina HD display.
+                    Something something jollof rice
                   </p>
                 </TabPane>
                 <TabPane tabId="2">
