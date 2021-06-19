@@ -13,12 +13,13 @@ import NucleoIcons from "views/NucleoIcons.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
+import Sample from "views/index-sections/random.js";
 // others
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter baseName>
     <Switch>
-      <Route path="/index" render={(props) => <Index {...props} />} />
+      <Route path="/home" render={(props) => <Index {...props} />} />
       <Route
         path="/nucleo-icons"
         render={(props) => <NucleoIcons {...props} />}
@@ -32,10 +33,14 @@ ReactDOM.render(
         render={(props) => <ProfilePage {...props} />}
       />
       <Route
+        path="/sample"
+        render={(props) => <Sample{...props} />}
+      />
+      <Route
         path="/register-page"
         render={(props) => <RegisterPage {...props} />}
       />
-      <Redirect to="/index" />
+      <Redirect to="/home" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")

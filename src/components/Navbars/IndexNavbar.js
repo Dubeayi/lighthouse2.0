@@ -11,6 +11,10 @@ import {
   NavLink,
   Nav,
   Container,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownItem,
+  DropdownMenu
 } from "reactstrap";
 
 function IndexNavbar() {
@@ -24,12 +28,15 @@ function IndexNavbar() {
 
   React.useEffect(() => {
     const updateNavbarColor = () => {
+      //make the navbar visible after scrolling past the landing image
       if (
         document.documentElement.scrollTop > 299 ||
         document.body.scrollTop > 299
       ) {
         setNavbarColor("");
-      } else if (
+      }
+      //set the navbar back to being transparent if scrolling back up to the landing image
+      else if (
         document.documentElement.scrollTop < 300 ||
         document.body.scrollTop < 300
       ) {
@@ -51,7 +58,7 @@ function IndexNavbar() {
             data-placement="bottom"
             href="/index"
             target="_blank"
-            title="Coded by Creative Tim"
+            title="Coded by Dubeayi O"
           >
             Lighthouse (Logo area)
           </NavbarBrand>
@@ -73,6 +80,74 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
+
+          {/* <NavItem>
+              <NavLink
+                href="#"
+                target="_blank"
+              >
+                <i className="nc-icon nc-book-bookmark" /> Menu Items
+              </NavLink>
+            </NavItem> */}
+
+<UncontrolledDropdown nav inNavbar>
+                      <DropdownToggle
+                        aria-expanded={false}
+                        aria-haspopup={true}
+                        caret
+                        color="default"
+                        data-toggle="dropdown"
+                        href="#pablo"
+                        id="dropdownMenuButton"
+                        nav
+                        onClick={(e) => e.preventDefault()}
+                        role="button"
+                      >
+                       <i className="nc-icon nc-book-bookmark" /> Menu Items
+                      </DropdownToggle>
+                      <DropdownMenu
+                        aria-labelledby="dropdownMenuButton"
+                        className="dropdown-info"
+                      >
+                        <DropdownItem header tag="span">
+                          Dropdown header
+                        </DropdownItem>
+                        <DropdownItem
+                          href="#pablo"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          Services
+                        </DropdownItem>
+                        <DropdownItem
+                          href="#pablo"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          Another action
+                        </DropdownItem>
+                        <DropdownItem
+                          href="#pablo"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          Something else here
+                        </DropdownItem>
+                        <DropdownItem divider />
+                        <DropdownItem
+                          href="#pablo"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          Separated link
+                        </DropdownItem>
+                        <DropdownItem divider />
+                        <DropdownItem
+                          href="#pablo"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          Another separated link
+                        </DropdownItem>
+                      </DropdownMenu>
+                    </UncontrolledDropdown>
+
+
             <NavItem>
               <NavLink
                 data-placement="bottom"
@@ -115,14 +190,6 @@ function IndexNavbar() {
               >
                 <i className="fa fa-github" />
                 <p className="d-lg-none">GitHub</p>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                href="#"
-                target="_blank"
-              >
-                <i className="nc-icon nc-book-bookmark" /> Menu Items
               </NavLink>
             </NavItem>
             <NavItem>
