@@ -2,18 +2,20 @@
   "name": "paper-kit-react",
   "version": "1.3.0",
   "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "4.6.0",
     "classnames": "2.2.6",
     "moment": "2.29.1",
     "node-sass": "5.0.0",
     "nouislider": "14.6.4",
     "react": "17.0.2",
+    "react-bootstrap-icons": "^1.5.0",
     "react-datetime": "3.0.4",
     "react-dom": "17.0.2",
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.3",
-    "reactstrap": "8.9.0",
-    "bootstrap": "4.6.0"
+    "reactstrap": "8.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,9 +23,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
-    "compile-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css",
+    "compile-sass": "node-sass node-sass src/assets/scss/paper-kit.scss public/stylesheet.css",
     "minify-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.min.css --output-style compressed",
-    "map-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css --source-map true"
+    "map-sass": "node-sass src/assets/scss/paper-kit.scss public/stylesheet.css --source-map true"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -56,7 +58,7 @@
   },
   "styles": [
     "node_modules/bootstrap/scss/bootstrap.scss"
-],
+  ],
   "keywords": [
     "react",
     "reactstrap",

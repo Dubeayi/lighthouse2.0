@@ -1,27 +1,3 @@
-/*!
-
- =========================================================
- * Paper Kit React - v1.3.0 based on Paper Kit - v2.2.0
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/paper-kit-2
- * Copyright 2021 Creative Tim (http://www.creative-tim.com)
-
- * Designed by www.invisionapp.com Coded by www.creative-tim.com
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
-/*      light colors - used for select dropdown         */
-/* ========================================================================
- * bootstrap-switch - v3.3.2
- * http://www.bootstrap-switch.org
- * ========================================================================
- * Copyright 2012-2013 Mattia Larentis
- * http://www.apache.org/licenses/LICENSE-2.0
- */
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -1356,9 +1332,7 @@
   padding: 8px !important; }
 
 .btn-round {
-  border-radius: 30px;
-  padding: 10px;
-}
+  border-radius: 30px; }
 
 .btn.btn-link:focus {
   box-shadow: none !important;
@@ -2118,7 +2092,19 @@ blockquote small {
 .title {
   margin-top: 30px;
   margin-bottom: 25px;
-  min-height: 32px; }
+  min-height: 32px;
+ }
+
+ .faqTitle {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  min-height: 32px;
+  outline-style: double;
+  border: solid;
+  border-color: grey;
+  background-color: floralwhite;
+  padding-bottom: 20px
+ }
 
 .title.text-center {
   margin-bottom: 50px; }
@@ -2131,7 +2117,7 @@ body {
   font-family: 'Montserrat', "Helvetica", Arial, sans-serif; }
 
 a {
-  color: #F5593D; }
+  color: #f5593d; }
   a:hover, a:focus {
     color: black;
     text-decoration: none; }
@@ -3789,14 +3775,14 @@ License - nucleoapp.com/license/
 
 .modal-footer {
   border-top: 1px solid #DDDDDD;
-  padding: 0px; }
+  padding: 0rem; }
   .modal-footer.no-border-footer {
     border-top: 0 none; }
 
 .modal-footer .left-side, .modal-footer .right-side {
   display: inline-block;
   text-align: center;
-  width: 49%; }
+  width: 47%; }
 
 .modal-footer .btn-link {
   padding: 20px;
@@ -4671,7 +4657,7 @@ License - nucleoapp.com/license/
   font-size: 8em;
   font-weight: 700;
   margin: 0;
-  color: blue;
+  color: white;
   background: #fbf8ec;
   background: -moz-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
   background: -webkit-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
@@ -4679,6 +4665,13 @@ License - nucleoapp.com/license/
   background: linear-gradient(to bottom, #FFFFFF 35%, #4e6773 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+
+  @media only screen and (max-width: 600px) {
+    .presentation-title {
+      font-size: 5em;
+      padding-bottom: 15%;
+    }
+  }
 
 .presentation-subtitle {
   font-size: 1.7em;
@@ -6399,7 +6392,7 @@ td.rdtYear:hover {
   .index .presentation-subtitle {
     margin-bottom: 100px; }
   .index .category.category-absolute {
-    margin-top: 20px; } }
+    margin-top: 20px;} }
 
 @media screen and (max-width: 374px) {
   .index .presentation-subtitle {
@@ -6460,10 +6453,8 @@ td.rdtYear:hover {
   border-width: 0 .4rem .4rem .4rem;
   border-bottom-color: #fff; }
 
-  .bootstrapIcon {
-    margin-bottom: 13px;
-    margin-right: 13px;
-    padding-right: 13px;
-  }
+.textBody {
+  text-align: center;
+}
 
 /*# sourceMappingURL=paper-kit.css.map */

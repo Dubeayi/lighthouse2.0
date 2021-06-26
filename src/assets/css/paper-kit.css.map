@@ -1,6 +1,6 @@
 {
 	"version": 3,
-	"file": "paper-kit.css",
+	"file": "../../../public/stylesheet.css",
 	"sources": [
 		"../scss/paper-kit.scss",
 		"../scss/paper-kit/_variables.scss",

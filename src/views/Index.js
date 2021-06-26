@@ -9,12 +9,12 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 
 // index sections
 import SectionButtons from "views/index-sections/SectionButtons.js";
-import SectionNavbars from "views/index-sections/SectionNavbars.js";
+// import SectionNavbars from "views/index-sections/SectionNavbars.js";
 // import SectionNavigation from "views/index-sections/SectionNavigation.js";
-import SectionProgress from "views/index-sections/SectionProgress.js";
-import SectionNotifications from "views/index-sections/SectionNotifications.js";
+// import SectionProgress from "views/index-sections/SectionProgress.js";
+// import SectionNotifications from "views/index-sections/SectionNotifications.js";
 import SectionTypography from "views/index-sections/SectionTypography.js";
-import SectionJavaScript from "views/index-sections/SectionJavaScript.js";
+import FrequentlyAskedQuestions from "views/index-sections/FrequentlyAskedQuestions.js";
 import SectionCarousel from "views/index-sections/SectionCarousel.js";
 import SectionNucleoIcons from "views/index-sections/SectionNucleoIcons.js";
 import SectionDark from "views/index-sections/SectionDark.js";
@@ -36,14 +36,14 @@ function Index() {
       <IndexHeader />
       <div className="main">
         <SectionButtons />
-        <SectionNavbars />
+        {/* <SectionNavbars /> */}
         {/* <SectionNavigation /> */}
-        <SectionProgress />
-        <SectionNotifications />
+        {/* <SectionProgress /> */}
+        {/* <SectionNotifications /> */}
         <SectionTypography />
-        <SectionJavaScript />
-        <SectionCarousel />
         <SectionNucleoIcons />
+        <FrequentlyAskedQuestions />
+        <SectionCarousel />
         <SectionDark />
         <SectionLogin />
         {/* <SectionExamples /> */}

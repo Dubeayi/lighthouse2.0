@@ -198,6 +198,8 @@
 }
 .btn-round{
     border-radius: 30px;
+    margin-bottom: 10px;
+    justify-content: center;
 }
 .btn.btn-link:focus{
     box-shadow: none !important;
@@ -213,6 +215,19 @@
 .btn-group.select{
     overflow: visible !important;
 }
+
+@media screen and (max-width: 991px) {
+    .faq {
+      margin-right: 0px;
+      margin-left: 45px;
+    }
+}
+
+.bootstrapIcon {
+    margin-bottom: 8px;
+    margin-right: 13px;
+  }
+
 .media{
     .media-body{
         .media-footer{
