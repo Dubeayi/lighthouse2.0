@@ -81,15 +81,6 @@ function IndexNavbar() {
         >
           <Nav navbar>
 
-          <NavItem>
-              <NavLink
-                href="#"
-                target="_blank"
-              >
-                <i className="nc-icon nc-book-bookmark" /> Menu Items
-              </NavLink>
-            </NavItem>
-
 <UncontrolledDropdown nav inNavbar>
                       <DropdownToggle
                         aria-expanded={false}
