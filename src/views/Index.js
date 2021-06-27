@@ -18,7 +18,7 @@ import FrequentlyAskedQuestions from "views/index-sections/FrequentlyAskedQuesti
 import SectionCarousel from "views/index-sections/SectionCarousel.js";
 import SectionNucleoIcons from "views/index-sections/SectionNucleoIcons.js";
 import SectionDark from "views/index-sections/SectionDark.js";
-import SectionLogin from "views/index-sections/SectionLogin.js";
+// import SectionLogin from "views/index-sections/SectionLogin.js";
 // import SectionExamples from "views/index-sections/SectionExamples.js";
 import SectionDownload from "views/index-sections/SectionDownload.js";
 
@@ -45,7 +45,7 @@ function Index() {
         <FrequentlyAskedQuestions />
         <SectionCarousel />
         <SectionDark />
-        <SectionLogin />
+        {/* <SectionLogin /> */}
         {/* <SectionExamples /> */}
         <SectionDownload />
         <DemoFooter />

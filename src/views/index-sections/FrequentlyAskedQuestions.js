@@ -48,7 +48,7 @@ function FrequentlyAskedQuestions() {
   return (
     <>
       <div className="section javascript-components">
-        <Container>
+        <Container className="cont">
           <div className="faqTitle">
             <h2 style={{ textAlign: "center" }}>Frequently asked questions</h2>
           </div>

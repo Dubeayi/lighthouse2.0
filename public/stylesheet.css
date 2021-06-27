@@ -2103,7 +2103,12 @@ blockquote small {
   border: solid;
   border-color: grey;
   background-color: floralwhite;
-  padding-bottom: 20px
+  padding-bottom: 20px;
+ }
+
+ .cont {
+   border-top: solid;
+   border-color: grey;
  }
 
 .title.text-center {
