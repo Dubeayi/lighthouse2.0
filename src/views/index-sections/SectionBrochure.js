@@ -5,7 +5,7 @@ import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
 
 // core components
 
-function SectionDownload() {
+function SectionBrochure() {
   return (
     <>
       <div className="section">
@@ -109,4 +109,4 @@ function SectionDownload() {
   );
 }
 
-export default SectionDownload;
+export default SectionBrochure;

@@ -8,7 +8,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 
-function SectionButtons() {
+function SectionIntroduction() {
 
   React.useEffect(()=> {
     Aos.init({duration: 2000});
@@ -34,4 +34,4 @@ function SectionButtons() {
   );
 }
 
-export default SectionButtons;
+export default SectionIntroduction;

@@ -3,9 +3,9 @@ import React from "react";
 // reactstrap components
 import { Container } from "reactstrap";
 
-// core components
+import { Headset } from 'react-bootstrap-icons';
 
-function IndexHeader() {
+function LandingPage() {
   return (
     <>
       <div
@@ -45,12 +45,15 @@ function IndexHeader() {
               "url(" + require("assets/img/clouds.png").default + ")",
           }}
         />
-        <h6 className="category category-absolute">
-          Under construction by Dubeayi O.
-          </h6>
+          <a
+          href="tel:09098846237"
+          className="category category-absolute"
+          >
+            <Headset style={{fontSize:"1.8em"}} /> 09098846237
+          </a>
       </div>
     </>
   );
 }
 
-export default IndexHeader;
+export default LandingPage;

@@ -5,14 +5,14 @@ import { Button, Container, Row, Col } from "reactstrap";
 
 // core components
 
-function SectionNucleoIcons() {
+function SectionActivities() {
   return (
     <>
       <div className="section section-dark section-nucleo-icons">
         <Container>
           <Row>
             <Col lg="6" md="12">
-              <h2 className="title">Nucleo Icons</h2>
+              <h2 className="title">Lighthouse Activities</h2>
               <br />
               <p className="description">
                 Icons could help illustrate the sort of activities that occur in Lighthouse. Prayers, exercise, types of meals?
@@ -62,4 +62,4 @@ function SectionNucleoIcons() {
   );
 }
 
-export default SectionNucleoIcons;
+export default SectionActivities;

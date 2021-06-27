@@ -4,23 +4,17 @@ import React from "react";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import IndexHeader from "components/Headers/IndexHeader.js";
+import LandingPage from "components/Headers/LandingPage.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
 // index sections
-import SectionButtons from "views/index-sections/SectionButtons.js";
-// import SectionNavbars from "views/index-sections/SectionNavbars.js";
-// import SectionNavigation from "views/index-sections/SectionNavigation.js";
-// import SectionProgress from "views/index-sections/SectionProgress.js";
-// import SectionNotifications from "views/index-sections/SectionNotifications.js";
+import SectionIntroduction from "views/index-sections/SectionIntroduction.js";
 import SectionTypography from "views/index-sections/SectionTypography.js";
-import FrequentlyAskedQuestions from "views/index-sections/FrequentlyAskedQuestions.js";
+import SectionFAQ from "views/index-sections/SectionFAQ.js";
 import SectionCarousel from "views/index-sections/SectionCarousel.js";
-import SectionNucleoIcons from "views/index-sections/SectionNucleoIcons.js";
+import SectionActivities from "views/index-sections/SectionActivities.js";
 import SectionDark from "views/index-sections/SectionDark.js";
-// import SectionLogin from "views/index-sections/SectionLogin.js";
-// import SectionExamples from "views/index-sections/SectionExamples.js";
-import SectionDownload from "views/index-sections/SectionDownload.js";
+import SectionBrochure from "views/index-sections/SectionBrochure.js";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -33,21 +27,15 @@ function Index() {
   return (
     <>
       <IndexNavbar />
-      <IndexHeader />
+      <LandingPage />
       <div className="main">
-        <SectionButtons />
-        {/* <SectionNavbars /> */}
-        {/* <SectionNavigation /> */}
-        {/* <SectionProgress /> */}
-        {/* <SectionNotifications /> */}
+        <SectionIntroduction />
         <SectionTypography />
-        <SectionNucleoIcons />
-        <FrequentlyAskedQuestions />
+        <SectionActivities />
+        <SectionFAQ />
         <SectionCarousel />
         <SectionDark />
-        {/* <SectionLogin /> */}
-        {/* <SectionExamples /> */}
-        <SectionDownload />
+        <SectionBrochure />
         <DemoFooter />
       </div>
     </>

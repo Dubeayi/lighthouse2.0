@@ -18,7 +18,7 @@ import { TelephoneFill, Envelope } from 'react-bootstrap-icons';
 
 // core components
 
-function FrequentlyAskedQuestions() {
+function SectionFAQ() {
   const [location, setLocation] = React.useState(false);
   const [pricing, setPricing] = React.useState(false);
   const [length, setLength] = React.useState(false);
@@ -357,4 +357,4 @@ function FrequentlyAskedQuestions() {
   );
 }
 
-export default FrequentlyAskedQuestions;
+export default SectionFAQ;

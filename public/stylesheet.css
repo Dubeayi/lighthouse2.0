@@ -4689,12 +4689,17 @@ License - nucleoapp.com/license/
   margin-top: -60px;
   padding: 0 15px;
   width: 100%;
+  font-size: 1.5em;
+  font-weight: 700;
   color: rgba(255, 255, 255, 0.5); }
   .category-absolute .creative-tim-logo {
     max-width: 140px;
     top: -2px;
     left: 3px;
     position: relative; }
+
+.category-absolute:hover {
+  color: #F5593D !important; }
 
 .fog-low {
   position: absolute;
