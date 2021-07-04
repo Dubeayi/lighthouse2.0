@@ -12,6 +12,7 @@ import SectionIntroduction from "views/index-sections/SectionIntroduction.js";
 import SectionTypography from "views/index-sections/SectionTypography.js";
 import SectionFAQ from "views/index-sections/SectionFAQ.js";
 import SectionCarousel from "views/index-sections/SectionCarousel.js";
+import SectionThreeSteps from "views/index-sections/SectionThreeSteps.js";
 import SectionActivities from "views/index-sections/SectionActivities.js";
 import SectionDark from "views/index-sections/SectionDark.js";
 import SectionBrochure from "views/index-sections/SectionBrochure.js";
@@ -30,6 +31,7 @@ function Index() {
       <LandingPage />
       <div className="main">
         <SectionIntroduction />
+        <SectionThreeSteps />
         <SectionTypography />
         <SectionActivities />
         <SectionFAQ />

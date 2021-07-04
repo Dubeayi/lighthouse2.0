@@ -59,8 +59,19 @@ function IndexNavbar() {
             href="/index"
             target="_blank"
             title="Coded by Dubeayi O"
+            className="lighthouseLogo"
+            style={{
+              backgroundImage:
+              "url(" + require("assets/img/logoRevised.jpg").default + ")",
+              height: "55px"
+            }}
           >
-            Lighthouse (Logo area)
+            {/* <img
+            src={require("assets/img/Logo 03 - revision 01.jpg").default}
+            alt="Welcome to Lighthouse"
+            className="lighthouseLogo"
+            /> */}
+            {/* Lighthouse (Logo area) */}
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -80,6 +91,15 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
+
+          {/* <NavItem>
+              <NavLink
+                href="#"
+                target="_blank"
+              >
+                <i className="nc-icon nc-book-bookmark" /> Menu Items
+              </NavLink>
+            </NavItem> */}
 
 <UncontrolledDropdown nav inNavbar>
                       <DropdownToggle

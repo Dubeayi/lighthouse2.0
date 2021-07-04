@@ -6467,4 +6467,67 @@ td.rdtYear:hover {
   text-align: center;
 }
 
+.lighthouseLogo {
+  max-height: 4em !important;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.threeSteps {
+  display:"flex";
+  background-color: #FAF8F2;
+  border-bottom: 1px solid #EFE9D9;
+}
+
+.numberedSection {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.numero {
+  /* font-size: 2.35rem;
+  border: solid;
+  border-color: #000;
+  border-radius: 50%;
+  border-width: thin; */
+  display: block;
+  margin: 0 auto 1rem auto;
+  padding: 12px 0;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid #655e4e;
+  font-size: 2.35rem;
+  line-height: 3.35rem;
+  text-align: center;
+  font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+}
+
+.learnMore {
+     font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: normal;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 12px 28px;
+    text-align: center;
+    color: #655e4e;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #655e4e;
+    border-radius: 0;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+.learnMore:hover {
+  background-color: #655e4e;
+  color: #fff;
+}
 /*# sourceMappingURL=paper-kit.css.map */

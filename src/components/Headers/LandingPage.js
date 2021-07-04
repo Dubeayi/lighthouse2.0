@@ -11,8 +11,8 @@ function LandingPage() {
       <div
         className="page-header section-dark"
         style={{
-          backgroundImage:
-            "url(" + require("assets/img/antoine-barres.jpg").default + ")",
+          backgroundImage: "url(https://images.unsplash.com/photo-1584060969066-4d6b9c3efe0c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80)"
+            // "url(" + require("assets/img/antoine-barres.jpg").default + ")",
         }}
       >
         <div className="filter" />
