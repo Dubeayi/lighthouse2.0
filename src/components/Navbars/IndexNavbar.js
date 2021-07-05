@@ -9,7 +9,7 @@ import {
   NavbarBrand,
   Navbar,
   NavItem,
-  NavLink,
+  // NavLink,
   Nav,
   Container,
   UncontrolledDropdown,
@@ -126,14 +126,16 @@ function IndexNavbar() {
             <SectionSocialMedia/>
     
             <NavItem>
-              <Button
-                className="btn-round"
-                color="danger"
-                href="#"
-                target="_blank"
-              >
-                <i></i> Contact Us
-              </Button>
+              {/* <NavLink to="/contact-us"> */}
+                <Button
+                  className="btn-round"
+                  color="danger"
+                  href="/contact-us"
+                  // target="_blank"
+                >
+                  <i></i> Contact Us
+                </Button>
+              {/* </NavLink> */}
             </NavItem>
           </Nav>
         </Collapse>

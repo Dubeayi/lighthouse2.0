@@ -1,20 +1,20 @@
 import React from "react";
 // nodejs library that concatenates strings
-import classnames from "classnames";
+// import classnames from "classnames";
 // reactstrap components
 import {
-  Button,
-  Collapse,
-  NavbarBrand,
-  Navbar,
+  // Button,
+  // Collapse,
+  // NavbarBrand,
+  // Navbar,
   NavItem,
   NavLink,
-  Nav,
-  Container,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownItem,
-  DropdownMenu,
+  // Nav,
+  // Container,
+  // UncontrolledDropdown,
+  // DropdownToggle,
+  // DropdownItem,
+  // DropdownMenu,
 } from "reactstrap";
 
 const SectionSocialMedia = () => {

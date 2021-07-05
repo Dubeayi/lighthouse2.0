@@ -14,6 +14,7 @@ import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import Sample from "views/index-sections/random.js";
+import ContactUs from './components/Navbars/ContactUs.js';
 // others
 
 ReactDOM.render(
@@ -39,6 +40,10 @@ ReactDOM.render(
       <Route
         path="/register-page"
         render={(props) => <RegisterPage {...props} />}
+      />
+        <Route
+        path="/contact-us"
+        render={(props) => <ContactUs {...props} />}
       />
       <Redirect to="/home" />
     </Switch>

@@ -16,6 +16,7 @@ import SectionActivities from "views/index-sections/SectionActivities.js";
 import SectionDark from "views/index-sections/SectionDark.js";
 import SectionBrochure from "views/index-sections/SectionBrochure.js";
 
+
 function Index() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
