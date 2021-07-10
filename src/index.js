@@ -16,6 +16,7 @@ import RegisterPage from "views/examples/RegisterPage.js";
 import Sample from "views/index-sections/random.js";
 import ContactUs from './components/Navbars/ContactUs.js';
 import SectionServices from 'views/index-sections/SectionServices.js';
+import SectionRules from 'views/index-sections/SectionRules.js';
 
 // others
 
@@ -42,6 +43,10 @@ ReactDOM.render(
         <Route
         path="/services"
         render={(props) => <SectionServices {...props} />}
+      />
+      <Route
+        path="/rules"
+        render={(props) => <SectionRules {...props} />}
       />
       <Route
         path="/register-page"

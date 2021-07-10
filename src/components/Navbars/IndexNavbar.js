@@ -9,7 +9,8 @@ import {
   NavbarBrand,
   Navbar,
   NavItem,
-  // NavLink,
+  //NavLink,
+  
   Nav,
   Container,
   UncontrolledDropdown,
@@ -103,9 +104,12 @@ function IndexNavbar() {
                 <DropdownItem header tag="span">
                   Dropdown header
                 </DropdownItem>
-                <DropdownItem href="/services" onClick={(e) => e.preventDefault()}>
-                  Services
+              
+
+                <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
+                 Services  
                 </DropdownItem>
+            
                 <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
                   Another action
                 </DropdownItem>
