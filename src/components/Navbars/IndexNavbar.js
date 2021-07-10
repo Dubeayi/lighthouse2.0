@@ -103,7 +103,7 @@ function IndexNavbar() {
                 <DropdownItem header tag="span">
                   Dropdown header
                 </DropdownItem>
-                <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
+                <DropdownItem href="/services" onClick={(e) => e.preventDefault()}>
                   Services
                 </DropdownItem>
                 <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>

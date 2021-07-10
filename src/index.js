@@ -15,6 +15,8 @@ import ProfilePage from "views/examples/ProfilePage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import Sample from "views/index-sections/random.js";
 import ContactUs from './components/Navbars/ContactUs.js';
+import SectionServices from 'views/index-sections/SectionServices.js';
+
 // others
 
 ReactDOM.render(
@@ -37,6 +39,10 @@ ReactDOM.render(
         path="/sample"
         render={(props) => <Sample{...props} />}
       />
+        <Route
+        path="/services"
+        render={(props) => <SectionServices {...props} />}
+      />
       <Route
         path="/register-page"
         render={(props) => <RegisterPage {...props} />}
@@ -47,6 +53,6 @@ ReactDOM.render(
       />
       <Redirect to="/home" />
     </Switch>
-  </BrowserRouter>,
+  </BrowserRouter>, 
   document.getElementById("root")
 );

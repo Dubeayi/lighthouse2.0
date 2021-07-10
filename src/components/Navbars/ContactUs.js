@@ -6,7 +6,6 @@ const ContactUs = (props) => {
   return (
     <>
       <IndexNavbar />
-
       <article>
         <address>
           Lighthouse Lekki
