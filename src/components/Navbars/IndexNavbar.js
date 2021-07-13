@@ -111,10 +111,10 @@ function IndexNavbar() {
                 </DropdownItem>
             
                 <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                  Another action
+                  Schedule & Meal
                 </DropdownItem>
                 <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                  Something else here
+                  Daily Timetable
                 </DropdownItem>
                
                 <DropdownItem divider />

@@ -17,6 +17,9 @@ import Sample from "views/index-sections/random.js";
 import ContactUs from './components/Navbars/ContactUs.js';
 import SectionServices from 'views/index-sections/SectionServices.js';
 import SectionRules from 'views/index-sections/SectionRules.js';
+import SectionScheduleMeal from 'views/index-sections/SectionScheduleMeal.js';
+import SectionTimetable from 'views/index-sections/SectionTimetable.js';
+
 
 // others
 
@@ -48,6 +51,14 @@ ReactDOM.render(
         path="/rules"
         render={(props) => <SectionRules {...props} />}
       />
+      <Route
+        path="/schedule_meal"
+        render={(props) => <SectionScheduleMeal {...props} />}
+        />
+        <Route 
+        path="/timetable"
+        render={(props) => <SectionTimetable {...props} />}
+        />
       <Route
         path="/register-page"
         render={(props) => <RegisterPage {...props} />}
