@@ -1,6 +1,7 @@
 import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
+import LogoDark from 'assets/img/logo/logoDark.svg';
 // reactstrap components
 import {
   Button,
@@ -19,6 +20,7 @@ import {
 
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
+  const [lighthouseLogo, setLighthouseLogo] = React.useState("lighthouseLogoHidden");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
 
   const toggleNavbarCollapse = () => {
@@ -34,6 +36,7 @@ function IndexNavbar() {
         document.body.scrollTop > 299
       ) {
         setNavbarColor("");
+        setLighthouseLogo("lighthouseLogo");
       }
       //set the navbar back to being transparent if scrolling back up to the landing image
       else if (
@@ -41,6 +44,7 @@ function IndexNavbar() {
         document.body.scrollTop < 300
       ) {
         setNavbarColor("navbar-transparent");
+        setLighthouseLogo("lighthouseLogoHidden")
       }
     };
 
@@ -59,18 +63,12 @@ function IndexNavbar() {
             href="/index"
             target="_blank"
             title="Coded by Dubeayi O"
-            className="lighthouseLogo"
+            className={classnames(lighthouseLogo)}
             style={{
-              backgroundImage:
-              "url(" + require("assets/img/logoRevised.jpg").default + ")",
-              height: "55px"
+              backgroundImage: `url(${LogoDark})`
+              // fontSize: "2.3em"
             }}
           >
-            {/* <img
-            src={require("assets/img/Logo 03 - revision 01.jpg").default}
-            alt="Welcome to Lighthouse"
-            className="lighthouseLogo"
-            /> */}
             {/* Lighthouse (Logo area) */}
           </NavbarBrand>
           <button

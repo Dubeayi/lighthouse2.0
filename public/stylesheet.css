@@ -6468,16 +6468,30 @@ td.rdtYear:hover {
 }
 
 .lighthouseLogo {
-  max-height: 4em !important;
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 120px;
+  font-size: 2.3em !important;
+  height: 2em;
+  width: 5em;
+  visibility: visible;
+}
+.lighthouseLogoHidden {
+    visibility: hidden;
 }
 
 .threeSteps {
-  display:"flex";
+  display: flex;
   background-color: #FAF8F2;
   border-bottom: 1px solid #EFE9D9;
+  flex-direction: row;
+}
+
+
+@media (max-width: 768px) {
+  .threeSteps {
+    flex-direction: column;
+  }
 }
 
 .numberedSection {
@@ -6488,6 +6502,32 @@ td.rdtYear:hover {
   padding-right: 10px;
   text-align: center;
   padding-top: 10px;
+  border-right: 1px solid #efe9d9;
+  padding-bottom: 20px;
+}
+
+.numberedSectionContainer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  padding-top: 10px;
+  border-right: 1px solid #efe9d9;
+  padding-bottom: 20px;
+  width: 33.33%;
+}
+
+@media (max-width: 768px) {
+  .numberedSection {
+    border-right: 0;
+    border-bottom: 1px solid #efe9d9;
+    flex-direction: column;
+  }
+  .numberedSectionContainer {
+    width: 100%;
+  }
 }
 
 .numero {
@@ -6531,4 +6571,25 @@ td.rdtYear:hover {
   background-color: #655e4e;
   color: #fff;
 }
+
+.homePageLogo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30em;
+  font-size: 2.3em !important;
+  height: 11em;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .homePageLogo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16em;
+    font-size: 2.3em !important;
+    height: 6em;
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=paper-kit.css.map */

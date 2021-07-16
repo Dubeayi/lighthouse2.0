@@ -4,6 +4,7 @@ import React from "react";
 import { Container } from "reactstrap";
 
 import { Headset } from 'react-bootstrap-icons';
+import Logo1 from 'assets/img/logo/logoLight.svg';
 
 function LandingPage() {
   return (
@@ -11,15 +12,26 @@ function LandingPage() {
       <div
         className="page-header section-dark"
         style={{
-          backgroundImage: "url(https://images.unsplash.com/photo-1584060969066-4d6b9c3efe0c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80)"
-            // "url(" + require("assets/img/antoine-barres.jpg").default + ")",
+          backgroundImage:
+            "url(" + require("assets/img/ruben-hanssen-xrlerw3BaiQ-unsplash.jpg").default + ")",
         }}
       >
         <div className="filter" />
         <div className="content-center">
+
           <Container>
-            <div className="title-brand">
-              <h1 className="presentation-title">Lighthouse Lekki</h1>
+          <div
+        className="title-brand homePageLogo"
+        style={{
+          backgroundImage:
+          `url(${Logo1})`,
+        }}
+        />
+            <div
+        className="title-brand"
+        >
+
+              {/* <img alt="Lighthouse Lekki Logo" className="homePageLogo" src={Logo1}/> */}
               <div className="fog-low">
                 <img
                   alt="..."
