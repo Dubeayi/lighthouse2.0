@@ -17,6 +17,7 @@ import {
   DropdownItem,
   DropdownMenu
 } from "reactstrap";
+import { Link } from "react-router-dom";
 
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -122,10 +123,10 @@ function IndexNavbar() {
                           Dropdown header
                         </DropdownItem>
                         <DropdownItem
-                          href="#pablo"
+                          href="#"
                           onClick={(e) => e.preventDefault()}
                         >
-                          Services
+                          <Link to ="/sample">Services</Link>
                         </DropdownItem>
                         <DropdownItem
                           href="#pablo"

@@ -18,7 +18,7 @@ export default function ThreeSteps () {
         </div>
       <div className="numberedSectionContainer">
         <div className="numberedSection">
-          <h3>
+          <h3 style={{paddingBottom: '82px'}}>
             <span className="numero">2</span>
 
             CONNECT WITH OUR TEAM
