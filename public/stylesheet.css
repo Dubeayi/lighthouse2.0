@@ -6467,4 +6467,203 @@ td.rdtYear:hover {
   text-align: center;
 }
 
+.lighthouseLogo {
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 120px;
+  font-size: 2.3em !important;
+  height: 2em;
+  width: 5em;
+  visibility: visible;
+}
+.lighthouseLogoHidden {
+    visibility: hidden;
+}
+
+.threeSteps {
+  display: flex;
+  background-color: #FAF8F2;
+  border-bottom: 1px solid #EFE9D9;
+  flex-direction: row;
+}
+
+
+@media (max-width: 768px) {
+  .threeSteps {
+    flex-direction: column;
+  }
+}
+
+.numberedSection h3 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  padding-top: 10px;
+  border-right: 1px solid #efe9d9;
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.numberedSectionContainer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  padding-top: 10px;
+  border-right: 1px solid #efe9d9;
+  padding-bottom: 20px;
+  width: 33.33%;
+}
+
+@media (max-width: 768px) {
+  .numberedSection {
+    border-right: 0;
+    border-bottom: 1px solid #efe9d9;
+    flex-direction: column;
+  }
+  .numberedSectionContainer {
+    width: 100%;
+  }
+}
+
+.numero {
+  /* font-size: 2.35rem;
+  border: solid;
+  border-color: #000;
+  border-radius: 50%;
+  border-width: thin; */
+  display: block;
+  margin: 0 auto 1rem auto;
+  padding: 12px 0;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid #655e4e;
+  font-size: 2.35rem;
+  line-height: 3.35rem;
+  text-align: center;
+  font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+}
+
+.learnMore {
+     font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: normal;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 12px 28px;
+    text-align: center;
+    color: #655e4e;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #655e4e;
+    border-radius: 0;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+.learnMore:hover {
+  background-color: #655e4e;
+  color: #fff;
+}
+
+.homePageLogo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30em;
+  font-size: 2.3em !important;
+  height: 11em;
+  width: 100%;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .homePageLogo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16em;
+    font-size: 2.3em !important;
+    height: 6em;
+    width: 100%;
+    z-index: 1;
+  }
+}
+
+.templateLogo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 21em;
+  font-size: 2.3em !important;
+  height: 11em;
+  width: 20em;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .templateLogo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 11em;
+    font-size: 2.3em !important;
+    height: 6em;
+    width: 11em;
+    z-index: 1;
+  }
+}
+
+.pageTitle {
+  text-align: center;
+  color: #FFFFFF;
+  z-index: 1;
+  font-size: 2em;
+  font-weight: 500;
+  position: relative;
+  text-transform: uppercase;
+  font-family: monospace;
+  line-height: 4.5rem;
+  letter-spacing: 7px;
+}
+
+.lookingDown {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+.headerTemplate {
+  background-color: #B2AFAB;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerTemplate .filter::after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1; }
 /*# sourceMappingURL=paper-kit.css.map */

@@ -2,6 +2,7 @@ import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 import SectionSocialMedia from "./SectionSocialMedia";
+import LogoDark from 'assets/img/logo/logoDark.svg';
 // reactstrap components
 import LogoDark from 'assets/img/logo/LogoDark.svg';
 import {
@@ -19,9 +20,11 @@ import {
   DropdownItem,
   DropdownMenu,
 } from "reactstrap";
+import { Link } from "react-router-dom";
 
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
+  const [lighthouseLogo, setLighthouseLogo] = React.useState("lighthouseLogoHidden");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
 
   const toggleNavbarCollapse = () => {
@@ -37,6 +40,7 @@ function IndexNavbar() {
         document.body.scrollTop > 299
       ) {
         setNavbarColor("");
+        setLighthouseLogo("lighthouseLogo");
       }
       //set the navbar back to being transparent if scrolling back up to the landing image
       else if (
@@ -44,6 +48,7 @@ function IndexNavbar() {
         document.body.scrollTop < 300
       ) {
         setNavbarColor("navbar-transparent");
+        setLighthouseLogo("lighthouseLogoHidden")
       }
     };
 
@@ -60,10 +65,13 @@ function IndexNavbar() {
           <NavbarBrand
             data-placement="bottom"
             href="/index"
-            target="_blank"
             title="Coded by Dubeayi O"
+            className={classnames(lighthouseLogo)}
+            style={{
+              backgroundImage: `url(${LogoDark})`
+              // fontSize: "2.3em"
+            }}
           >
-            Lighthouse (Logo area)
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -83,7 +91,6 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-            
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle
                 aria-expanded={false}
@@ -95,7 +102,56 @@ function IndexNavbar() {
                 id="dropdownMenuButton"
                 nav
                 onClick={(e) => e.preventDefault()}
-                role="button"
+                role="button">
+                <i className="nc-icon nc-book-bookmark" /> Menu Items
+                      </DropdownToggle>
+              <DropdownMenu
+                aria-labelledby="dropdownMenuButton"
+                className="dropdown-info"
+              >
+                <DropdownItem>
+                  <Link to="/index" style={{ color: "black" }}>Homepage</Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link to="/service" style={{ color: "black" }}>Services</Link>
+                </DropdownItem>
+                <DropdownItem
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  Another action
+                        </DropdownItem>
+                <DropdownItem
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  Something else here
+                        </DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  Separated link
+                        </DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  Another separated link
+                        </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+
+
+            <NavItem>
+              <NavLink
+                data-placement="bottom"
+                href="#"
+                target="_blank"
+                title="Follow us on Twitter"
+
               >
                 <i className="nc-icon nc-book-bookmark" /> Menu Items
               </DropdownToggle>
