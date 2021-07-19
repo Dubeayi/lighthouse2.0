@@ -3,6 +3,7 @@ import React from "react";
 import classnames from "classnames";
 import SectionSocialMedia from "./SectionSocialMedia";
 // reactstrap components
+import LogoDark from 'assets/img/logo/LogoDark.svg';
 import {
   Button,
   Collapse,
@@ -82,6 +83,7 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
+            
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle
                 aria-expanded={false}
