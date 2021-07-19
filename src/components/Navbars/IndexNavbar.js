@@ -62,7 +62,6 @@ function IndexNavbar() {
           <NavbarBrand
             data-placement="bottom"
             href="/index"
-            target="_blank"
             title="Coded by Dubeayi O"
             className={classnames(lighthouseLogo)}
             style={{
@@ -70,7 +69,6 @@ function IndexNavbar() {
               // fontSize: "2.3em"
             }}
           >
-            {/* Lighthouse (Logo area) */}
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -91,71 +89,59 @@ function IndexNavbar() {
         >
           <Nav navbar>
 
-          {/* <NavItem>
-              <NavLink
-                href="#"
-                target="_blank"
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle
+                aria-expanded={false}
+                aria-haspopup={true}
+                caret
+                color="default"
+                data-toggle="dropdown"
+                href="#pablo"
+                id="dropdownMenuButton"
+                nav
+                onClick={(e) => e.preventDefault()}
+                role="button"
               >
                 <i className="nc-icon nc-book-bookmark" /> Menu Items
-              </NavLink>
-            </NavItem> */}
-
-<UncontrolledDropdown nav inNavbar>
-                      <DropdownToggle
-                        aria-expanded={false}
-                        aria-haspopup={true}
-                        caret
-                        color="default"
-                        data-toggle="dropdown"
-                        href="#pablo"
-                        id="dropdownMenuButton"
-                        nav
-                        onClick={(e) => e.preventDefault()}
-                        role="button"
-                      >
-                       <i className="nc-icon nc-book-bookmark" /> Menu Items
                       </DropdownToggle>
-                      <DropdownMenu
-                        aria-labelledby="dropdownMenuButton"
-                        className="dropdown-info"
-                      >
-                        <DropdownItem header tag="span">
-                          Dropdown header
+              <DropdownMenu
+                aria-labelledby="dropdownMenuButton"
+                className="dropdown-info"
+              >
+                <DropdownItem>
+                  <Link to="/index" style={{ color: "black" }}>Homepage</Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link to="/service" style={{ color: "black" }}>Services</Link>
+                </DropdownItem>
+                <DropdownItem
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  Another action
                         </DropdownItem>
-                        <DropdownItem
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <Link to ="/sample">Services</Link>
+                <DropdownItem
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  Something else here
                         </DropdownItem>
-                        <DropdownItem
-                          href="#pablo"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          Another action
+                <DropdownItem divider />
+                <DropdownItem
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  Separated link
                         </DropdownItem>
-                        <DropdownItem
-                          href="#pablo"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          Something else here
+                <DropdownItem divider />
+                <DropdownItem
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  Another separated link
                         </DropdownItem>
-                        <DropdownItem divider />
-                        <DropdownItem
-                          href="#pablo"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          Separated link
-                        </DropdownItem>
-                        <DropdownItem divider />
-                        <DropdownItem
-                          href="#pablo"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          Another separated link
-                        </DropdownItem>
-                      </DropdownMenu>
-                    </UncontrolledDropdown>
+              </DropdownMenu>
+            </UncontrolledDropdown>
 
 
             <NavItem>

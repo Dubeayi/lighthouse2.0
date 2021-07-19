@@ -6581,6 +6581,7 @@ td.rdtYear:hover {
   font-size: 2.3em !important;
   height: 11em;
   width: 100%;
+  z-index: 1;
 }
 
 @media (max-width: 768px) {
@@ -6591,7 +6592,43 @@ td.rdtYear:hover {
     font-size: 2.3em !important;
     height: 6em;
     width: 100%;
+    z-index: 1;
   }
+}
+
+.templateLogo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 21em;
+  font-size: 2.3em !important;
+  height: 11em;
+  width: 20em;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .templateLogo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 11em;
+    font-size: 2.3em !important;
+    height: 6em;
+    width: 11em;
+    z-index: 1;
+  }
+}
+
+.pageTitle {
+  text-align: center;
+  color: #FFFFFF;
+  z-index: 1;
+  font-size: 2em;
+  font-weight: 500;
+  position: relative;
+  text-transform: uppercase;
+  font-family: monospace;
+  line-height: 4.5rem;
+  letter-spacing: 7px;
 }
 
 .lookingDown {
@@ -6607,4 +6644,26 @@ td.rdtYear:hover {
   z-index: -1;
 }
 
+.headerTemplate {
+  background-color: #B2AFAB;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerTemplate .filter::after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1; }
 /*# sourceMappingURL=paper-kit.css.map */

@@ -11,7 +11,7 @@ import "assets/demo/demo.css?v=1.3.0";
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
 import LandingPage from "views/examples/LandingPage.js";
-import ProfilePage from "views/examples/ProfilePage.js";
+import Service from "views/service.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import Sample from "views/index-sections/random.js";
 // others
@@ -31,8 +31,8 @@ ReactDOM.render(
         render={(props) => <LandingPage {...props} />}
       />
       <Route
-        path="/profile-page"
-        render={(props) => <ProfilePage {...props} />}
+        path="/service"
+        render={(props) => <Service {...props} />}
       />
       <Route
         path="/sample"
