@@ -108,38 +108,42 @@ function IndexNavbar() {
                 aria-labelledby="dropdownMenuButton"
                 className="dropdown-info"
               >
-                <DropdownItem>
-                  <Link to="/index" style={{ color: "black" }}>Homepage</Link>
+                <Link to="/index" style={{ color: "black" }}>
+                  <DropdownItem>
+                    Homepage
                 </DropdownItem>
-                <DropdownItem>
-                  <Link to="/service" style={{ color: "black" }}>Services</Link>
+                </Link>
+                <Link to="/service" style={{ color: "black" }}>
+                  <DropdownItem>
+                    Services
                 </DropdownItem>
+                </Link>
                 <DropdownItem
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
                 >
                   Another action
-                        </DropdownItem>
+                </DropdownItem>
                 <DropdownItem
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
                 >
                   Something else here
-                        </DropdownItem>
+                </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
                 >
                   Separated link
-                        </DropdownItem>
+                </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
                 >
                   Another separated link
-                        </DropdownItem>
+                </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
 

@@ -6,6 +6,9 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import LandingPageTemplate from "components/Headers/LandingPageTemplate.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
+import SectionIntroduction from "views/service-sections/SectionIntroduction.js";
+import SectionOfferings from "views/service-sections/SectionOfferings.js";
+
 
 // index sections
 
@@ -20,8 +23,11 @@ function Index() {
   return (
     <>
       <IndexNavbar />
-      <LandingPageTemplate />
+      <LandingPageTemplate title="Services"/>
       <div className="main">
+      <SectionIntroduction />
+      <SectionOfferings />
+
         <div>Helloo worleddd</div>
         <DemoFooter />
       </div>
