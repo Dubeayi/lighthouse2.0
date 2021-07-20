@@ -13,7 +13,8 @@ import {
   UncontrolledPopover,
 } from "reactstrap";
 
-import { TelephoneFill, Envelope } from "react-bootstrap-icons";
+import { TelephoneFill, Envelope } from 'react-bootstrap-icons';
+
 
 // core components
 
@@ -42,7 +43,7 @@ function SectionFAQ() {
 
   React.useEffect(() => {
     Aos.init({ duration: 2000 });
-  });
+  })
 
   return (
     <>
@@ -79,7 +80,7 @@ function SectionFAQ() {
                     id="exampleModalLabel"
                     style={{
                       color: "#F5593D",
-                      fontWeight: "400",
+                      fontWeight: "400"
                     }}
                   >
                     Location
@@ -147,23 +148,15 @@ function SectionFAQ() {
                     id="Pricing"
                     style={{
                       color: "#F5593D",
-                      fontWeight: "400",
+                      fontWeight: "400"
                     }}
                   >
                     Pricing
                   </h5>
                 </div>
                 <div className="modal-body">
-                  <h5>
-                    You cannot put a price on Freedom. Your health is our
-                    priority, and we will help you become the best version of
-                    you. <br /> <br />
-                    For pricing details, please visit our{" "}
-                    <a onClick={togglePricing} href="#">
-                      Pricing
-                    </a>{" "}
-                    page
-                  </h5>
+                  <h5>You cannot put a price on Freedom. Your health is our priority, and we will help you become the best version of you. <br /> <br />
+                  For pricing details, please visit our <a onClick={togglePricing} href="#" >Pricing</a> page</h5>
                 </div>
               </Modal>
             </Col>
@@ -193,17 +186,14 @@ function SectionFAQ() {
                     id="length"
                     style={{
                       color: "#F5593D",
-                      fontWeight: "400",
+                      fontWeight: "400"
                     }}
                   >
                     Program Length
                   </h5>
                 </div>
                 <div className="modal-body">
-                  <h5>
-                    The length of residency at the rehabilitation facility is 12
-                    weeks
-                  </h5>
+                  <h5>The length of residency at the rehabilitation facility is 12 weeks</h5>
                 </div>
                 <div className="modal-footer">
                   <div className="left-side">
@@ -264,28 +254,25 @@ function SectionFAQ() {
                     id="length"
                     style={{
                       color: "#F5593D",
-                      fontWeight: "400",
+                      fontWeight: "400"
                     }}
                   >
                     What items can I bring with me
                   </h5>
                 </div>
                 <div className="modal-body">
-                  <h5>
-                    Apart from your personal belongings, you may bring reading
-                    and writing material. <br />
-                    The centre supplies bedding and basic toiletries. For more
-                    information, check out our
-                    <a
+                  <h5>Apart from your personal belongings, you may bring reading and writing material. <br/>
+                      The centre supplies bedding and basic toiletries. For more information, check out our
+                      <a
                       onClick={toggleItemsToBring}
                       href="#"
                       style={{
-                        fontWeight: "300",
-                        color: "F5593D",
+                        fontWeight:"300",
+                        color:"F5593D"
                       }}
-                    >
-                      &nbsp;list of forbidden items
-                    </a>
+                      >
+                        &nbsp;list of forbidden items
+                      </a>
                   </h5>
                 </div>
               </Modal>
@@ -315,7 +302,7 @@ function SectionFAQ() {
                     id="start"
                     style={{
                       color: "#F5593D",
-                      fontWeight: "400",
+                      fontWeight: "400"
                     }}
                   >
                     Join the Program
@@ -323,8 +310,7 @@ function SectionFAQ() {
                 </div>
                 <div className="modal-body">
                   <h5>
-                    We are here to help you take your first steps to freedom!{" "}
-                    <br />
+                    We are here to help you take your first steps to freedom! <br />
                     {/* Call us today at <a
                       style={{ color: "#F5593D", textDecoration: "underline" }} href="tel:09098846237">
                       09098846237</a>
@@ -335,26 +321,26 @@ function SectionFAQ() {
                     Call us today or mail us with any questions you have.
                     <br /> <br />
                     <div>
-                      <TelephoneFill className="bootstrapIcon" />
+                      <TelephoneFill className="bootstrapIcon"/>
                       <a
                         href="tel:09098846237"
                         style={{
                           color: "#F5593D",
                           fontSize: "1em",
-                          fontWeight: 400,
+                          fontWeight: 400
                         }}
                       >
                         09098846237
                       </a>
                     </div>
                     <div>
-                      <Envelope className="bootstrapIcon" />
+                      <Envelope className="bootstrapIcon"/>
                       <a
                         href="mailto:lighthouselekki@hotmail.com"
                         style={{
                           color: "#F5593D",
                           fontSize: "1em",
-                          fontWeight: 400,
+                          fontWeight: 400
                         }}
                       >
                         lighthouselekki@hotmail.com

@@ -1,24 +1,21 @@
 import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
-import SectionSocialMedia from "./SectionSocialMedia";
 import LogoDark from 'assets/img/logo/logoDark.svg';
 // reactstrap components
-import LogoDark from 'assets/img/logo/LogoDark.svg';
 import {
   Button,
   Collapse,
   NavbarBrand,
   Navbar,
   NavItem,
-  //NavLink,
-  
+  NavLink,
   Nav,
   Container,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownItem,
-  DropdownMenu,
+  DropdownMenu
 } from "reactstrap";
 import { Link } from "react-router-dom";
 
@@ -91,6 +88,7 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
+
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle
                 aria-expanded={false}
@@ -102,7 +100,8 @@ function IndexNavbar() {
                 id="dropdownMenuButton"
                 nav
                 onClick={(e) => e.preventDefault()}
-                role="button">
+                role="button"
+              >
                 <i className="nc-icon nc-book-bookmark" /> Menu Items
                       </DropdownToggle>
               <DropdownMenu
@@ -151,53 +150,53 @@ function IndexNavbar() {
                 href="#"
                 target="_blank"
                 title="Follow us on Twitter"
-
               >
-                <i className="nc-icon nc-book-bookmark" /> Menu Items
-              </DropdownToggle>
-              <DropdownMenu
-                aria-labelledby="dropdownMenuButton"
-                className="dropdown-info"
-              >
-                <DropdownItem header tag="span">
-                  Dropdown header
-                </DropdownItem>
-              
-
-                <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                 Services  
-                </DropdownItem>
-            
-                <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                  Schedule & Meal
-                </DropdownItem>
-                <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                  Daily Timetable
-                </DropdownItem>
-               
-                <DropdownItem divider />
-                <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                  Separated link
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                  Another separated link
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-            <SectionSocialMedia/>
-    
+                <i className="fa fa-twitter" />
+                <p className="d-lg-none">Twitter</p>
+              </NavLink>
+            </NavItem>
             <NavItem>
-              {/* <NavLink to="/contact-us"> */}
-                <Button
-                  className="btn-round"
-                  color="danger"
-                  href="/contact-us"
-                  // target="_blank"
-                >
-                  <i></i> Contact Us
-                </Button>
-              {/* </NavLink> */}
+              <NavLink
+                data-placement="bottom"
+                href="#"
+                target="_blank"
+                title="Like us on Facebook"
+              >
+                <i className="fa fa-facebook-square" />
+                <p className="d-lg-none">Facebook</p>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                data-placement="bottom"
+                href="#"
+                target="_blank"
+                title="Follow us on Instagram"
+              >
+                <i className="fa fa-instagram" />
+                <p className="d-lg-none">Instagram</p>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                data-placement="bottom"
+                href="#"
+                target="_blank"
+                title="Star on GitHub"
+              >
+                <i className="fa fa-github" />
+                <p className="d-lg-none">GitHub</p>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <Button
+                className="btn-round"
+                color="danger"
+                href="#"
+                target="_blank"
+              >
+                <i></i> Contact Us
+              </Button>
             </NavItem>
           </Nav>
         </Collapse>

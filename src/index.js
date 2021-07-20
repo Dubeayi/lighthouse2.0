@@ -14,13 +14,6 @@ import LandingPage from "views/examples/LandingPage.js";
 import Service from "views/service.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import Sample from "views/index-sections/random.js";
-import ContactUs from './components/Navbars/ContactUs.js';
-import SectionServices from 'views/index-sections/SectionServices.js';
-import SectionRules from 'views/index-sections/SectionRules.js';
-import SectionScheduleMeal from 'views/index-sections/SectionScheduleMeal.js';
-import SectionTimetable from 'views/index-sections/SectionTimetable.js';
-
-
 // others
 
 ReactDOM.render(
@@ -45,32 +38,12 @@ ReactDOM.render(
         path="/sample"
         render={(props) => <Sample{...props} />}
       />
-        <Route
-        path="/services"
-        render={(props) => <SectionServices {...props} />}
-      />
-      <Route
-        path="/rules"
-        render={(props) => <SectionRules {...props} />}
-      />
-      <Route
-        path="/schedule_meal"
-        render={(props) => <SectionScheduleMeal {...props} />}
-        />
-        <Route 
-        path="/timetable"
-        render={(props) => <SectionTimetable {...props} />}
-        />
       <Route
         path="/register-page"
         render={(props) => <RegisterPage {...props} />}
       />
-        <Route
-        path="/contact-us"
-        render={(props) => <ContactUs {...props} />}
-      />
       <Redirect to="/home" />
     </Switch>
-  </BrowserRouter>, 
+  </BrowserRouter>,
   document.getElementById("root")
 );
