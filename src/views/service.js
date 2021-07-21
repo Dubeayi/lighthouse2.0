@@ -8,6 +8,7 @@ import LandingPageTemplate from "components/Headers/LandingPageTemplate.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 import SectionIntroduction from "views/service-sections/SectionIntroduction.js";
 import SectionOfferings from "views/service-sections/SectionOfferings.js";
+import SectionActivities from "views/service-sections/SectionActivities.js";
 
 
 // index sections
@@ -24,11 +25,10 @@ function Index() {
     <>
       <IndexNavbar />
       <LandingPageTemplate title="Services"/>
-      <div className="main">
+      <div className="main" style={{backgroundColor: "floralwhite"}}>
       <SectionIntroduction />
       <SectionOfferings />
-
-        <div>Helloo worleddd</div>
+      <SectionActivities />
         <DemoFooter />
       </div>
     </>
