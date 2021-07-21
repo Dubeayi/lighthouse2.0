@@ -2,8 +2,8 @@ import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 import SectionSocialMedia from "./SectionSocialMedia";
+// import LogoDark from "assets/img/logo/LogoDark.svg";
 // reactstrap components
-import LogoDark from 'assets/img/logo/LogoDark.svg';
 import {
   Button,
   Collapse,
@@ -11,7 +11,6 @@ import {
   Navbar,
   NavItem,
   //NavLink,
-  
   Nav,
   Container,
   UncontrolledDropdown,
@@ -83,7 +82,6 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-            
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle
                 aria-expanded={false}
@@ -106,19 +104,18 @@ function IndexNavbar() {
                 <DropdownItem header tag="span">
                   Dropdown header
                 </DropdownItem>
-              
 
                 <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                 Services  
+                  Services
                 </DropdownItem>
-            
+
                 <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
                   Schedule & Meal
                 </DropdownItem>
                 <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
                   Daily Timetable
                 </DropdownItem>
-               
+
                 <DropdownItem divider />
                 <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
                   Separated link
@@ -129,18 +126,18 @@ function IndexNavbar() {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-            <SectionSocialMedia/>
-    
+            <SectionSocialMedia />
+
             <NavItem>
               {/* <NavLink to="/contact-us"> */}
-                <Button
-                  className="btn-round"
-                  color="danger"
-                  href="/contact-us"
-                  // target="_blank"
-                >
-                  <i></i> Contact Us
-                </Button>
+              <Button
+                className="btn-round"
+                color="danger"
+                href="/contact-us"
+                // target="_blank"
+              >
+                <i></i> Contact Us
+              </Button>
               {/* </NavLink> */}
             </NavItem>
           </Nav>
