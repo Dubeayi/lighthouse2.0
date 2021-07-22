@@ -6,15 +6,12 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import LandingPageTemplate from "components/Headers/LandingPageTemplate.js";
 import Footer from "components/Footers/Footer.js";
+import SectionAboutUs from "./aboutUs-sections/SectionAboutUs.js";
 
-// import SectionRules from "views/index-sections/SectionScheduleMeal.js";
-import SectionIntroduction from "views/service-sections/SectionIntroduction.js";
-import SectionOfferings from "views/service-sections/SectionOfferings.js";
-import SectionActivities from "views/service-sections/SectionActivities.js";
 
 // index sections
 
-function Index() {
+function AboutUs() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("index");
@@ -25,10 +22,9 @@ function Index() {
   return (
     <>
       <IndexNavbar />
-
       <LandingPageTemplate title="About Us" />
       <div className="main" style={{ backgroundColor: "floralwhite" }}>
-
+        <SectionAboutUs />
         <Footer />
       </div>
     </>
@@ -36,4 +32,4 @@ function Index() {
 }
 
 
-export default Index;
+export default AboutUs;

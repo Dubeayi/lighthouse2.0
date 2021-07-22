@@ -10,7 +10,7 @@ import "assets/demo/demo.css?v=1.3.0";
 // pages
 import Index from "views/Index.js";
 import Service from "views/service.js";
-import AboutUs from "views/aboutUs.js";
+import AboutUs from "views/AboutUs.js";
 // others
 
 ReactDOM.render(
