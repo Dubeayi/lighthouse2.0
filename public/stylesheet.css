@@ -3848,7 +3848,9 @@ License - nucleoapp.com/license/
         left: 44%;
         font-size: 65px;
         color: #f5593d;
-        padding: 1px; }
+        padding: 1px;
+        fill: #f5593d;
+      }
       .section-nucleo-icons .icons-container i:nth-child(7) {
         top: 59%;
         left: 26%; }
@@ -6666,4 +6668,79 @@ td.rdtYear:hover {
   position: absolute;
   width: 100%;
   z-index: 1; }
+
+.bodyText {
+  font-size: 17px;
+  letter-spacing: 0px;
+  font-weight: 300;
+}
+
+.backgroundImage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.serviceIcon {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 28em;
+  z-index: 0;
+}
+
+.firsting {
+  height: 362px;
+}
+
+.lasting {
+  height: 380px;
+}
+
+@media (max-width: 768px) {
+  .serviceIcon {
+    height: 24em;
+  }
+  .firsting {
+    margin-top: 45px;
+  }
+  .lasting {
+    margin-top: 45px;
+    height: 26em;
+  }
+}
+
+.sampleRow {
+  display: inline-flex;
+  flex-flow: row;
+}
+
+@media (max-width: 768px) {
+  .sampleRow { display: flex; flex-flow: column; }
+  /* .serviceIcons { order: 1; } */
+  .title2 { order: 1; }
+  .title1 { order: 2; }
+}
+
+/* @media (max-width: 768px) {
+  .row { display: flex; flex-flow: column; }
+  .title { order: 2; }
+  .bodyText { order: 1; }
+} */
+
+.darkBackground {
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+}
+
+ul.activities {
+  list-style-type: circle;
+}
+
 /*# sourceMappingURL=paper-kit.css.map */

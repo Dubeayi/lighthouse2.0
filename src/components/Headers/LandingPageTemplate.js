@@ -2,11 +2,12 @@ import React from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
+import "aos/dist/aos.css";
 
 import { Headset } from 'react-bootstrap-icons';
 import Logo1 from 'assets/img/logo/logoLight.svg';
 
-function LandingPage() {
+function LandingPage(props) {
   return (
     <>
       <div
@@ -15,6 +16,7 @@ function LandingPage() {
           backgroundImage:
             "url(" + require("assets/img/ruben-hanssen-xrlerw3BaiQ-unsplash.jpg").default + ")",
         }}
+        // data-aos="fade-right"
       >
         <div className="filter" />
         <div className="content-center">
@@ -28,7 +30,7 @@ function LandingPage() {
         }}
         />
             <div className="pageTitle">
-          Services
+          {props.title}
             </div>
           </Container >
         </div>
