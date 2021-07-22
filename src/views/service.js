@@ -7,7 +7,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import LandingPageTemplate from "components/Headers/LandingPageTemplate.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
-import SectionRules from "views/index-sections/SectionScheduleMeal.js";
+// import SectionRules from "views/index-sections/SectionScheduleMeal.js";
 import SectionIntroduction from "views/service-sections/SectionIntroduction.js";
 import SectionOfferings from "views/service-sections/SectionOfferings.js";
 import SectionActivities from "views/service-sections/SectionActivities.js";
@@ -25,13 +25,12 @@ function Index() {
   return (
     <>
       <IndexNavbar />
-//       <LandingPageTemplate />
-//       <div className="main">
-//         <SectionRules />
-//         <div>Helloo worleddd</div>
+       {/* <LandingPageTemplate /> */}
+       {/* <div className="main"> */}
 
       <LandingPageTemplate title="Services"/>
       <div className="main" style={{backgroundColor: "floralwhite"}}>
+         {/* <SectionRules /> */}
       <SectionIntroduction />
       <SectionOfferings />
       <SectionActivities />
