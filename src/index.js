@@ -11,6 +11,7 @@ import "assets/demo/demo.css?v=1.3.0";
 import Index from "views/Index.js";
 import Service from "views/service.js";
 import AboutUs from "views/AboutUs.js";
+import Timetable from "views/SectionTimeTable.js";
 // others
 
 ReactDOM.render(
@@ -26,6 +27,10 @@ ReactDOM.render(
       <Route
         path="/aboutUs"
         render={(props) => <AboutUs {...props} />}
+      />
+      <Route
+        path="/timetable"
+        render={(props) => <Timetable {...props} />}
       />
             {/* <Route
         path="/rules"
