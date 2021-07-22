@@ -19,7 +19,7 @@ import {
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import Footer from "components/Footers/Footer.js";
 
 function ProfilePage() {
   const [activeTab, setActiveTab] = React.useState("1");
@@ -179,7 +179,7 @@ function ProfilePage() {
           </TabContent>
         </Container>
       </div>
-      <DemoFooter />
+      <Footer />
     </>
   );
 }

@@ -5,7 +5,7 @@ import React from "react";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import LandingPage from "components/Headers/LandingPage.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import Footer from "components/Footers/Footer.js";
 
 // index sections
 import SectionIntroduction from "views/index-sections/SectionIntroduction.js";
@@ -38,7 +38,7 @@ function Index() {
         <SectionCarousel />
         <SectionDark />
         <SectionBrochure />
-        <DemoFooter />
+        <Footer />
       </div>
     </>
   );

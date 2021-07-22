@@ -5,7 +5,7 @@ import React from "react";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import LandingPageTemplate from "components/Headers/LandingPageTemplate.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import Footer from "components/Footers/Footer.js";
 
 // import SectionRules from "views/index-sections/SectionScheduleMeal.js";
 import SectionIntroduction from "views/service-sections/SectionIntroduction.js";
@@ -25,16 +25,14 @@ function Index() {
   return (
     <>
       <IndexNavbar />
-       {/* <LandingPageTemplate /> */}
-       {/* <div className="main"> */}
 
-      <LandingPageTemplate title="Services"/>
-      <div className="main" style={{backgroundColor: "floralwhite"}}>
-         {/* <SectionRules /> */}
-      <SectionIntroduction />
-      <SectionOfferings />
-      <SectionActivities />
-        <DemoFooter />
+      <LandingPageTemplate title="Services" />
+      <div className="main" style={{ backgroundColor: "floralwhite" }}>
+        {/* <SectionRules /> */}
+        <SectionIntroduction />
+        <SectionOfferings />
+        <SectionActivities />
+        <Footer />
       </div>
     </>
   );

@@ -6743,4 +6743,12 @@ ul.activities {
   list-style-type: circle;
 }
 
+.socialMediaIcons {
+  line-height: 85px;
+  display: flex;
+  float: left;
+  width: 33.33%;
+  justify-content: flex-end;
+}
+
 /*# sourceMappingURL=paper-kit.css.map */
