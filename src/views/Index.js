@@ -29,9 +29,9 @@ function Index() {
     <>
       <IndexNavbar />
       <LandingPage />
-      <div className="main">
-        <SectionIntroduction />
+      <div className="main" style={{backgroundColor: "floralwhite"}}>
         <SectionThreeSteps />
+        <SectionIntroduction />
         <SectionTypography />
         <SectionActivities />
         <SectionFAQ />

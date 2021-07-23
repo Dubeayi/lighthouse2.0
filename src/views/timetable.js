@@ -24,7 +24,7 @@ function Index() {
   });
   return (
     <>
-    <Container>
+    {/* <Container> */}
       <IndexNavbar />
 
       <LandingPageTemplate title="Timetable" />
@@ -32,7 +32,7 @@ function Index() {
       <Timetable />
         <Footer />
       </div>
-      </Container>
+      {/* </Container> */}
     </>
   );
 }
