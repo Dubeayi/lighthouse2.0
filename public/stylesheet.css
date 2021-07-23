@@ -2099,10 +2099,10 @@ blockquote small {
   margin-top: 30px;
   margin-bottom: 25px;
   min-height: 32px;
-  outline-style: double;
-  border: solid;
+  /* outline-style: double;
+  border: solid; */
   border-color: grey;
-  background-color: floralwhite;
+  /* background-color: floralwhite; */
   padding-bottom: 20px;
  }
 
