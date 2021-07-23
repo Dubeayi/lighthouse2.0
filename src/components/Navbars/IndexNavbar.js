@@ -123,7 +123,27 @@ function IndexNavbar() {
                     About Us
                 </DropdownItem>
                 </Link>
-                <DropdownItem
+                <Link to="/timetable" style={{ color: "black" }}>
+                  <DropdownItem>
+                   Timetable
+                </DropdownItem>
+                </Link>
+                <Link to="/rules" style={{ color: "black" }}>
+                  <DropdownItem>
+                    Rules
+                </DropdownItem>
+                </Link>
+                <Link to="/schedule_meal" style={{ color: "black" }}>
+                  <DropdownItem>
+                    Schedule & Meal
+                </DropdownItem>
+                </Link>
+                <Link to="/client_char" style={{ color: "black" }}>
+                  <DropdownItem>
+                    Client Characteristics
+                </DropdownItem>
+                </Link>
+                {/* <DropdownItem
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
                 >
@@ -134,7 +154,7 @@ function IndexNavbar() {
                   onClick={(e) => e.preventDefault()}
                 >
                   Something else here
-                </DropdownItem>
+                </DropdownItem> */}
                 <DropdownItem divider />
                 <DropdownItem
                   href="#pablo"

@@ -3,7 +3,7 @@ import React from "react";
 const SectionScheduleMeal = () => {
   return (
     <>
-      <h1>Schedule and Meal</h1>
+      {/* <h1>Schedule and Meal</h1> */}
       <article>
         <h3>Schedule</h3>
         <p>

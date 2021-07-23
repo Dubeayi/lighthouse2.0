@@ -11,7 +11,11 @@ import "assets/demo/demo.css?v=1.3.0";
 import Index from "views/Index.js";
 import Service from "views/service.js";
 import AboutUs from "views/AboutUs.js";
-import Timetable from "views/SectionTimeTable.js";
+import Timetable from "views/timetable.js";
+import ScheduleMeal from "views/ScheduleMeal.js";
+import ClientCharacteristics from "views/ClientCharacteristics.js";
+
+
 // others
 
 ReactDOM.render(
@@ -31,6 +35,14 @@ ReactDOM.render(
       <Route
         path="/timetable"
         render={(props) => <Timetable {...props} />}
+      />
+        <Route
+        path="/schedule_meal"
+        render={(props) => <ScheduleMeal {...props} />}
+      />
+        <Route
+        path="/client_char"
+        render={(props) => <ClientCharacteristics {...props} />}
       />
             {/* <Route
         path="/rules"
