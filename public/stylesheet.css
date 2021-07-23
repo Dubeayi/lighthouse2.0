@@ -3410,7 +3410,8 @@ License - nucleoapp.com/license/
   margin-bottom: 10px;
   padding: 4px;
   border-radius: 50% !important;
-  max-width: 100%; }
+  /* max-width: 100%;  */
+}
 
 .img-thumbnail {
   border: 0 none;
@@ -6764,4 +6765,26 @@ ul.activities {
   }
 }
 
+.reviews {
+  flex: 0 0 19.66667%;
+    max-width: 19.66667% !important;
+}
+@media (min-width: 768px) {
+  .reviews {
+  flex: 0 0 19.66667%;
+  max-width: 24.66667% !important;
+  }
+}
+
+.leftText {
+  text-align: left !important;
+  margin-bottom: 41px;
+}
+
+@media (max-width: 500px) {
+  .reviews {
+  flex: 0 0 19.66667%;
+  max-width: 19.66667% !important;
+  }
+}
 /*# sourceMappingURL=paper-kit.css.map */
