@@ -13,6 +13,8 @@ import Service from "views/service.js";
 import AboutUs from "views/AboutUs.js";
 import Timetable from "views/timetable.js";
 import ScheduleMeal from "views/ScheduleMeal.js";
+import ClientCharacteristics from "views/ClientCharacteristics.js";
+
 
 // others
 
@@ -37,6 +39,10 @@ ReactDOM.render(
         <Route
         path="/schedule_meal"
         render={(props) => <ScheduleMeal {...props} />}
+      />
+        <Route
+        path="/client_char"
+        render={(props) => <ClientCharacteristics {...props} />}
       />
             {/* <Route
         path="/rules"

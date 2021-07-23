@@ -1,6 +1,6 @@
 import React from "react";
 
-const SectionClientDescription = () => {
+const SectionClientCharacteristics = () => {
   return (
     <>
       <h1>CLIENT CHARACTERISTICS</h1>
@@ -38,4 +38,4 @@ const SectionClientDescription = () => {
   );
 };
 
-export default SectionClientDescription;
+export default SectionClientCharacteristics;

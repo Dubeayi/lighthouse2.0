@@ -138,6 +138,11 @@ function IndexNavbar() {
                     Schedule & Meal
                 </DropdownItem>
                 </Link>
+                <Link to="/client_char" style={{ color: "black" }}>
+                  <DropdownItem>
+                    Client Characteristics
+                </DropdownItem>
+                </Link>
                 <DropdownItem
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
