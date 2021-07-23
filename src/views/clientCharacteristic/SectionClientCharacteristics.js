@@ -3,7 +3,7 @@ import React from "react";
 const SectionClientCharacteristics = () => {
   return (
     <>
-      <h1>CLIENT CHARACTERISTICS</h1>
+      <h1>CLIENT & PROGRAMME CHARACTERISTICS</h1>
       <ul>
         <li>
           Individuals, particularly those with a severe form of alcohol or other
@@ -31,8 +31,22 @@ const SectionClientCharacteristics = () => {
         <li>
           * Lighthouse Lekki shall not provide services to patients with primary
           psychotic behaviour or patients who have been diagnosed with a severe
-          form of schizophrenia spectrum and other psychotic disorde
+          form of schizophrenia spectrum and other psychotic disorder.
         </li>
+      </ul>
+      <ul>
+        <h2>PROGRAMME CHARACTERISTICS</h2>
+        <li>
+          A structured programme of treatment and/or rehabilitation activities,
+          to assist clients to develop and practise the skills to manage
+          substance use and related problems.
+        </li>
+        <li>
+          {" "}
+          The client resides in the residential rehabilitative home for the
+          period of the therapeutic intervention.
+        </li>
+        <li> 24-hour staff cover on site</li>
       </ul>
     </>
   );

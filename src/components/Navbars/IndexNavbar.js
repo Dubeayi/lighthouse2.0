@@ -143,7 +143,7 @@ function IndexNavbar() {
                     Client Characteristics
                 </DropdownItem>
                 </Link>
-                <DropdownItem
+                {/* <DropdownItem
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
                 >
@@ -154,7 +154,7 @@ function IndexNavbar() {
                   onClick={(e) => e.preventDefault()}
                 >
                   Something else here
-                </DropdownItem>
+                </DropdownItem> */}
                 <DropdownItem divider />
                 <DropdownItem
                   href="#pablo"
