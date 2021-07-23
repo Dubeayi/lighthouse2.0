@@ -1,6 +1,7 @@
 import React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import faq from '../../assets/img/icons/clearredfaq.png'
 
 // reactstrap components
 import {
@@ -50,7 +51,7 @@ function SectionFAQ() {
       <div className="section javascript-components">
         <Container className="cont">
           <div className="faqTitle">
-            <h2 style={{ textAlign: "center" }}>Frequently asked questions</h2>
+            <h2 style={{ textAlign: "center" }}>Frequestly Asked Questions<span> <img src={faq} alt="question icon" /></span></h2>
           </div>
           <Row id="modals" className="faq">
             <Col md="6" data-aos="fade-up">
