@@ -1,7 +1,6 @@
 import React from "react";
 
 // reactstrap components
-import {Container} from 'reactstrap';
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -9,7 +8,7 @@ import LandingPageTemplate from "components/Headers/LandingPageTemplate.js";
 import Footer from "components/Footers/Footer.js";
 
 // import SectionRules from "views/index-sections/SectionScheduleMeal.js";
-import Timetable from "views/timetable-sections/SectionTimeTable.js";
+import ScheduleMeal from "./scheduleMeal-sections/SectionScheduleMeal.js";
 
 
 // index sections
@@ -24,15 +23,13 @@ function Index() {
   });
   return (
     <>
-    <Container>
       <IndexNavbar />
 
-      <LandingPageTemplate title="Timetable" />
+      <LandingPageTemplate title="Schedule & Meal" />
       <div className="main" style={{ backgroundColor: "floralwhite" }}>
-      <Timetable />
+      <ScheduleMeal />
         <Footer />
       </div>
-      </Container>
     </>
   );
 }

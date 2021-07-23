@@ -12,6 +12,8 @@ import Index from "views/Index.js";
 import Service from "views/service.js";
 import AboutUs from "views/AboutUs.js";
 import Timetable from "views/timetable.js";
+import ScheduleMeal from "views/ScheduleMeal.js";
+
 // others
 
 ReactDOM.render(
@@ -31,6 +33,10 @@ ReactDOM.render(
       <Route
         path="/timetable"
         render={(props) => <Timetable {...props} />}
+      />
+        <Route
+        path="/schedule_meal"
+        render={(props) => <ScheduleMeal {...props} />}
       />
             {/* <Route
         path="/rules"
