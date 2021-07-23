@@ -44,6 +44,7 @@ function Footer() {
               </li>
             </ul>
           </nav>
+          <Row className="socialMediaRow">
           <div className="socialMediaIcons">
 
               <NavLink
@@ -70,7 +71,16 @@ function Footer() {
               >
                 <i className="fa fa-instagram" />
               </NavLink>
+              <NavLink
+                data-placement="bottom"
+                href="#"
+                target="_blank"
+                title="Follow us on Linkedin"
+              >
+                <i className="fa fa-linkedin" />
+              </NavLink>
           </div>
+          </Row>
           <div className="credits ml-auto">
             <span className="copyright">
               © {new Date().getFullYear()}, made with{" "}
@@ -84,49 +94,3 @@ function Footer() {
 }
 
 export default Footer;
-
-
-// <NavItem>
-// <NavLink
-//   data-placement="bottom"
-//   href="#"
-//   target="_blank"
-//   title="Follow us on Twitter"
-// >
-//   <i className="fa fa-twitter" />
-//   <p className="d-lg-none">Twitter</p>
-// </NavLink>
-// </NavItem>
-// <NavItem>
-// <NavLink
-//   data-placement="bottom"
-//   href="#"
-//   target="_blank"
-//   title="Like us on Facebook"
-// >
-//   <i className="fa fa-facebook-square" />
-//   <p className="d-lg-none">Facebook</p>
-// </NavLink>
-// </NavItem>
-// <NavItem>
-// <NavLink
-//   data-placement="bottom"
-//   href="#"
-//   target="_blank"
-//   title="Follow us on Instagram"
-// >
-//   <i className="fa fa-instagram" />
-//   <p className="d-lg-none">Instagram</p>
-// </NavLink>
-// </NavItem>
-// <NavItem>
-// <NavLink
-//   data-placement="bottom"
-//   href="#"
-//   target="_blank"
-//   title="Star on GitHub"
-// >
-//   <i className="fa fa-github" />
-//   <p className="d-lg-none">GitHub</p>
-// </NavLink>
-// </NavItem>

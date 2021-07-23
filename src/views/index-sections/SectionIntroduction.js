@@ -6,7 +6,7 @@ import {
 } from "reactstrap";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import village from 'assets/img/village.jpg';
+import village from 'assets/img/greenHand.jpg';
 
 function SectionIntroduction() {
 

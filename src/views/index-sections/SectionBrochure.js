@@ -20,13 +20,9 @@ function SectionBrochure() {
               </p>
             </Col>
             <Col className="ml-auto mr-auto download-area" md="5">
-              <Button
-                className="btn-round"
-                color="danger"
-                href="#"
-                target="_blank"
-              >
-                Download user handbook - need to fix
+            <Button className="btn-round" color="info" href="#pablo" disabled>
+                <i aria-hidden={true} className="nc-icon nc-spaceship" />{" "}
+                Call us today
               </Button>
             </Col>
           </Row>
@@ -34,21 +30,21 @@ function SectionBrochure() {
             <Col className="ml-auto mr-auto" md="8">
               <h2 className="title">Want to learn more?</h2>
               <p className="description">
-                We're going to launch{" "}
-                <a className="text-danger" href="#pablo" disabled>
-                  an open house tour in a few weeks
-                </a>
-                . It is something you do not want to miss!
+              If you would like to learn more about Lighthouse and our services, click the button below to download our user handbook.
               </p>
             </Col>
             <Col className="ml-auto mr-auto" sm="5">
-              <Button className="btn-round" color="info" href="#pablo" disabled>
-                <i aria-hidden={true} className="nc-icon nc-spaceship" />{" "}
-                Call us today
+            <Button
+                className="btn-round"
+                color="danger"
+                href="#"
+                target="_blank"
+              >
+                Download Lighthouse handbook
               </Button>
             </Col>
           </Row>
-          <Row className="justify-content-md-center sharing-area text-center">
+          {/* <Row className="justify-content-md-center sharing-area text-center">
             <Col className="text-center" lg="8" md="12">
               <h3>Thank you for supporting us!</h3>
             </Col>
@@ -88,7 +84,7 @@ function SectionBrochure() {
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip68961360">
                 Share!
-              </UncontrolledTooltip>
+              </UncontrolledTooltip> */}
               {/* <Button
                 className="sharrre btn-round ml-2"
                 color="github-bg"
@@ -101,8 +97,8 @@ function SectionBrochure() {
               <UncontrolledTooltip delay={0} target="tooltip864353654">
                 Star on Github
               </UncontrolledTooltip> */}
-            </Col>
-          </Row>
+            {/* </Col>
+          </Row> */}
         </Container>
       </div>
     </>
