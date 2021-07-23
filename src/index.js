@@ -11,7 +11,7 @@ import "assets/demo/demo.css?v=1.3.0";
 import Index from "views/Index.js";
 import Service from "views/service.js";
 import AboutUs from "views/AboutUs.js";
-import Timetable from "views/SectionTimeTable.js";
+import Timetable from "views/timetable.js";
 // others
 
 ReactDOM.render(

@@ -123,6 +123,16 @@ function IndexNavbar() {
                     About Us
                 </DropdownItem>
                 </Link>
+                <Link to="/timetable" style={{ color: "black" }}>
+                  <DropdownItem>
+                   Timetable
+                </DropdownItem>
+                </Link>
+                <Link to="/rules" style={{ color: "black" }}>
+                  <DropdownItem>
+                    Rules
+                </DropdownItem>
+                </Link>
                 <DropdownItem
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
