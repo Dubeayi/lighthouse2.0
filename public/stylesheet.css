@@ -6489,27 +6489,43 @@ td.rdtYear:hover {
   border-bottom: 1px solid #EFE9D9;
   flex-direction: row;
 }
-
-.divider {
+  /******divider section desktop view*********/
+.parent-divider {
   display: flex;
-  /* background-color: #FAF8F2; */
-  /* border-bottom: 1px solid #EFE9D9; */
   flex-direction: row;
   width: 100%;
+  text-align: center;
 }
-.column-container {
+.child-divider {
     padding: 100px 30px 30px 30px;
     box-shadow: 100px 0px 100px rgb(0 0 0 / 15%);
     position: relative;
     width: 33.33%;
 }
+.divider-img {
+  height: auto;
+  width: 30%;
+
+}
+  /******end of divider desktop view*********/
 
 @media (max-width: 768px) {
   .threeSteps {
     flex-direction: column;
   }
-}
-
+  /******divider section*********/
+  .parent-divider {
+    flex-direction: column;
+  }
+  .child-divider {
+    box-shadow : none;
+    width: 100%;
+    padding: 70px 30px 30px 30px;
+  }
+  .divider-img {
+    width: 30%;
+  }
+/*********end of divider************/
 .numberedSection h3 {
   margin-left: auto;
   margin-right: auto;
