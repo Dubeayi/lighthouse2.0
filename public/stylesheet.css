@@ -6505,7 +6505,20 @@ td.rdtYear:hover {
 .divider-img {
   height: auto;
   width: 30%;
-
+}
+.icon-wrapper {
+  display: block;
+  color: #efe9d9;
+  background-color: #bfa283;
+  text-align: center;
+  margin: -40px auto 30px -57.5px;
+  padding: 28px 10px;
+  width: 115px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  z-index: 3;
 }
   /******end of divider desktop view*********/
 
@@ -6521,10 +6534,12 @@ td.rdtYear:hover {
     box-shadow : none;
     width: 100%;
     padding: 70px 30px 30px 30px;
+    margin-bottom: 3rem;
   }
   .divider-img {
-    width: 30%;
+    width: 50%;
   }
+}
 /*********end of divider************/
 .numberedSection h3 {
   margin-left: auto;
