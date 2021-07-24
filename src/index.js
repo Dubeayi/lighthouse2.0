@@ -14,12 +14,14 @@ import AboutUs from "views/AboutUs.js";
 import Timetable from "views/timetable.js";
 import ScheduleMeal from "views/ScheduleMeal.js";
 import ClientCharacteristics from "views/ClientCharacteristics.js";
+import ScrollToTop from "views/ScrollToTop.js";
 
 
 // others
 
 ReactDOM.render(
   <BrowserRouter baseName>
+    <ScrollToTop>
     <Switch>
       <Route path="/home"
       render={(props) => <Index {...props} />}
@@ -66,6 +68,7 @@ ReactDOM.render(
       /> */}
       <Redirect to="/home" />
     </Switch>
+    </ScrollToTop>
   </BrowserRouter>,
   document.getElementById("root")
 );

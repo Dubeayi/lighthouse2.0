@@ -156,8 +156,21 @@ function SectionFAQ() {
                   </h5>
                 </div>
                 <div className="modal-body">
-                  <h5>You cannot put a price on Freedom. Your health is our priority, and we will help you become the best version of you. <br /> <br />
-                  For pricing details, please visit our <a onClick={togglePricing} href="#" >Pricing</a> page</h5>
+                  <h5>
+                    You cannot put a price on Freedom. Your health is our priority, and we will help you become the best version of you. <br /> <br />
+                    For pricing details, please&nbsp;
+                      <a
+                        href="tel:09098846237"
+                        style={{
+                        color: "#F5593D",
+                        fontSize: "1em",
+                        fontWeight: 400
+                        }}
+                      >
+                        call us
+                      </a>
+                      &nbsp;for more info
+                  </h5>
                 </div>
               </Modal>
             </Col>
@@ -262,17 +275,17 @@ function SectionFAQ() {
                   </h5>
                 </div>
                 <div className="modal-body">
-                  <h5>Apart from your personal belongings, you may bring reading and writing material. <br/>
+                  <h5>Apart from your personal belongings, you may bring reading and writing material. <br />
                       The centre supplies bedding and basic toiletries. For more information, check out our
                       <a
                       onClick={toggleItemsToBring}
                       href="#"
                       style={{
-                        fontWeight:"300",
-                        color:"F5593D"
+                        fontWeight: "300",
+                        color: "F5593D"
                       }}
-                      >
-                        &nbsp;list of forbidden items
+                    >
+                      &nbsp;list of forbidden items
                       </a>
                   </h5>
                 </div>
@@ -322,7 +335,7 @@ function SectionFAQ() {
                     Call us today or mail us with any questions you have.
                     <br /> <br />
                     <div>
-                      <TelephoneFill className="bootstrapIcon"/>
+                      <TelephoneFill className="bootstrapIcon" />
                       <a
                         href="tel:09098846237"
                         style={{
@@ -335,7 +348,7 @@ function SectionFAQ() {
                       </a>
                     </div>
                     <div>
-                      <Envelope className="bootstrapIcon"/>
+                      <Envelope className="bootstrapIcon" />
                       <a
                         href="mailto:lighthouselekki@hotmail.com"
                         style={{

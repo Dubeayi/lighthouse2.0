@@ -14,9 +14,8 @@ function SectionBrochure() {
             <Col className="ml-auto mr-auto text-center" md="8">
               <h2 className="title">Do you like what you see?</h2>
               <p className="description">
-                Cause if you do, feel free to check out our user handbook. Hit the button below
-                and download it.
-                <br />If you have any questions, we have the answers!
+                If you do, call us today to get help for you or a loved one.
+                <br />All it takes is one phonecall. We will handle the rest.
               </p>
             </Col>
             <Col className="ml-auto mr-auto download-area" md="5">
