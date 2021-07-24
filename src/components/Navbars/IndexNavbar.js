@@ -140,7 +140,12 @@ function IndexNavbar() {
                 </Link>
                 <Link to="/client_char" style={{ color: "black" }}>
                   <DropdownItem>
-                    Client Characteristics
+                    Who We Accept
+                </DropdownItem>
+                </Link>
+                <Link to="/lighthouse_rules" style={{ color: "black" }}>
+                  <DropdownItem>
+                    Lighthouse Rules
                 </DropdownItem>
                 </Link>
                 {/* <DropdownItem

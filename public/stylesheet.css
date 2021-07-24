@@ -6781,10 +6781,33 @@ ul.activities {
   margin-bottom: 41px;
 }
 
+.carouselCaptionText {
+  font-weight: 700 !important;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-bottom: 5px;
+  font-weight: 500;
+  border-radius: 3%;
+  /* background: #f559; */
+  background: #5f996db8;
+  text-transform: capitalize;
+}
+
 @media (max-width: 500px) {
   .reviews {
   flex: 0 0 19.66667%;
   max-width: 19.66667% !important;
   }
 }
+
+ul.hoursOfOper {
+  list-style-type: none;
+}
+
+@media (max-width: 500px) {
+  ul.hoursOfOper {
+    text-align: initial;
+  }
+}
+
 /*# sourceMappingURL=paper-kit.css.map */

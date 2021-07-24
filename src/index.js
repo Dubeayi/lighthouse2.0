@@ -15,6 +15,7 @@ import Timetable from "views/timetable.js";
 import ScheduleMeal from "views/ScheduleMeal.js";
 import ClientCharacteristics from "views/ClientCharacteristics.js";
 import ScrollToTop from "views/ScrollToTop.js";
+import LighthouseRules from "views/LighthouseRules.js";
 
 
 // others
@@ -46,11 +47,11 @@ ReactDOM.render(
         path="/client_char"
         render={(props) => <ClientCharacteristics {...props} />}
       />
-            {/* <Route
-        path="/rules"
-        render={(props) => <SectionRules {...props} />}
+            <Route
+        path="/lighthouse_rules"
+        render={(props) => <LighthouseRules {...props} />}
       />
-      <Route
+      {/* <Route
         path="/schedule_meal"
         render={(props) => <SectionScheduleMeal {...props} />}
         />

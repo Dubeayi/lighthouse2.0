@@ -12,23 +12,31 @@ import {
   CarouselCaption,
 } from "reactstrap";
 
-// core components
-
 const items = [
   {
-    src: require("assets/img/soroush-karimi.jpg").default,
-    altText: "Somewhere",
-    caption: "Somewhere",
+    src: require("assets/img/lekki.png").default,
+    altText: "Lighthouse Building",
+    caption: "Lighthouse Lekki",
   },
   {
-    src: require("assets/img/federico-beccari.jpg").default,
-    altText: "Somewhere else",
-    caption: "Somewhere else",
+    src: require("assets/img/treatment.jpg").default,
+    altText: "24/7 staff on site",
+    caption: "Has 24/7 staff on site",
   },
   {
-    src: require("assets/img/joshua-stannard.jpg").default,
-    altText: "Here it is",
-    caption: "Here it is",
+    src: require("assets/img/garden.png").default,
+    altText: "Together we can work to help you see the world differently",
+    caption: "Together we can work to help you see the world differently",
+  },
+  {
+    src: require("assets/img/bed.png").default,
+    altText: "With high quality facilities",
+    caption: "With high quality facilities",
+  },
+  {
+    src: require("assets/img/gym.jpg").default,
+    altText: "Physical health is just as important as mental health",
+    caption: "Physical health is just as important as mental health",
   },
 ];
 
@@ -83,6 +91,8 @@ function SectionCarousel() {
                         <CarouselCaption
                           captionText={item.caption}
                           captionHeader=""
+                          className="carouselCaptionText"
+                          style={{fontWeight: 700}}
                         />
                       </CarouselItem>
                     );

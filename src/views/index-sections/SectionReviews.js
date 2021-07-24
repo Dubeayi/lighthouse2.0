@@ -40,7 +40,7 @@ function SectionTypography() {
                   src={require("assets/img/man3Blurred.jpg").default}
                   style={{height: "15em"}}
                 />
-                <p className="textLeft"><em>I am so sorry it has taken me a while to leave this review, but I have been so caught up in my 'new' life. That is, the life that I have chosen after leaving Lighthouse, where I am in control. For the first time since I was a teenager I actually know the happpiness that comes with being truly free. I love you Lighthouse!!!</em></p>
+                <p className="textLeft"><em>I am so sorry it has taken me a while to leave this review, but I have been so caught up in my 'new' life. That is, the life that I have chosen after leaving Lighthouse, where I am in control. For the first time since I was a child I actually know the happpiness that comes with being truly free. I love you Lighthouse!!!</em></p>
               </Col>
             </Row>
           </Container>

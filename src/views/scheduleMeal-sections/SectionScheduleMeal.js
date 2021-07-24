@@ -2,8 +2,7 @@ import React from "react";
 
 const SectionScheduleMeal = () => {
   return (
-    <>
-      {/* <h1>Schedule and Meal</h1> */}
+    <div style={{marginTop: 0, paddingTop: "25px", paddingBottom: "55px"}}>
       <article>
         <h3>Schedule</h3>
         <p>
@@ -50,7 +49,7 @@ const SectionScheduleMeal = () => {
           information will be treated in the strictest confidentiality.
         </p>
       </article>
-    </>
+    </div>
   );
 };
 export default SectionScheduleMeal;
