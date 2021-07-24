@@ -2,6 +2,11 @@ import React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import faq from '../../assets/img/icons/clearredfaq.png'
+//import faq from '../../assets/img/icons/blueredfaq.png'
+//import faq from '../../assets/img/icons/dottedfaq.png'
+//import faq from '../../assets/img/icons/questionfaq.png'
+
+
 
 // reactstrap components
 import {

@@ -6490,6 +6490,19 @@ td.rdtYear:hover {
   flex-direction: row;
 }
 
+.divider {
+  display: flex;
+  /* background-color: #FAF8F2; */
+  /* border-bottom: 1px solid #EFE9D9; */
+  flex-direction: row;
+  width: 100%;
+}
+.column-container {
+    padding: 100px 30px 30px 30px;
+    box-shadow: 100px 0px 100px rgb(0 0 0 / 15%);
+    position: relative;
+    width: 33.33%;
+}
 
 @media (max-width: 768px) {
   .threeSteps {
