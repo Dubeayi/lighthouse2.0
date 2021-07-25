@@ -3261,8 +3261,8 @@ License - nucleoapp.com/license/
     background-color: #F1EAE0;
     margin: 0px; }
   .dropdown-menu .dropdown-header {
-    color: #9A9A9A;
-    font-size: 12px;
+    color: #F5593D !important;
+    font-size: 13px !important;
     padding: 10px 15px; }
   .dropdown-menu .no-notification {
     color: #9A9A9A;
@@ -4025,7 +4025,17 @@ License - nucleoapp.com/license/
 
 .footer {
   background-color: #FFFFFF;
-  line-height: 36px; }
+  line-height: 36px;
+  border-top: ridge;
+  border-color: #efe9d9;
+  border-top-width: thin;
+  box-shadow: 0 16px 10px -4px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 750px) {
+  .footer {
+    border-top-width: medium;
+  }
+}
   .footer.footer-black h4 {
     color: #FFFFFF; }
   .footer .links {
@@ -6809,5 +6819,7 @@ ul.hoursOfOper {
     text-align: initial;
   }
 }
-
+/* border-bottom: ridge;
+    border-color: #efe9d9;
+     */
 /*# sourceMappingURL=paper-kit.css.map */

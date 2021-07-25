@@ -108,6 +108,9 @@ function IndexNavbar() {
                 aria-labelledby="dropdownMenuButton"
                 className="dropdown-info"
               >
+                <DropdownItem header tag="span">
+                  Lighthouse
+                </DropdownItem>
                 <Link to="/index" style={{ color: "black" }}>
                   <DropdownItem>
                     Homepage
@@ -123,24 +126,25 @@ function IndexNavbar() {
                     About Us
                 </DropdownItem>
                 </Link>
-                <Link to="/timetable" style={{ color: "black" }}>
-                  <DropdownItem>
-                   Timetable
+
+
+                <DropdownItem divider />
+                <DropdownItem header tag="span">
+                  Clients
                 </DropdownItem>
-                </Link>
-                <Link to="/rules" style={{ color: "black" }}>
-                  <DropdownItem>
-                    Rules
-                </DropdownItem>
-                </Link>
-                <Link to="/schedule_meal" style={{ color: "black" }}>
-                  <DropdownItem>
-                    Schedule & Meal
-                </DropdownItem>
-                </Link>
                 <Link to="/client_char" style={{ color: "black" }}>
                   <DropdownItem>
                     Who We Accept
+                </DropdownItem>
+                </Link>
+                <Link to="/meal_plan" style={{ color: "black" }}>
+                  <DropdownItem>
+                    Meal Plan
+                </DropdownItem>
+                </Link>
+                <Link to="/timetable" style={{ color: "black" }}>
+                  <DropdownItem>
+                    Timetable
                 </DropdownItem>
                 </Link>
                 <Link to="/lighthouse_rules" style={{ color: "black" }}>
@@ -148,32 +152,7 @@ function IndexNavbar() {
                     Lighthouse Rules
                 </DropdownItem>
                 </Link>
-                {/* <DropdownItem
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  Another action
-                </DropdownItem>
-                <DropdownItem
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  Something else here
-                </DropdownItem> */}
                 <DropdownItem divider />
-                <DropdownItem
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  Separated link
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  Another separated link
-                </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
 

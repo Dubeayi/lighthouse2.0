@@ -40,7 +40,7 @@ ReactDOM.render(
         render={(props) => <Timetable {...props} />}
       />
         <Route
-        path="/schedule_meal"
+        path="/meal_plan"
         render={(props) => <ScheduleMeal {...props} />}
       />
         <Route
