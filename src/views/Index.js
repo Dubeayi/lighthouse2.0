@@ -9,7 +9,7 @@ import Footer from "components/Footers/Footer.js";
 
 // index sections
 import SectionIntroduction from "views/index-sections/SectionIntroduction.js";
-import SectionTypography from "views/index-sections/SectionTypography.js";
+import SectionReviews from "views/index-sections/SectionReviews.js";
 import SectionFAQ from "views/index-sections/SectionFAQ.js";
 import SectionCarousel from "views/index-sections/SectionCarousel.js";
 import SectionThreeSteps from "views/index-sections/SectionThreeSteps.js";
@@ -35,7 +35,7 @@ function Index() {
         <SectionDivider />
         <SectionIntroduction />
         <SectionThreeSteps />
-        <SectionTypography />
+        <SectionReviews />
         <SectionActivities />
         <SectionFAQ />
         <SectionCarousel />

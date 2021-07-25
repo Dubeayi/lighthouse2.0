@@ -3261,8 +3261,8 @@ License - nucleoapp.com/license/
     background-color: #F1EAE0;
     margin: 0px; }
   .dropdown-menu .dropdown-header {
-    color: #9A9A9A;
-    font-size: 12px;
+    color: #F5593D !important;
+    font-size: 13px !important;
     padding: 10px 15px; }
   .dropdown-menu .no-notification {
     color: #9A9A9A;
@@ -3410,7 +3410,8 @@ License - nucleoapp.com/license/
   margin-bottom: 10px;
   padding: 4px;
   border-radius: 50% !important;
-  max-width: 100%; }
+  /* max-width: 100%;  */
+}
 
 .img-thumbnail {
   border: 0 none;
@@ -4024,7 +4025,17 @@ License - nucleoapp.com/license/
 
 .footer {
   background-color: #FFFFFF;
-  line-height: 36px; }
+  line-height: 36px;
+  border-top: ridge;
+  border-color: #efe9d9;
+  border-top-width: thin;
+  box-shadow: 0 16px 10px -4px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 750px) {
+  .footer {
+    border-top-width: medium;
+  }
+}
   .footer.footer-black h4 {
     color: #FFFFFF; }
   .footer .links {
@@ -6809,4 +6820,51 @@ ul.activities {
   }
 }
 
+.reviews {
+  flex: 0 0 19.66667%;
+    max-width: 19.66667% !important;
+}
+@media (min-width: 768px) {
+  .reviews {
+  flex: 0 0 19.66667%;
+  max-width: 24.66667% !important;
+  }
+}
+
+.leftText {
+  text-align: left !important;
+  margin-bottom: 41px;
+}
+
+.carouselCaptionText {
+  font-weight: 700 !important;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-bottom: 5px;
+  font-weight: 500;
+  border-radius: 3%;
+  /* background: #f559; */
+  background: #5f996db8;
+  text-transform: capitalize;
+}
+
+@media (max-width: 500px) {
+  .reviews {
+  flex: 0 0 19.66667%;
+  max-width: 19.66667% !important;
+  }
+}
+
+ul.hoursOfOper {
+  list-style-type: none;
+}
+
+@media (max-width: 500px) {
+  ul.hoursOfOper {
+    text-align: initial;
+  }
+}
+/* border-bottom: ridge;
+    border-color: #efe9d9;
+     */
 /*# sourceMappingURL=paper-kit.css.map */

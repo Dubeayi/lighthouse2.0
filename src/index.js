@@ -14,12 +14,15 @@ import AboutUs from "views/AboutUs.js";
 import Timetable from "views/timetable.js";
 import ScheduleMeal from "views/ScheduleMeal.js";
 import ClientCharacteristics from "views/ClientCharacteristics.js";
+import ScrollToTop from "views/ScrollToTop.js";
+import LighthouseRules from "views/LighthouseRules.js";
 
 
 // others
 
 ReactDOM.render(
   <BrowserRouter baseName>
+    <ScrollToTop>
     <Switch>
       <Route path="/home"
       render={(props) => <Index {...props} />}
@@ -37,18 +40,18 @@ ReactDOM.render(
         render={(props) => <Timetable {...props} />}
       />
         <Route
-        path="/schedule_meal"
+        path="/meal_plan"
         render={(props) => <ScheduleMeal {...props} />}
       />
         <Route
         path="/client_char"
         render={(props) => <ClientCharacteristics {...props} />}
       />
-            {/* <Route
-        path="/rules"
-        render={(props) => <SectionRules {...props} />}
+            <Route
+        path="/lighthouse_rules"
+        render={(props) => <LighthouseRules {...props} />}
       />
-      <Route
+      {/* <Route
         path="/schedule_meal"
         render={(props) => <SectionScheduleMeal {...props} />}
         />
@@ -66,6 +69,7 @@ ReactDOM.render(
       /> */}
       <Redirect to="/home" />
     </Switch>
+    </ScrollToTop>
   </BrowserRouter>,
   document.getElementById("root")
 );
