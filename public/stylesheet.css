@@ -6501,6 +6501,8 @@ td.rdtYear:hover {
     box-shadow: 100px 0px 100px rgb(0 0 0 / 15%);
     position: relative;
     width: 33.33%;
+    font-size: 2rem;
+    line-height: 2.5rem;
 }
 .divider-img {
   height: auto;
@@ -6518,7 +6520,6 @@ td.rdtYear:hover {
   position: absolute;
   top: 0px;
   left: 50%;
-  z-index: 3;
 }
   /******end of divider desktop view*********/
 
@@ -6537,7 +6538,7 @@ td.rdtYear:hover {
     margin-bottom: 3rem;
   }
   .divider-img {
-    width: 50%;
+    width: 60%;
   }
 }
 /*********end of divider************/
