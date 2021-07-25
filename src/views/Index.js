@@ -16,6 +16,8 @@ import SectionThreeSteps from "views/index-sections/SectionThreeSteps.js";
 import SectionActivities from "views/index-sections/SectionActivities.js";
 import SectionDark from "views/index-sections/SectionDark.js";
 import SectionBrochure from "views/index-sections/SectionBrochure.js";
+import SectionDivider from "views/index-sections/SectionDivider.js";
+
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -30,8 +32,9 @@ function Index() {
       <IndexNavbar />
       <LandingPage />
       <div className="main" style={{backgroundColor: "floralwhite"}}>
-        <SectionThreeSteps />
+        <SectionDivider />
         <SectionIntroduction />
+        <SectionThreeSteps />
         <SectionReviews />
         <SectionActivities />
         <SectionFAQ />
