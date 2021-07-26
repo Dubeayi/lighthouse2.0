@@ -146,7 +146,7 @@ function IndexNavbar() {
                 <DropdownItem divider />
               </DropdownMenu>
             </UncontrolledDropdown>
-            {/* 
+            {/*
             <NavItem>
               <NavLink
                 data-placement="bottom"
@@ -193,12 +193,10 @@ function IndexNavbar() {
             </NavItem> */}
             <SocialMedia />
             <NavItem>
-              <Link to="contact_us">
+              <Link to="/contact_us">
                 <Button
                   className="btn-round"
                   color="danger"
-                  // href="/contact_us"
-                  // target="_blank"
                 >
                   <i></i> Contact Us
                 </Button>
