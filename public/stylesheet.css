@@ -6512,8 +6512,6 @@ td.rdtYear:hover {
     box-shadow: 100px 0px 100px rgb(0 0 0 / 15%);
     position: relative;
     width: 33.33%;
-    font-size: 2rem;
-    line-height: 2.5rem;
 }
 .divider-img {
   height: auto;
