@@ -1990,7 +1990,7 @@ h6, .h6 {
   line-height: 1.5em; }
 
 p {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.5em;
   margin-bottom: 5px; }
 
@@ -6492,10 +6492,10 @@ td.rdtYear:hover {
 .lighthouseLogo {
   background-position: left center;
   background-repeat: no-repeat;
-  background-size: 120px;
+  background-size: 5.5em;
   font-size: 2.3em !important;
   height: 2em;
-  width: 5em;
+  width: 6em;
   visibility: visible;
 }
 .lighthouseLogoHidden {
@@ -6569,7 +6569,6 @@ td.rdtYear:hover {
   padding-right: 10px;
   text-align: center;
   padding-top: 10px;
-  border-right: 1px solid #efe9d9;
   padding-bottom: 20px;
   font-weight: 400;
   font-size: 2em;
@@ -6888,7 +6887,7 @@ ul.hoursOfOper {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-size: 30em;
+  background-size: 26em;
   z-index: 0;
 }
 
@@ -6898,6 +6897,95 @@ ul.hoursOfOper {
   }
 }
 
+.checkMark {
+  margin-top: 34px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 15em;
+  z-index: 0;
+}
+
+
+.mealPlan {
+  height: 26em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  width: 100%;
+  background-attachment: fixed;
+  margin-top: -53px;
+}
+
+.preFooter {
+  font-size: 17px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  padding: 15px;
+  margin-top: -25px;
+  background-color: #ff555521;
+}
+
+.mealBreakerText {
+  padding-top: 15px;
+  padding-left: 1em;
+  padding-bottom: 20px;
+  letter-spacing: 0.3px;
+  z-index: 1;
+}
+
+.thankYou {
+  margin-top: 34px;
+    width: 50%;
+    height: 34em;
+    background-repeat: no-repeat;
+    background-size: 32em;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (max-width: 985px) {
+  .thankYou {
+    width: 68%;
+  }
+}
+@media (max-width: 780px) {
+  .thankYou {
+    width: 73%;
+  }
+}
+@media (max-width: 680px) {
+  .thankYou {
+    height: 24em;
+    background-size: 22em;
+    width: 82%;
+  }
+}
+@media (max-width: 400px) {
+  .thankYou {
+    height: 24em;
+    background-size: 22em;
+    width: 100%;
+  }
+}
+
+.aboutUsBorder {
+  border: ridge;
+  border-color: #655e4e;
+  margin-top: 52px;
+  background-color: #efe9d9;
+  margin-left: 4px;
+}
+
+.signature {
+  font-size: 4em;
+  font-family: cursive;
+  padding-bottom: 9px;
+  padding-top: 9px;
+  color: #66615B;
+}
 
 @media (max-width: 768px) {
   .serviceIcon {
@@ -6911,9 +6999,18 @@ ul.hoursOfOper {
     height: 26em;
   }
   .forbiddenItems {
-    height: 31em;
+    height: 9em;
+    margin-top: 53px;
+    background-size: 7em;
+  }
+  .checkMark {
+    margin-top: 0px;
+    height: 9em;
+    background-size: 7em;
   }
 }
+
+
 
 /* border-bottom: ridge;
     border-color: #efe9d9;

@@ -1,16 +1,8 @@
 import React from "react";
-
-// reactstrap components
-
-// core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import LandingPageTemplate from "components/Headers/LandingPageTemplate.js";
 import Footer from "components/Footers/Footer.js";
-
-// import SectionRules from "views/index-sections/SectionScheduleMeal.js";
 import SectionRules from "views/rules-sections/SectionRules.js";
-
-// index sections
 
 function Rules() {
   document.documentElement.classList.remove("nav-open");

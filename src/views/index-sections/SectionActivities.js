@@ -14,7 +14,7 @@ function SectionActivities() {
               <h2 className="title">Lighthouse Activities</h2>
               <br />
               <p className="description">
-                Icons could help illustrate the sort of activities that occur in Lighthouse. Prayers, exercise, types of meals?
+                Here at Lighthouse, we believe that the key to stability is keeping the body healthy and the mind active. As a result, our days are filled with activities to keep each client engaged, and healthy meals to nourish both body and mind.
               </p>
               <br />
               <Button

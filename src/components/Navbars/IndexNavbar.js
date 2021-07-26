@@ -10,7 +10,6 @@ import {
   NavbarBrand,
   Navbar,
   NavItem,
-  NavLink,
   Nav,
   Container,
   UncontrolledDropdown,
@@ -121,6 +120,9 @@ function IndexNavbar() {
                 <Link to="/aboutUs" style={{ color: "black" }}>
                   <DropdownItem>About Us</DropdownItem>
                 </Link>
+                <Link to="/lighthouse_rules" style={{ color: "black" }}>
+                  <DropdownItem>Lighthouse Rules</DropdownItem>
+                </Link>
 
                 <DropdownItem divider />
                 <DropdownItem header tag="span">
@@ -139,9 +141,6 @@ function IndexNavbar() {
                   <DropdownItem>
                     Prohibited Items
                 </DropdownItem>
-                </Link>
-                <Link to="/lighthouse_rules" style={{ color: "black" }}>
-                  <DropdownItem>Lighthouse Rules</DropdownItem>
                 </Link>
                 <DropdownItem divider />
               </DropdownMenu>

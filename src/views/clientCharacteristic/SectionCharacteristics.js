@@ -20,16 +20,13 @@ function Characteristics() {
               <ul className="activities">
                   <li>Individuals with a severe form of alcohol or other drug misuse, or those in a high-risk group who need medication-assisted detoxification</li>
                   <br />
+                  <li>Individuals with a dependency problem who want a treatment that is residential, and are willing to accept restrictions on their liberty for the duration of the program</li>
+                  <br />
                   <li>Individuals finding it difficult to achieve abstinence in the community</li>
                   <br />
                   <li>Individuals who require respite, and an intensive programme of support and care, which cannot realistically be delivered in a community or out-client setting</li>
                   <br />
                   <li>Individulas who need to receive treatment away from their social circle or family environment</li>
-                  <br />
-                  <li>Individuals with a dependency problem who want a treatment that is residential, and are willing to accept restrictions on their liberty for the duration of the program</li>
-                  <br />
-                  <li>Individuals with a dependency problem who want a treatment that is residential, and are willing to accept restrictions on their liberty for the duration of the program</li>
-                  <br />
                 </ul>
               </div>
               <br />
