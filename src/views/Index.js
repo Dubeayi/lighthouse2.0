@@ -8,7 +8,6 @@ import LandingPage from "components/Headers/LandingPage.js";
 import Footer from "components/Footers/Footer.js";
 import "aos/dist/aos.css";
 
-
 // index sections
 import SectionIntroduction from "views/index-sections/SectionIntroduction.js";
 import SectionReviews from "views/index-sections/SectionReviews.js";
@@ -19,7 +18,6 @@ import SectionActivities from "views/index-sections/SectionActivities.js";
 import SectionHoursOfOperation from "views/index-sections/SectionHoursOfOperation.js";
 import SectionBrochure from "views/index-sections/SectionBrochure.js";
 import SectionDivider from "views/index-sections/SectionDivider.js";
-
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -33,23 +31,26 @@ function Index() {
     <>
       <IndexNavbar />
       <LandingPage />
-      <div className="main" style={{backgroundColor: "floralwhite"}}>
+      <div className="main" style={{ backgroundColor: "floralwhite" }}>
         <div data-aos="fade-up">
-        <SectionDivider />
+          <SectionDivider />
         </div>
         <SectionIntroduction />
         <SectionThreeSteps />
-        <SectionReviews />
-        <SectionActivities />
-        <SectionFAQ />
         <SectionCarousel />
+        <SectionActivities />
+        <SectionReviews />
+        <div className="faq-brochure">
+          <div className ="faqbrochure-borderstyle">
+            <SectionFAQ />
+            <SectionBrochure />
+          </div>
+        </div>
         <SectionHoursOfOperation />
-        <SectionBrochure />
         <Footer />
       </div>
     </>
   );
 }
-
 
 export default Index;

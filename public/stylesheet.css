@@ -4006,7 +4006,7 @@ License - nucleoapp.com/license/
   text-align: center; }
 
 .footer nav > ul a:not(.btn) {
-  color: #777777;
+  color: floralwhite;
   display: block;
   margin-bottom: 3px;
   line-height: 1.6;
@@ -4032,7 +4032,7 @@ License - nucleoapp.com/license/
   color: #EB5E28; }
 
 .footer {
-  background-color: #FFFFFF;
+  background-color: #59757e;
   line-height: 36px;
   border-top: ridge;
   border-color: #efe9d9;
