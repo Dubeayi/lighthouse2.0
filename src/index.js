@@ -16,10 +16,8 @@ import ScheduleMeal from "views/ScheduleMeal.js";
 import ClientCharacteristics from "views/ClientCharacteristics.js";
 import ScrollToTop from "views/ScrollToTop.js";
 import LighthouseRules from "views/LighthouseRules.js";
+import ContactUs from 'views/ContactUs.js';
 import ProhibitedItems from "views/prohibitedItems.js";
-
-
-// others
 
 ReactDOM.render(
   <BrowserRouter baseName>
@@ -51,6 +49,10 @@ ReactDOM.render(
         <Route
         path="/lighthouse_rules"
         render={(props) => <LighthouseRules {...props} />}
+      />
+        <Route
+        path="/contact_us"
+        render={(props) => <ContactUs {...props} />}
       />
         <Route
         path="/prohibited_items"
