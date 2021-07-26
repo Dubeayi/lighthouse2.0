@@ -3,6 +3,7 @@ import hand from "../../assets/img/divider/helping-hand.svg";
 import growth from "../../assets/img/divider/growth.svg";
 import yinyang from "../../assets/img/divider/handshake.svg";
 
+
 // reactstrap components
 import { Container } from "reactstrap";
 

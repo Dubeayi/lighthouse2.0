@@ -1,25 +1,20 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
+import { Container, Row, Col, Button } from "reactstrap";
 
 // core components
 
 function SectionHoursOfOperation() {
   return (
     <>
-      <div className="section" style={{backgroundColor: "#efe9d9"}}>
+      <div className="section section-dark hoursOfOperation">
         <Container className="text-center">
-          <Row>
-            <Col className="ml-auto mr-auto text-center" md="8">
-              <h2 className="title">Hours of Operation</h2>
+        <Row className="text-center upgrade-pro">
+            <Col className="ml-auto mr-auto" md="8">
+              <h2 className="title">Hours Of Operation</h2>
               <p className="description">
-                If you do, call us today to get help for you or a loved one.
-                <br />All it takes is one phonecall. We will handle the rest.
-              </p>
-            </Col>
-            <Col className="ml-auto mr-auto download-area" md="5">
-            <ul>
+              <ul className="hoursOfOper">
           <li>Monday: 9 a.m. – 6 p.m.</li>
           <li>Tuesday: 9 a.m. – 6 p.m.</li>
           <li>Wednesday: 9 a.m. – 6 p.m.</li>
@@ -28,15 +23,27 @@ function SectionHoursOfOperation() {
           <li>Saturday: closed</li>
           <li>Sunday: closed</li>
         </ul>
+        <br />
         <p>
-          Please note: These hours do not reflect group times that exceed 6 p.m.
+          *** These hours do not reflect group times that exceed 6 p.m.
           These hours only reflect the times we are available to sort out
           administrative issues.
         </p>
+        <br />
         <p>
-          Please Note: Assessments and individual sessions are conducted during
+          *** Assessments and individual sessions are conducted during
           normal operating hours; 10.00 am – 1.00 pm and 2.30 pm -5.00 pm.
         </p>
+              </p>
+            </Col>
+            <Col className="ml-auto mr-auto" sm="5">
+            <Button
+                className="btn-round"
+                color="danger"
+                href="tel:09098846237"
+              >
+                Call us today
+              </Button>
             </Col>
           </Row>
         </Container>
