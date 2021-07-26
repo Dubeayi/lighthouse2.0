@@ -1,7 +1,8 @@
 import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
-import LogoDark from 'assets/img/logo/logoDark.svg';
+import LogoDark from "assets/img/logo/logoDark.svg";
+import SocialMedia from "views/index-sections/SectionSocialMedia.js";
 // reactstrap components
 import {
   Button,
@@ -15,13 +16,15 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownItem,
-  DropdownMenu
+  DropdownMenu,
 } from "reactstrap";
 import { Link } from "react-router-dom";
 
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
-  const [lighthouseLogo, setLighthouseLogo] = React.useState("lighthouseLogoHidden");
+  const [lighthouseLogo, setLighthouseLogo] = React.useState(
+    "lighthouseLogoHidden"
+  );
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
 
   const toggleNavbarCollapse = () => {
@@ -45,7 +48,7 @@ function IndexNavbar() {
         document.body.scrollTop < 300
       ) {
         setNavbarColor("navbar-transparent");
-        setLighthouseLogo("lighthouseLogoHidden")
+        setLighthouseLogo("lighthouseLogoHidden");
       }
     };
 
@@ -65,11 +68,10 @@ function IndexNavbar() {
             title="Coded by Dubeayi O"
             className={classnames(lighthouseLogo)}
             style={{
-              backgroundImage: `url(${LogoDark})`
+              backgroundImage: `url(${LogoDark})`,
               // fontSize: "2.3em"
             }}
-          >
-          </NavbarBrand>
+          ></NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
@@ -88,7 +90,6 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle
                 aria-expanded={false}
@@ -103,7 +104,7 @@ function IndexNavbar() {
                 role="button"
               >
                 <i className="nc-icon nc-book-bookmark" /> Menu Items
-                      </DropdownToggle>
+              </DropdownToggle>
               <DropdownMenu
                 aria-labelledby="dropdownMenuButton"
                 className="dropdown-info"
@@ -112,51 +113,35 @@ function IndexNavbar() {
                   Lighthouse
                 </DropdownItem>
                 <Link to="/index" style={{ color: "black" }}>
-                  <DropdownItem>
-                    Homepage
-                </DropdownItem>
+                  <DropdownItem>Homepage</DropdownItem>
                 </Link>
                 <Link to="/service" style={{ color: "black" }}>
-                  <DropdownItem>
-                    Services
-                </DropdownItem>
+                  <DropdownItem>Services</DropdownItem>
                 </Link>
                 <Link to="/aboutUs" style={{ color: "black" }}>
-                  <DropdownItem>
-                    About Us
-                </DropdownItem>
+                  <DropdownItem>About Us</DropdownItem>
                 </Link>
-
 
                 <DropdownItem divider />
                 <DropdownItem header tag="span">
                   Clients
                 </DropdownItem>
                 <Link to="/client_char" style={{ color: "black" }}>
-                  <DropdownItem>
-                    Who We Accept
-                </DropdownItem>
+                  <DropdownItem>Who We Accept</DropdownItem>
                 </Link>
                 <Link to="/meal_plan" style={{ color: "black" }}>
-                  <DropdownItem>
-                    Meal Plan
-                </DropdownItem>
+                  <DropdownItem>Meal Plan</DropdownItem>
                 </Link>
                 <Link to="/timetable" style={{ color: "black" }}>
-                  <DropdownItem>
-                    Timetable
-                </DropdownItem>
+                  <DropdownItem>Timetable</DropdownItem>
                 </Link>
                 <Link to="/lighthouse_rules" style={{ color: "black" }}>
-                  <DropdownItem>
-                    Lighthouse Rules
-                </DropdownItem>
+                  <DropdownItem>Lighthouse Rules</DropdownItem>
                 </Link>
                 <DropdownItem divider />
               </DropdownMenu>
             </UncontrolledDropdown>
-
-
+            {/* 
             <NavItem>
               <NavLink
                 data-placement="bottom"
@@ -200,16 +185,19 @@ function IndexNavbar() {
                 <i className="fa fa-github" />
                 <p className="d-lg-none">GitHub</p>
               </NavLink>
-            </NavItem>
+            </NavItem> */}
+            <SocialMedia />
             <NavItem>
-              <Button
-                className="btn-round"
-                color="danger"
-                href="#"
-                target="_blank"
-              >
-                <i></i> Contact Us
-              </Button>
+              <Link to="contact_us">
+                <Button
+                  className="btn-round"
+                  color="danger"
+                  // href="/contact_us"
+                  // target="_blank"
+                >
+                  <i></i> Contact Us
+                </Button>
+              </Link>
             </NavItem>
           </Nav>
         </Collapse>
