@@ -6,6 +6,8 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import LandingPage from "components/Headers/LandingPage.js";
 import Footer from "components/Footers/Footer.js";
+import "aos/dist/aos.css";
+
 
 // index sections
 import SectionIntroduction from "views/index-sections/SectionIntroduction.js";
@@ -14,7 +16,7 @@ import SectionFAQ from "views/index-sections/SectionFAQ.js";
 import SectionCarousel from "views/index-sections/SectionCarousel.js";
 import SectionThreeSteps from "views/index-sections/SectionThreeSteps.js";
 import SectionActivities from "views/index-sections/SectionActivities.js";
-import SectionDark from "views/index-sections/SectionDark.js";
+import SectionHoursOfOperation from "views/index-sections/SectionHoursOfOperation.js";
 import SectionBrochure from "views/index-sections/SectionBrochure.js";
 import SectionDivider from "views/index-sections/SectionDivider.js";
 
@@ -32,14 +34,16 @@ function Index() {
       <IndexNavbar />
       <LandingPage />
       <div className="main" style={{backgroundColor: "floralwhite"}}>
+        <div data-aos="fade-up">
         <SectionDivider />
+        </div>
         <SectionIntroduction />
         <SectionThreeSteps />
         <SectionReviews />
         <SectionActivities />
         <SectionFAQ />
         <SectionCarousel />
-        <SectionDark />
+        <SectionHoursOfOperation />
         <SectionBrochure />
         <Footer />
       </div>

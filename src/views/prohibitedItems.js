@@ -8,13 +8,12 @@ import LandingPageTemplate from "components/Headers/LandingPageTemplate.js";
 import Footer from "components/Footers/Footer.js";
 
 // import SectionRules from "views/index-sections/SectionScheduleMeal.js";
-import SectionIntroduction from "views/service-sections/SectionIntroduction.js";
-import SectionOfferings from "views/service-sections/SectionOfferings.js";
-import SectionActivities from "views/service-sections/SectionActivities.js";
+import SectionAboutItems from "views/prohibitedItems-sections/SectionAboutItems.js";
+import SectionForbiddenItems from "views/prohibitedItems-sections/SectionForbiddenItems.js";
 
 // index sections
 
-function Service() {
+function ForbiddenItems() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("index");
@@ -26,12 +25,11 @@ function Service() {
     <>
       <IndexNavbar />
 
-      <LandingPageTemplate title="Services" />
+      <LandingPageTemplate title="Forbidden Items" />
       <div className="main" style={{ backgroundColor: "floralwhite" }}>
-        {/* <SectionRules /> */}
-        <SectionIntroduction />
-        <SectionOfferings />
-        <SectionActivities />
+
+        <SectionAboutItems />
+        <SectionForbiddenItems />
         <Footer />
       </div>
     </>
@@ -39,4 +37,4 @@ function Service() {
 }
 
 
-export default Service;
+export default ForbiddenItems;

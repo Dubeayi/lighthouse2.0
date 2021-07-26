@@ -147,6 +147,11 @@ function IndexNavbar() {
                     Timetable
                 </DropdownItem>
                 </Link>
+                <Link to="/prohibited_items" style={{ color: "black" }}>
+                  <DropdownItem>
+                    Prohibited Items
+                </DropdownItem>
+                </Link>
                 <Link to="/lighthouse_rules" style={{ color: "black" }}>
                   <DropdownItem>
                     Lighthouse Rules

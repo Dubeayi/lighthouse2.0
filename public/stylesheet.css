@@ -2095,6 +2095,17 @@ blockquote small {
   min-height: 32px;
  }
 
+ .faqBoxes {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  flex: 0 0 0 50%;
+ }
+
  .faqTitle {
   margin-top: 30px;
   margin-bottom: 25px;
@@ -2104,11 +2115,6 @@ blockquote small {
   border-color: grey;
   /* background-color: floralwhite; */
   padding-bottom: 20px;
- }
-
- .cont {
-   border-top: solid;
-   border-color: grey;
  }
 
 .title.text-center {
@@ -2303,7 +2309,9 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .main .section:first-of-type {
   position: relative;
-  z-index: 2; }
+  z-index: 2;
+  background-color: "floralwhite";
+ }
 
 /*           Labels & Progress-bar              */
 .label {
@@ -4529,7 +4537,7 @@ License - nucleoapp.com/license/
   overflow: hidden;
   position: relative;
   width: 100%;
-  z-index: 1;
+  z-index: 0;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -4699,7 +4707,7 @@ License - nucleoapp.com/license/
 .category-absolute {
   position: absolute;
   text-align: center;
-  top: 100vh;
+  top: 93vh;
   margin-top: -60px;
   padding: 0 15px;
   width: 100%;
@@ -6512,10 +6520,11 @@ td.rdtYear:hover {
     box-shadow: 100px 0px 100px rgb(0 0 0 / 15%);
     position: relative;
     width: 33.33%;
+    min-height: 254px;
 }
 .divider-img {
   height: auto;
-  width: 30%;
+  width: 60%;
 }
 .icon-wrapper {
   display: block;
@@ -6546,9 +6555,7 @@ td.rdtYear:hover {
     width: 100%;
     padding: 70px 30px 30px 30px;
     margin-bottom: 3rem;
-  }
-  .divider-img {
-    width: 50%;
+    min-height: 195px;
   }
 }
 /*********end of divider************/
@@ -6700,6 +6707,7 @@ td.rdtYear:hover {
   background-size: cover;
   background-attachment: fixed;
   z-index: 1;
+  min-height: 600px;
 }
 
 .headerTemplate {
@@ -6754,19 +6762,6 @@ td.rdtYear:hover {
 
 .lasting {
   height: 380px;
-}
-
-@media (max-width: 768px) {
-  .serviceIcon {
-    height: 24em;
-  }
-  .firsting {
-    margin-top: 45px;
-  }
-  .lasting {
-    margin-top: 45px;
-    height: 26em;
-  }
 }
 
 .sampleRow {
@@ -6858,11 +6853,66 @@ ul.hoursOfOper {
   list-style-type: none;
 }
 
+@media (min-width: 508px) {
+  @media (max-height: 420px) {
+    .page-header .content-center {
+      margin-top: -48px;
+  }
+  }
+}
+@media (width: 731px) {
+  @media (height: 411px) {
+    .page-header .content-center {
+      margin-top: -48px;
+  }
+  }
+}
+@media (width: 823px) {
+  @media (height: 411px) {
+    .page-header .content-center {
+      margin-top: 48px;
+  }
+  }
+}
+
 @media (max-width: 500px) {
   ul.hoursOfOper {
     text-align: initial;
   }
 }
+
+.forbiddenItems {
+  margin-top: 168px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 30em;
+  z-index: 0;
+}
+
+@media (max-width: 768px) {
+  .forbiddenItems {
+  margin-top: 25px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .serviceIcon {
+    height: 24em;
+  }
+  .firsting {
+    margin-top: 45px;
+  }
+  .lasting {
+    margin-top: 45px;
+    height: 26em;
+  }
+  .forbiddenItems {
+    height: 31em;
+  }
+}
+
 /* border-bottom: ridge;
     border-color: #efe9d9;
      */
