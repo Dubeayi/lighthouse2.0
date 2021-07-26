@@ -35,7 +35,7 @@ function SectionContactUs() {
               <br />
 
             </Col>
-        <SocialMedia />
+        {/* <SocialMedia /> */}
           </Row>
         </Container>
       </div>{" "}
