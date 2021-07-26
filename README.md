@@ -2,10 +2,10 @@ This is an informational website for people who are looking for rehabilitation f
 
 ### Social Media
 
-Twitter: <https://twitter.com/lekkilighthouse>
+Twitter: <https://twitter.com/lighthouseLekki>
 
-Facebook: <https://www.facebook.com/lekkilighthouse>
+Facebook: <https://www.facebook.com/lighthouseLekki>
 
-Dribbble: <https://dribbble.com/lekkilighthouse>
+LinkedIn: <https://linkedin.com/in/lighthouseLekki>
 
-Instagram: <https://www.instagram.com/lekkilighthouse>
+Instagram: <https://www.instagram.com/lighthouseLekki>

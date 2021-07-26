@@ -30,10 +30,10 @@ function SectionOfferings() {
               <h2 className="title">Our Rehabilitation Program</h2>
               <br />
               <p className="bodyText">
-                We offer structured treatment and rehabilitation activities, to assist clients to develop and practise the skills to manage substance use and related problems.
+                Our structured treatment and rehabilitation activities assist clients to develop and practise the skills to manage substance use and related problems.
                 <br/>
                 <br/>
-                In order for our program to be effective, the client resides in the residential rehabilitative home for the period of the therapeutic intervention. The duration of our program is 90 days, with 24 hour staff to assist the client.
+                In order for our program to be effective, the client resides in the residential rehabilitative home for the period of the therapeutic intervention. The duration of our program is 90 days, with 24 hour staff to assist our clients.
               </p>
               <br />
             </Col>

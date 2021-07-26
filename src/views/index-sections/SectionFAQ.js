@@ -2,13 +2,8 @@ import React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import faq from '../../assets/img/icons/clearredfaq.png'
-//import faq from '../../assets/img/icons/blueredfaq.png'
-//import faq from '../../assets/img/icons/dottedfaq.png'
-//import faq from '../../assets/img/icons/questionfaq.png'
+import { Link } from "react-router-dom";
 
-
-
-// reactstrap components
 import {
   Button,
   Modal,
@@ -20,9 +15,6 @@ import {
 } from "reactstrap";
 
 import { TelephoneFill, Envelope } from 'react-bootstrap-icons';
-
-
-// core components
 
 function SectionFAQ() {
   const [location, setLocation] = React.useState(false);
@@ -265,17 +257,17 @@ function SectionFAQ() {
                 color="danger"
                 outline
                 type="button"
-                onClick={toggleItemsToBring}
+                onClick={toggleClientCharacteristics}
               >
                 What clients does Lighthouse accept
               </Button>
-              <Modal isOpen={itemsToBring} toggle={toggleItemsToBring}>
+              <Modal isOpen={clientCharacteristics} toggle={toggleClientCharacteristics}>
                 <div className="modal-header">
                   <button
                     aria-label="Close"
                     className="close"
                     type="button"
-                    onClick={toggleItemsToBring}
+                    onClick={toggleClientCharacteristics}
                   >
                     <span aria-hidden={true}>×</span>
                   </button>
@@ -293,16 +285,25 @@ function SectionFAQ() {
                 <div className="modal-body">
                   <h5>Lighthouse offers rehabilitation for anyone with a dependency problem <br />
                       For more information, check out our
-                      <a
+                      {/* <a
                       onClick={toggleClientCharacteristics}
-                      href="#"
+                      href="/client_char"
                       style={{
                         fontWeight: "400",
                         color: "F5593D"
                       }}
                     >
                       &nbsp;Client Characteristics page
-                      </a>
+                      </a> */}
+                      <Link to="/client_char"
+                      onClick={toggleClientCharacteristics}
+                      style={{
+                        fontWeight: "400",
+                        color: "F5593D"
+                      }}
+                    >
+                      &nbsp;Client Characteristics page
+                      </Link>
                   </h5>
                 </div>
               </Modal>
@@ -414,7 +415,7 @@ function SectionFAQ() {
                       The centre supplies bedding and basic toiletries. For more information, check out our
                       <a
                       onClick={toggleItemsToBring}
-                      href="#"
+                      href="/prohibited_items"
                       style={{
                         fontWeight: "400",
                         color: "F5593D"

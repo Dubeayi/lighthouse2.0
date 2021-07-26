@@ -7,9 +7,13 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import LandingPageTemplate from "components/Headers/LandingPageTemplate.js";
 import Footer from "components/Footers/Footer.js";
 
-// import SectionRules from "views/index-sections/SectionScheduleMeal.js";
+import Introduction from "./scheduleMeal-sections/Introduction.js";
 import ScheduleMeal from "./scheduleMeal-sections/SectionScheduleMeal.js";
+import Picture from "./scheduleMeal-sections/Picture.js";
+import MidSection from "./scheduleMeal-sections/MidSection.js";
+import BottomSection from "./scheduleMeal-sections/BottomSection.js";
 
+// style={{ background: `url(${meal})` }}
 
 // index sections
 
@@ -25,9 +29,13 @@ function Index() {
     <>
       <IndexNavbar />
 
-      <LandingPageTemplate title="Schedule & Meal" />
+      <LandingPageTemplate title="Meal Plan" />
       <div className="main" style={{ backgroundColor: "floralwhite" }}>
-      <ScheduleMeal />
+      <Introduction />
+      <Picture />
+      <MidSection />
+      <Picture />
+      <BottomSection />
         <Footer />
       </div>
     </>

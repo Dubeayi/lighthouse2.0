@@ -10,6 +10,7 @@ import Footer from "components/Footers/Footer.js";
 // import SectionRules from "views/index-sections/SectionScheduleMeal.js";
 import SectionAboutItems from "views/prohibitedItems-sections/SectionAboutItems.js";
 import SectionForbiddenItems from "views/prohibitedItems-sections/SectionForbiddenItems.js";
+import PreFooter from "views/prohibitedItems-sections/PreFooter.js";
 
 // index sections
 
@@ -25,11 +26,12 @@ function ForbiddenItems() {
     <>
       <IndexNavbar />
 
-      <LandingPageTemplate title="Forbidden Items" />
+      <LandingPageTemplate title="Prohibited Items" />
       <div className="main" style={{ backgroundColor: "floralwhite" }}>
 
         <SectionAboutItems />
         <SectionForbiddenItems />
+        <PreFooter />
         <Footer />
       </div>
     </>

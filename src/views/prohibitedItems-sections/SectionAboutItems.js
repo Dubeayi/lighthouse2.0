@@ -2,7 +2,7 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
-import image from 'assets/img/prohibitedItems.svg';
+import image from 'assets/img/checkMark.png';
 
 // core components
 
@@ -30,7 +30,7 @@ function AboutClient() {
               <br />
             </Col>
             <Col lg="6" md="12" className="title2">
-                 <div className="serviceIcon lasting"
+                 <div className="checkMark"
                   style={{
                     backgroundImage: `url(${image})`
                   }}
