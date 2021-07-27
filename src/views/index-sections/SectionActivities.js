@@ -7,7 +7,7 @@ import { Button, Container, Row, Col } from "reactstrap";
 function SectionActivities() {
   return (
     <>
-      <div className="section section-dark section-nucleo-icons">
+      <div className="section section-dark section-nucleo-icons diamond-activity">
         <Container>
           <Row>
             <Col lg="6" md="12">
@@ -18,15 +18,15 @@ function SectionActivities() {
               </p>
               <br />
               <Button
-                className="btn-round"
+                className="btn-round btn-schedule"
                 color="danger"
                 // href="/nucleo-icons"
-                target="_blank"
+                target="_blank" 
               >
                 View Daily schedule
               </Button>
               <Button
-                className="btn-round ml-1"
+                className="btn-round ml-1 btn-meal"
                 color="danger"
                 // href="https://nucleoapp.com/?ref=1712"
                 outline

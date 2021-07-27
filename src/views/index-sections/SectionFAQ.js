@@ -49,7 +49,7 @@ function SectionFAQ() {
 
   return (
     <>
-      <div className="section javascript-components">
+      <div className="section javascript-components faq-b">
         <Container>
           <div className="faqTitle">
             <h2 style={{ textAlign: "center" }}>Frequestly Asked Questions<span> <img src={faq} alt="question icon" /></span></h2>

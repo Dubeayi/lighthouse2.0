@@ -4032,7 +4032,7 @@ License - nucleoapp.com/license/
   color: #EB5E28; }
 
 .footer {
-  background-color: #59757e;
+  background-color: #2d6b7c;
   line-height: 36px;
   border-top: ridge;
   border-color: #efe9d9;
@@ -4798,7 +4798,62 @@ License - nucleoapp.com/license/
   color: #FFFFFF; }
 
 .section-dark {
-  background-color: #59757ea1; }
+  background-color: #ffffff; }
+ 
+.section.section-dark.section-nucleo-icons.diamond-activity {
+    background-color: #2d6b7ca1;}
+
+
+/***section-activities**/ 
+.section.section-dark.section-nucleo-icons.diamond-activity {
+  background-color: #2d6b7c;
+}
+.btn-schedule {
+  background-color: #bfa283 !important;
+  border-color: floralwhite !important;
+}
+.btn-schedule:hover {
+  background-color: floralwhite !important;
+  color: #bfa283 !important;
+}
+.btn-meal {
+  border-color: floralwhite !important;
+  color: floralwhite !important;
+}
+.btn-meal:hover {
+  /* background-color: floralwhite !important; */
+  color: white !important;
+  border-color: floralwhite;
+}
+
+/****Client Review********/
+.mr-auto.ml-auto.ipad.col-sm-3.col-md-2 {
+  background-color: #bfa283;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 4px #443001;
+}
+
+/******FAQ & Want to learn more section*****/
+.faq-brochure {
+  padding: 45px 35px 35px 35px;
+  background-color: #ffffff;}
+
+.faqbrochure-borderstyle{
+  border-top: 4px solid #2d6b7c;
+  border-bottom: 4px solid #2d6b7c;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0 auto;
+}
+/***Hours of operation****/
+.section.section-dark.hoursOfOperation {
+  background-color: #2d6b7c;
+}
+/*****Footer****/
+.copyright {
+  color: floralwhite !important;
+}
 
 .section-image,
 .section-gold,
@@ -6529,7 +6584,7 @@ td.rdtYear:hover {
 .icon-wrapper {
   display: block;
   color: #efe9d9;
-  background-color: #bfa283;
+  background-color: #2d6b7c;
   text-align: center;
   margin: -40px auto 30px -57.5px;
   padding: 28px 10px;
