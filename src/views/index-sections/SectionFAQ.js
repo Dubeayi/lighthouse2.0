@@ -1,7 +1,7 @@
 import React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import faq from '../../assets/img/icons/clearredfaq.png'
+import faq from '../../assets/img/icons/faq80.png'
 import { Link } from "react-router-dom";
 
 import {
@@ -52,7 +52,10 @@ function SectionFAQ() {
       <div className="section javascript-components faq-b">
         <Container>
           <div className="faqTitle">
-            <h2 style={{ textAlign: "center" }}>Frequestly Asked Questions<span> <img src={faq} alt="question icon" /></span></h2>
+            <h2 style={{ textAlign: "center" }}>Frequestly Asked Questions
+            <span> <img src={faq} alt="question icon" /></span>
+            {/* <span><a href="https://icons8.com/icon/BxDBbOdiYanr/faq"></a></span> */}
+            </h2>
           </div>
           <Row id="modals" className="faq">
             <Col>

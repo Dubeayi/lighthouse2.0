@@ -12,7 +12,7 @@ function SectionTypography() {
         <div id="images">
           <Container>
             <div className="title">
-              <h3 style={{textAlign: "center", paddingBottom: "15px"}}>CLIENT REVIEWS</h3>
+              <h2 style={{textAlign: "center", paddingBottom: "15px"}}>CLIENT REVIEWS</h2>
             </div>
             <Row style={{marginBottom: "11em"}}>
               <Col className="mr-auto ml-auto ipad" style={{height: "inherit"}} md="2" sm="3">

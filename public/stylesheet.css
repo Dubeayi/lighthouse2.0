@@ -4702,7 +4702,7 @@ License - nucleoapp.com/license/
 
 .presentation-subtitle {
   font-size: 1.7em;
-  color: #FFFFFF; }
+  color: floralwhite; }
 
 .category-absolute {
   position: absolute;
@@ -4822,7 +4822,7 @@ License - nucleoapp.com/license/
 }
 .btn-meal:hover {
   /* background-color: floralwhite !important; */
-  color: white !important;
+  color: floralwhite !important;
   border-color: floralwhite;
 }
 
@@ -4837,7 +4837,8 @@ License - nucleoapp.com/license/
 /******FAQ & Want to learn more section*****/
 .faq-brochure {
   padding: 45px 35px 35px 35px;
-  background-color: #ffffff;}
+  background-color: #ffffff;
+  border-top: 1px solid #66615b0f;}
 
 .faqbrochure-borderstyle{
   border-top: 4px solid #2d6b7c;
