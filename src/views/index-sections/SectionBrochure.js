@@ -8,7 +8,7 @@ import { Button, Container, Row, Col } from "reactstrap";
 function SectionBrochure() {
   return (
     <>
-      <div className="section" style={{backgroundColor: "white"}}>
+      <div className="section brochure-mobile-view" style={{backgroundColor: "white"}}>
         <Container className="text-center">
           <Row className="text-center upgrade-pro">
             <Col className="ml-auto mr-auto" md="8">

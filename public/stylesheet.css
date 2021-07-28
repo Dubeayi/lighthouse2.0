@@ -4826,14 +4826,6 @@ License - nucleoapp.com/license/
   border-color: floralwhite;
 }
 
-/****Client Review********/
-.mr-auto.ml-auto.ipad.col-sm-3.col-md-2 {
-  background-color: #bfa283;
-  color: white;
-  box-sizing: border-box;
-  box-shadow: 1px 1px 4px #443001;
-}
-
 /******FAQ & Want to learn more section*****/
 .faq-brochure {
   padding: 45px 35px 35px 35px;
@@ -4847,9 +4839,15 @@ License - nucleoapp.com/license/
   line-height: 1.5rem;
   margin: 0 auto;
 }
+
 /***Hours of operation****/
 .section.section-dark.hoursOfOperation {
   background-color: #2d6b7c;
+}
+
+/*****carousel******/
+div#carousel {
+  background-color: #FAF8F2;
 }
 /*****Footer****/
 .copyright {
@@ -4959,6 +4957,12 @@ License - nucleoapp.com/license/
 
 /*          Changes for small display      */
 @media (max-width: 767px) {
+  .brochure-mobile-view {
+    border-top: 4px solid #2d6b7c;
+    padding-top: 40px !important;}
+    .section.javascript-components.faq-b {
+      padding-bottom: 7em;
+  }
   #cd-vertical-nav {
     display: none !important; }
   .coloured-cards .card-big-shadow {
@@ -6582,6 +6586,9 @@ td.rdtYear:hover {
   height: auto;
   width: 60%;
 }
+.divider-h3 {
+font-size: 3.8em;}
+
 .icon-wrapper {
   display: block;
   color: #efe9d9;
@@ -6615,6 +6622,8 @@ td.rdtYear:hover {
   .divider-img {
     width: 60%;
   }
+  .divider-h3 {
+    font-size: 2.8em;}
 }
 /*********end of divider************/
 .numberedSection h3 {
@@ -6895,7 +6904,7 @@ ul.activities {
   font-weight: 500;
   border-radius: 3%;
   /* background: #f559; */
-  background: #5f996db8;
+  background: #bfa283b5;
   text-transform: capitalize;
 }
 

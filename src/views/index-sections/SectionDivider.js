@@ -12,27 +12,20 @@ function SectionDivider() {
     <>
       <div
         className="parent-divider"
-        // style={{
-        //   //backgroundColor: "#5c8695",
-        //   //   marginLeft: "auto",
-        //   //   marginRight: "auto",
-        //   //   maxWidth: "1200px",
-        //   //   paddingLeft: "10px",
-        //   //   paddingRight: "10px",
-        // }}
+ 
       >
         {/* <Container> */}
         <div className="child-divider">
           <div className="icon-wrapper">
             <img className="divider-img" src={hand} alt="handshake" />
           </div>
-          <h3>REACH OUT</h3>
+          <h3 className="divider-h3">REACH OUT</h3>
         </div>
         <div className="child-divider">
           <div className="icon-wrapper">
             <img className="divider-img" src={growth} alt="a plant in hand" />
           </div>
-          <h3>FIND MEANING</h3>
+          <h3 className="divider-h3">FIND MEANING</h3>
         </div>
         <div className="child-divider">
           <div className="icon-wrapper">
@@ -42,7 +35,7 @@ function SectionDivider() {
               alt="yin-yang symbol in head"
             />
           </div>
-          <h3>FIND HEALING</h3>
+          <h3 className="divider-h3">FIND HEALING</h3>
         </div>
       </div>
       {/* <div className="section section-buttons color2" style={{backgroundColor: "rgb(119 122 89 / 51%)"}}>#2</div>

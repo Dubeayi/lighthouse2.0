@@ -29,6 +29,8 @@ export default function ContactForm() {
       <input type="text" name="user_phone" />
       <label>Message</label>
       <textarea name="message" />
+      <input type="text" name="subject" />
+      <label>Subject</label>
       <input type="submit" value="Send" />
     </form>
   );
