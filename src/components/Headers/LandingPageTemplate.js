@@ -4,7 +4,6 @@ import React from "react";
 import { Container } from "reactstrap";
 import "aos/dist/aos.css";
 
-import { Headset } from 'react-bootstrap-icons';
 import Logo1 from 'assets/img/logo/logoLight.svg';
 
 function LandingPage(props) {

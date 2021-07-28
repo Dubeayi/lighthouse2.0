@@ -1,8 +1,4 @@
 import React from "react";
-// nodejs library that concatenates strings
-import classnames from "classnames";
-// import LogoDark from "assets/img/logo/logoDark.svg";
-// reactstrap components
 import {
 //   Button,
 
@@ -10,7 +6,6 @@ import {
   NavLink,
 
 } from "reactstrap";
-import { Link } from "react-router-dom";
 
 const SectionSocialMedia = () => {
   return (
@@ -46,6 +41,17 @@ const SectionSocialMedia = () => {
           >
             <i className="fa fa-instagram" />
             <p className="d-lg-none">Instagram</p>
+          </NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink
+            data-placement="bottom"
+            href="#"
+            target="_blank"
+            title="Follow us on LinkedIn"
+          >
+            <i className="fa fa-linkedin" />
+            <p className="d-lg-none">LinkedIn</p>
           </NavLink>
         </NavItem>
     </>

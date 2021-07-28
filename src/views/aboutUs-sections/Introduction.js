@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, Row } from "reactstrap";
+import { Container } from "reactstrap";
 import image from 'assets/img/smile.png';
 
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Container } from "reactstrap";
 
 const SectionRules = () => {
   return (
@@ -9,7 +9,7 @@ const SectionRules = () => {
         style={{ backgroundColor: "floralwhite" }}
         // data-aos="fade-up"
       >
-    <Container>
+    <Container className="aboutUsBorder">
       <h1 style={{fontSize: "2.6em"}}> SECURITY, RULES, EXPECTATIONS AND GUIDELINES</h1>
       <br />
       <p style={{fontSize: "17px"}}>

@@ -6,7 +6,7 @@ const BottomSection = () => {
     <>
       <div
         // className="section"
-        style={{ backgroundColor: "floralwhite" }}
+        style={{ backgroundColor: "floralwhite", paddingBottom: "55px" }}
       >
         <Container>
           <Row>

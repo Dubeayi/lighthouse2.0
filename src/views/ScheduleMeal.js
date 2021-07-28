@@ -8,7 +8,6 @@ import LandingPageTemplate from "components/Headers/LandingPageTemplate.js";
 import Footer from "components/Footers/Footer.js";
 
 import Introduction from "./scheduleMeal-sections/Introduction.js";
-import ScheduleMeal from "./scheduleMeal-sections/SectionScheduleMeal.js";
 import Picture from "./scheduleMeal-sections/Picture.js";
 import MidSection from "./scheduleMeal-sections/MidSection.js";
 import BottomSection from "./scheduleMeal-sections/BottomSection.js";

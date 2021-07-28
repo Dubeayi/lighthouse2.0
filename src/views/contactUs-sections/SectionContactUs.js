@@ -3,9 +3,6 @@ import React from "react";
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
 
-// core components
-import SocialMedia from 'views/index-sections/SectionSocialMedia.js';
-
 function SectionContactUs() {
   return (
     <>
@@ -35,7 +32,6 @@ function SectionContactUs() {
               <br />
 
             </Col>
-        {/* <SocialMedia /> */}
           </Row>
         </Container>
       </div>{" "}

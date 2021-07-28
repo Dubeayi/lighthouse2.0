@@ -1,18 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
-//meal plan is very important because clients have to eat structured meals
-
-//within the first day of arrival, we ask you what your diet is. Whether you have dietary restrictions; lactose intolerance etc.
-
-//there is a standard menu where quality food is offered, but once we get a feel of your
-
-//high protein, high carbs depending on the situation
-
-//parents / family/ wards are allowed to recommend what the client will consume
-
-//the parents are able to send effects for the gifts. Protein shakes/ snacks.
-
 const BottomSection = () => {
   return (
     <>
@@ -22,7 +10,7 @@ const BottomSection = () => {
       >
     <Container>
       <Row>
-            <Col>
+            <Col className="aboutUsBorder">
             <br />
             <h2 className="title center">Meals</h2>
               <br />

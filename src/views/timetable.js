@@ -1,8 +1,5 @@
 import React from "react";
 
-// reactstrap components
-import {Container} from 'reactstrap';
-
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import LandingPageTemplate from "components/Headers/LandingPageTemplate.js";
@@ -24,7 +21,6 @@ function Index() {
   });
   return (
     <>
-    {/* <Container> */}
       <IndexNavbar />
 
       <LandingPageTemplate title="Timetable" />
@@ -32,7 +28,6 @@ function Index() {
       <Timetable />
         <Footer />
       </div>
-      {/* </Container> */}
     </>
   );
 }

@@ -3,7 +3,6 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import LandingPageTemplate from "components/Headers/LandingPageTemplate.js";
 import Footer from "components/Footers/Footer.js";
 import SectionAboutUs from "./aboutUs-sections/SectionAboutUs.js";
-import Intro from "./aboutUs-sections/Introduction.js";
 
 function AboutUs() {
   document.documentElement.classList.remove("nav-open");
@@ -20,7 +19,6 @@ function AboutUs() {
       <LandingPageTemplate title="About Us" />
       <div className="main" style={{ backgroundColor: "floralwhite" }}>
         <SectionAboutUs />
-        <Intro />
         <Footer />
       </div>
     </>

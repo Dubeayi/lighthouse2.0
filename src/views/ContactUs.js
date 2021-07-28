@@ -6,9 +6,8 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import LandingPageTemplate from "components/Headers/LandingPageTemplate.js";
 import Footer from "components/Footers/Footer.js";
-import SectionContactUs from "./contactUs-sections/SectionContactUs.js";
-// import SocialMedia from "views/index-sections/SectionSocialMedia.js";
 import ContactForm from "./contactUs-sections/ContactForm.js";
+import Introduction from "./contactUs-sections/Introduction.js";
 
 // index sections
 
@@ -25,8 +24,9 @@ function Index() {
       <IndexNavbar />
       <LandingPageTemplate title="Contact Us" />
       <div className="main" style={{ backgroundColor: "floralwhite" }}>
+        <Introduction />
         <ContactForm />
-        <SectionContactUs />
+        {/* <SectionContactUs /> */}
         <Footer />
       </div>
     </>
