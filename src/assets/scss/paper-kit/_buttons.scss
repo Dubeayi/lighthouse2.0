@@ -76,7 +76,7 @@
 .btn-outline-success { @include btn-outline-styles($success-color, $success-states-color); }
 .btn-outline-info    { @include btn-outline-styles($info-color, $info-states-color); }
 .btn-outline-warning { @include btn-outline-styles($warning-color, $warning-states-color); }
-.btn-outline-danger  { @include btn-outline-styles($danger-color, $danger-states-color); }
+.btn-outline-danger  { @include btn-outline-styles(#655e4e, $danger-states-color); }
 .btn-outline-neutral { @include btn-outline-styles($white-color, $default-states-color);
     &:hover,
     &:focus,

@@ -4032,7 +4032,7 @@ License - nucleoapp.com/license/
   color: #EB5E28; }
 
 .footer {
-  background-color: #2d6b7c;
+  background-color: #bfa283;
   line-height: 36px;
   border-top: ridge;
   border-color: #efe9d9;
@@ -4801,31 +4801,36 @@ License - nucleoapp.com/license/
   background-color: #ffffff; }
  
 .section.section-dark.section-nucleo-icons.diamond-activity {
-    background-color: #2d6b7ca1;}
+    background-color: #bfa283;}
 
 
 /***section-activities**/ 
 .section.section-dark.section-nucleo-icons.diamond-activity {
-  background-color: #2d6b7c;
+  background-color: #bfa283;
 }
 .btn-schedule {
-  background-color: #bfa283 !important;
-  border-color: floralwhite !important;
+  background-color: #655e4e !important;
+  border-color: #ffffff !important;
 }
 .btn-schedule:hover {
-  background-color: floralwhite !important;
-  color: #bfa283 !important;
+  background-color: #ffffff !important;
+  color: #655e4e !important;
 }
 .btn-meal {
-  border-color: floralwhite !important;
-  color: floralwhite !important;
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+
 }
 .btn-meal:hover {
-  /* background-color: floralwhite !important; */
-  color: floralwhite !important;
-  border-color: floralwhite;
+  background-color: #655e4e !important;
+  color: #ffffff !important;
+  border-color: #ffffff;
+  
 }
-
+/* button.btn-round.btn.btn-outline-danger {
+  color: white;
+  background-color: #655e4e;
+  border-color: #655e4e;} */
 /******FAQ & Want to learn more section*****/
 .faq-brochure {
   padding: 45px 35px 35px 35px;
@@ -4833,8 +4838,8 @@ License - nucleoapp.com/license/
   border-top: 1px solid #66615b0f;}
 
 .faqbrochure-borderstyle{
-  border-top: 4px solid #2d6b7c;
-  border-bottom: 4px solid #2d6b7c;
+  border-top: 4px solid #bfa283;
+  border-bottom: 4px solid #bfa283;
   font-size: 1rem;
   line-height: 1.5rem;
   margin: 0 auto;
@@ -4842,7 +4847,7 @@ License - nucleoapp.com/license/
 
 /***Hours of operation****/
 .section.section-dark.hoursOfOperation {
-  background-color: #2d6b7c;
+  background-color: #bfa283;
 }
 
 /*****carousel******/
@@ -4958,7 +4963,7 @@ div#carousel {
 /*          Changes for small display      */
 @media (max-width: 767px) {
   .brochure-mobile-view {
-    border-top: 4px solid #2d6b7c;
+    border-top: 4px solid #bfa283;
     padding-top: 40px !important;}
     .section.javascript-components.faq-b {
       padding-bottom: 7em;
@@ -6592,7 +6597,7 @@ font-size: 3.8em;}
 .icon-wrapper {
   display: block;
   color: #efe9d9;
-  background-color: #2d6b7c;
+  background-color: #bfa283;
   text-align: center;
   margin: -40px auto 30px -57.5px;
   padding: 28px 10px;
