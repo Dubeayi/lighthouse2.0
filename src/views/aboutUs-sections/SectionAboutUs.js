@@ -6,13 +6,14 @@ const BottomSection = () => {
     <>
       <div
         // className="section"
-        style={{ backgroundColor: "floralwhite" }}
+        style={{ backgroundColor: "#FFFFFF" }}
       >
         <Container>
           <Row>
             <Col className="aboutUsBorder">
               <br />
               <h2 className="title center">OUR PHILOSOPHY</h2>
+              <br />
               <div className="bodyText">
                 <p>
                   <span style={{fontWeight: 600, textAlign: "center"}}>“The first step to change is awareness, the second step is acceptance”.</span>

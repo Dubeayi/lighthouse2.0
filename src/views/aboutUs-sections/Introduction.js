@@ -9,7 +9,7 @@ function Introduction() {
     <>
       <div
         className="mealBreakerText"
-        style={{ backgroundColor: "floralwhite" }}
+        style={{ backgroundColor: "#FFFFFF" }}
       >
         <Container>
             <div

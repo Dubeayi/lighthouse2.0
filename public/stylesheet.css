@@ -6983,6 +6983,10 @@ ul.hoursOfOper {
 }
 
 .mealBreakerText {
+  background-color: #ffffff;
+}
+
+.mealBreakerText {
   padding-top: 15px;
   padding-left: 1em;
   padding-bottom: 20px;
@@ -7028,10 +7032,10 @@ ul.hoursOfOper {
 }
 
 .aboutUsBorder {
-  border: ridge;
-  border-color: #655e4e;
+  /* border: ridge;
+  border-color: #655e4e; */
   margin-top: 52px;
-  background-color: #efe9d9;
+  /* background-color: #efe9d9; */
   margin-left: 4px;
 }
 
