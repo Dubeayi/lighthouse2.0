@@ -1,47 +1,47 @@
-const gulp = require("gulp");
-const gap = require("gulp-append-prepend");
+// const gulp = require("gulp");
+// const gap = require("gulp-append-prepend");
 
-gulp.task("licenses", async function () {
-  // this is to add Dubeayi's licenses in the production mode for the minified js
-  gulp
-    .src("build/static/js/*chunk.js", { base: "./" })
-    .pipe(
-      gap.prependText(`/*!
-=========================================================
+// gulp.task("licenses", async function () {
+//   // this is to add Dubeayi's licenses in the production mode for the minified js
+//   gulp
+//     .src("build/static/js/*chunk.js", { base: "./" })
+//     .pipe(
+//       gap.prependText(`/*!
+// =========================================================
 
-* Coded by Dubeayi Okorie
+// * Coded by Dubeayi Okorie
 
-=========================================================
-*/`)
-    )
-    .pipe(gulp.dest("./", { overwrite: true }));
+// =========================================================
+// */`)
+//     )
+//     .pipe(gulp.dest("./", { overwrite: true }));
 
-  // this is to add Dubeayi's licenses in the production mode for the minified html
-  gulp
-    .src("build/index.html", { base: "./" })
-    .pipe(
-      gap.prependText(`<!--
-=========================================================
+//   // this is to add Dubeayi's licenses in the production mode for the minified html
+//   gulp
+//     .src("build/index.html", { base: "./" })
+//     .pipe(
+//       gap.prependText(`<!--
+// =========================================================
 
-* Coded by Dubeayi Okorie
+// * Coded by Dubeayi Okorie
 
-=========================================================
--->`)
-    )
-    .pipe(gulp.dest("./", { overwrite: true }));
+// =========================================================
+// -->`)
+//     )
+//     .pipe(gulp.dest("./", { overwrite: true }));
 
-  // this is to add Dubeayi's licenses in the production mode for the minified css
-  gulp
-    .src("build/static/css/*chunk.css", { base: "./" })
-    .pipe(
-      gap.prependText(`/*!
-=========================================================
+//   // this is to add Dubeayi's licenses in the production mode for the minified css
+//   gulp
+//     .src("build/static/css/*chunk.css", { base: "./" })
+//     .pipe(
+//       gap.prependText(`/*!
+// =========================================================
 
-* Coded by Dubeayi Okorie
+// * Coded by Dubeayi Okorie
 
-=========================================================
-*/`)
-    )
-    .pipe(gulp.dest("./", { overwrite: true }));
-  return;
-});
+// =========================================================
+// */`)
+//     )
+//     .pipe(gulp.dest("./", { overwrite: true }));
+//   return;
+// });
