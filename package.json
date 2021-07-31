@@ -53,7 +53,7 @@
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8"
   },
-  "description": "This is a website created via React for a rehabilitation center in Lekki, Nigeria",
+  "description": "This is a React site for a drug and alcohol rehabilitation center in Lekki Island, West Africa",
   "main": "src/assets/scss/paper-kit.scss",
   "repository": {
     "type": "git",
