@@ -17,6 +17,7 @@ function SectionIntroduction() {
         className="section section-buttons lookingDown"
         style={{
           backgroundImage: `url(${village})`,
+          boxShadow: "5px 5px 10px rgba(0,0,0,0.5)"
         }}
       >
         <Container>

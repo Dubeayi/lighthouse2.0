@@ -4,8 +4,6 @@ import React from "react";
 import {
   Card,
   Container,
-  Row,
-  Col,
   Carousel,
   CarouselItem,
   CarouselIndicators,
@@ -13,11 +11,11 @@ import {
 } from "reactstrap";
 
 const items = [
-  {
-    src: require("assets/img/lekki.png").default,
-    altText: "Lighthouse Building",
-    caption: "Lighthouse Lekki",
-  },
+  // {
+  //   src: require("assets/img/lekki.png").default,
+  //   altText: "Lighthouse Building",
+  //   caption: "",
+  // },
   {
     src: require("assets/img/treatment.jpg").default,
     altText: "24/7 staff on site",
@@ -65,15 +63,14 @@ function SectionCarousel() {
   };
   return (
     <>
-      <div className="section pt-o" id="carousel">
-        <Container>
-          <Row>
-            <Col className="ml-auto mr-auto" md="8">
+      <div className="section pt-o" id="carousel" style={{backgroundColor: "#72540663", boxShadow: "box-shadow: -13px 6px 20px 11px rgb(204 197 185 / 50%)"}}>
+        <Container >
               <Card className="page-carousel">
                 <Carousel
                   activeIndex={activeIndex}
                   next={next}
                   previous={previous}
+                  loading="lazy"
                 >
                   <CarouselIndicators
                     items={items}
@@ -92,7 +89,6 @@ function SectionCarousel() {
                           captionText={item.caption}
                           captionHeader=""
                           className="carouselCaptionText"
-                          style={{fontWeight: 700}}
                         />
                       </CarouselItem>
                     );
@@ -125,8 +121,6 @@ function SectionCarousel() {
                   </a>
                 </Carousel>
               </Card>
-            </Col>
-          </Row>
         </Container>
       </div>{" "}
     </>

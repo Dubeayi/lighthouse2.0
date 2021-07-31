@@ -5,6 +5,8 @@ import { Container } from "reactstrap";
 import "aos/dist/aos.css";
 
 import Logo1 from 'assets/img/logo/logoLight.svg';
+import { Link } from "react-router-dom";
+
 
 function LandingPage(props) {
   return (
@@ -21,6 +23,7 @@ function LandingPage(props) {
         <div className="content-center">
 
           <Container>
+            <Link to="/home">
           <div
         className="title-brand templateLogo"
         style={{
@@ -28,6 +31,7 @@ function LandingPage(props) {
           `url(${Logo1})`,
         }}
         />
+        </Link>
             <div className="pageTitle">
           {props.title}
             </div>

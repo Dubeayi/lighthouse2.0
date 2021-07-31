@@ -201,6 +201,15 @@
     margin-bottom: 10px;
     justify-content: center;
 }
+.btn-long{
+    width: 25em;
+}
+@media (max-width: 767px) {
+    .btn-long{
+        width: 100%;
+    }
+}
+
 .btn.btn-link:focus{
     box-shadow: none !important;
     text-decoration: none;

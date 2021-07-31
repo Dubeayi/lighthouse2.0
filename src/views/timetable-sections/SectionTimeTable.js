@@ -35,15 +35,16 @@ export default function SectionTimetable() {
               </figure>
               <p style={{fontWeight: 400}}>Click to zoom</p>
               {/* Modal */}
-              <Modal isOpen={modalClicked} toggle={toggleModalClicked}>
-                <div>
+              <Modal isOpen={modalClicked} toggle={toggleModalClicked} style={{overflowx:"auto"}}>
+                <div className="testModal">
                   <Document
                     file={pdf}
                     options={{ workerSrc: "/pdf.worker.js" }}
                     onClick={toggleModalClicked}
                     alt="Pdf of daily activities"
+
                   >
-                    <Page pageNumber={1} />
+                    <Page pageNumber={1}/>
                   </Document>
                 </div>
               </Modal>

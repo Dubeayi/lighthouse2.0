@@ -10,6 +10,7 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
+import {Link} from "react-router-dom"
 
 function Footer() {
   return (
@@ -28,19 +29,21 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
-                  target="_blank"
+                   href="https://rehabs.com/addiction/the-rehabilitation-process/"
+                   target="https://rehabs.com/addiction/the-rehabilitation-process/"
                 >
                   Blog
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  target="_blank"
+                <Link to="aboutUs">
+                About Us
+                </Link>
+                {/* <a
+                  href="https://castlecraig.co.uk/blog"
                 >
-                  Licenses
-                </a>
+                  About Us
+                </a> */}
               </li>
             </ul>
           </nav>

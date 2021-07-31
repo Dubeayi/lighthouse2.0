@@ -13,7 +13,7 @@ function MidSection() {
         <Container>
           <Row>
             <h4>
-              Thus we take our client meals <span style={{fontWeight: 600}}> very seriously </span>
+              Thus we take our client meals <span style={{fontWeight: 500}}> very seriously </span>
             </h4>
           </Row>
         </Container>

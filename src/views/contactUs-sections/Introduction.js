@@ -24,7 +24,7 @@ function SectionIntroduction() {
                 />
                 </figure>
             </Col>
-            <Col lg="6" md="12" className="title1">
+            <Col lg="6" md="12" className="title1" style={{textAlign:"center"}}>
 
               <h2 className="contactUsHeader">Thanks for Reaching Out!</h2>
               <br />

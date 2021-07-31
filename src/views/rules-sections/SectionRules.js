@@ -7,20 +7,10 @@ const SectionRules = () => {
       <div
         className="section section-nucleo-icons"
         style={{ backgroundColor: "floralwhite" }}
-        // data-aos="fade-up"
       >
     <Container className="aboutUsBorder">
-      <h1 style={{fontSize: "2.6em"}}> SECURITY, RULES, EXPECTATIONS AND GUIDELINES</h1>
       <br />
-      <p style={{fontSize: "17px"}}>
-        The Centre will provide adequate security to ensure the safety of its
-        client from outside interference , while also preventing unauthorised
-        exit from the premises by clients, and ensuring a drug-free environment.
-        The facility is surrounded by a fence, with a security post. Visitors
-        are properly screened before being allowed into the facility. Searching
-        for dangerous drugs and items are randomly conducted and documented.
-      </p>
-      <h3>RULES, EXPECTATIONS AND GUIDELINES</h3>
+      <h3 className="center">RULES, EXPECTATIONS AND GUIDELINES</h3>
       <br />
       <ul style={{fontSize: "17px"}}>
         <li>

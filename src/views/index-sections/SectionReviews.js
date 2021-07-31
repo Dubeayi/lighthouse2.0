@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 
 // core components
 
-function SectionTypography() {
+function Reviews() {
   return (
     <>
       <Container className="tim-container">
@@ -22,7 +22,7 @@ function SectionTypography() {
                   src={require("assets/img/man1Blurred.jpg").default}
                   style={{height: "15em"}}
                 />
-                <p className="textLeft"><em>Deciding to go to Lighthouse for my weed addiction is probably the healthiest decision I could have made for my career. The staff were so encouraging! As soon as I entered, I knew I was in the right place</em></p>
+                <p className="textLeft"><em>Deciding to go to Lighthouse for my drug addiction is definitely the healthiest decision I could have made for my career. The staff were so encouraging! As soon as I entered, I knew I was in the right place</em></p>
               </Col>
               <Col className="mr-auto ml-auto ipad" style={{height: "fit-content"}}  md="2" sm="3">
                 <img
@@ -50,4 +50,4 @@ function SectionTypography() {
   );
 }
 
-export default SectionTypography;
+export default Reviews;

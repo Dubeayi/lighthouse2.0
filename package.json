@@ -1,5 +1,5 @@
 {
-  "name": "paper-kit-react",
+  "name": "lighthouse-lekki",
   "version": "1.3.0",
   "dependencies": {
     "@react-pdf/renderer": "^2.0.17",
@@ -66,19 +66,10 @@
     "react",
     "reactstrap",
     "reactjs",
-    "paper-kit",
-    "paper-kit-react",
-    "paper-kit-2",
-    "paper-kit2",
-    "paper-design",
     "hook",
     "hooks",
     "react-hook",
-    "react-hooks",
-    "template",
-    "theme",
-    "react-template",
-    "react-theme"
+    "react-hooks"
   ],
   "author": "Dubeayi Okorie",
   "license": "ISC"

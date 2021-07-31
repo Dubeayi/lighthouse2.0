@@ -39,11 +39,11 @@ function Index() {
         </div>
         <SectionIntroduction />
         <SectionThreeSteps />
+        <SectionCarousel />
         <SectionReviews />
         <SectionActivities />
-        <SectionFAQ />
-        <SectionCarousel />
         <SectionHoursOfOperation />
+        <SectionFAQ />
         <SectionBrochure />
         <Footer />
       </div>

@@ -14,7 +14,10 @@ function LandingPage() {
         style={{
           backgroundImage:
             "url(" + require("assets/img/ruben-hanssen-xrlerw3BaiQ-unsplash.jpg").default + ")",
+            // "url('https://i.ibb.co/ZcmvRR9/ruben-hanssen-xrlerw3-Bai-Q-unsplash.jpg')"
         }}
+        loading="lazy"
+
       >
         <div className="filter" />
         <div className="content-center">

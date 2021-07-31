@@ -17,6 +17,7 @@ import ScrollToTop from "views/ScrollToTop.js";
 import LighthouseRules from "views/LighthouseRules.js";
 import ContactUs from 'views/ContactUs.js';
 import ProhibitedItems from "views/prohibitedItems.js";
+import AboutSite from "views/AboutSite.js";
 
 ReactDOM.render(
   <BrowserRouter baseName>
@@ -56,6 +57,10 @@ ReactDOM.render(
         <Route
         path="/prohibited_items"
         render={(props) => <ProhibitedItems {...props} />}
+      />
+        <Route
+        path="/about_site"
+        render={(props) => <AboutSite {...props} />}
       />
       <Redirect to="/home" />
     </Switch>
