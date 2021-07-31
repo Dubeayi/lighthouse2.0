@@ -1,6 +1,7 @@
 {
   "name": "lighthouse-lekki",
   "version": "1.3.0",
+  "homepage": "./",
   "dependencies": {
     "@react-pdf/renderer": "^2.0.17",
     "aos": "^2.3.4",
