@@ -9,7 +9,7 @@ import "assets/scss/paper-kit.scss?v=1.3.0";
 // pages
 import Index from "views/Index.js";
 import Service from "views/service.js";
-import AboutUs from "views/AboutUs.js";
+import AboutUs from "views/aboutUs.js";
 import Timetable from "views/timetable.js";
 import ScheduleMeal from "views/ScheduleMeal.js";
 import ClientCharacteristics from "views/ClientCharacteristics.js";

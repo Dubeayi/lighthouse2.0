@@ -36,7 +36,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <Link to="aboutUs">
+                <Link to="/aboutUs">
                 About Us
                 </Link>
                 {/* <a
