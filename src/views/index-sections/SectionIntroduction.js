@@ -17,11 +17,12 @@ function SectionIntroduction() {
         className="section lookingDown"
         loading="lazy"
         style={{
-          backgroundImage: `url(${village})`,
+          // backgroundImage: `url(${village})`,
+          backgroundImage: `url(https://cdn3.photostockeditor.com/c/1405/-woman-in-white-and-yellow-stripe-shirt-carrying-girl-in-white-and-yellow-stripe-shirt---image.jpg)`,
           boxShadow: "5px 5px 10px rgba(0,0,0,0.5)"
         }}
       >
-        {/* <Container>
+        <Container>
           <div className="title" data-aos="fade-up">
             <h2 style={{ color: "#FFF", fontWeight: 400 }}>
               <span style={{ color: "#F5593D", fontWeight: 700 }}>You</span>{" "}
@@ -44,7 +45,7 @@ function SectionIntroduction() {
               it alone. You will smile again.
             </h2>
           </div>
-        </Container> */}
+        </Container>
       </div>
     </>
   );
