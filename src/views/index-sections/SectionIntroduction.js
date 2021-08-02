@@ -2,14 +2,14 @@ import React from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
-import Aos from "aos";
+// import Aos from "aos";
 import "aos/dist/aos.css";
 import village from "assets/img/hug1.jpg";
 
 function SectionIntroduction() {
-  React.useEffect(() => {
-    Aos.init({ duration: 2000 });
-  });
+  // React.useEffect(() => {
+  //   Aos.init({ duration: 2000 });
+  // });
 
   return (
     <>
