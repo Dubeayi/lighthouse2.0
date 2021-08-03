@@ -21,8 +21,8 @@ function Footer() {
             <ul>
               <li>
                 <a
-                  href="#"
-                  target="_blank"
+                  href="/about_site"
+                  target="/about_site"
                 >
                   About this site
                 </a>
