@@ -18,8 +18,9 @@ function SectionIntroduction() {
         loading="lazy"
         style={{
           // backgroundImage: `url(${village})`,
-          backgroundImage: `url(https://cdn3.photostockeditor.com/c/1405/-woman-in-white-and-yellow-stripe-shirt-carrying-girl-in-white-and-yellow-stripe-shirt---image.jpg)`,
+          backgroundImage: `url(https://i.ibb.co/whS3XT0/hug1.jpg)`,
           boxShadow: "5px 5px 10px rgba(0,0,0,0.5)"
+
         }}
       >
         <Container>
