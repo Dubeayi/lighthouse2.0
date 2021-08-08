@@ -13,7 +13,6 @@ import {
   UncontrolledPopover,
 } from "reactstrap";
 
-import { Link } from "react-router-dom";
 
 function SectionFAQ() {
   const [location, setLocation] = React.useState(false);
@@ -270,7 +269,18 @@ function SectionFAQ() {
                 <div className="modal-body">
                   <h5>
                     You cannot put a price on Freedom. Your health is our priority, and we will help you become the best version of you. <br /> <br />
-                    For pricing details, please call us for more info
+                    For pricing details, please
+                    <a
+                      onClick={togglePricing}
+                      href="/contact_us"
+                      style={{
+                        fontWeight: "400",
+                        color: "F5593D"
+                      }}
+                    >
+                      &nbsp;contact us
+                      </a>
+                      &nbsp;for more info
                   </h5>
                 </div>
               </Modal>
@@ -316,7 +326,7 @@ function SectionFAQ() {
                         color: "F5593D"
                       }}
                     >
-                      &nbsp; Meals
+                      &nbsp;Meals
                       </a>
                       &nbsp;page
                   </h5>
@@ -357,15 +367,16 @@ function SectionFAQ() {
                 <div className="modal-body">
                   <h5>Lighthouse offers rehabilitation for anyone with a dependency problem <br />
                       For more information, check out our
-                      <Link to="/client_char"
+                      <a
                       onClick={toggleClientCharacteristics}
+                      href="/client_char"
                       style={{
                         fontWeight: "400",
                         color: "F5593D"
                       }}
                     >
                       &nbsp;Client Characteristics page
-                      </Link>
+                      </a>
                   </h5>
                 </div>
               </Modal>

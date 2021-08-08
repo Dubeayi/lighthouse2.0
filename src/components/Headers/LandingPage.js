@@ -15,12 +15,13 @@ function LandingPage() {
           backgroundImage:
             "url(" + require("assets/img/ruben-hanssen-xrlerw3BaiQ-unsplash.jpg").default + ")",
             // "url('https://i.ibb.co/ZcmvRR9/ruben-hanssen-xrlerw3-Bai-Q-unsplash.jpg')"
+            flexDirection: "column"
         }}
         loading="lazy"
 
       >
         <div className="filter" />
-        <div className="content-center">
+        <div className="content-center" style={{marginTop: "11em !important"}}>
 
           <Container>
           <div
@@ -52,7 +53,16 @@ function LandingPage() {
             The first step to change is awareness, the second step is acceptance
             </h2>
           </Container>
+
         </div>
+        <div className="center phone">
+            <a
+          href="tel:09098846237"
+          className="phoneNumber"
+          >
+            <Headset style={{fontSize:"1.8em"}} /> 09098846237
+          </a>
+          </div>
         <div
           className="moving-clouds"
           style={{
@@ -60,12 +70,12 @@ function LandingPage() {
               "url(" + require("assets/img/clouds.png").default + ")",
           }}
         />
-          <a
+          {/* <a
           href="tel:09098846237"
           className="category category-absolute"
           >
             <Headset style={{fontSize:"1.8em"}} /> 09098846237
-          </a>
+          </a> */}
       </div>
     </>
   );

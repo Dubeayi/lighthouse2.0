@@ -1,11 +1,5 @@
 import React from "react";
-import {
-//   Button,
-
-  NavItem,
-  NavLink,
-
-} from "reactstrap";
+import { NavItem, NavLink } from "reactstrap";
 
 const SectionSocialMedia = () => {
   return (

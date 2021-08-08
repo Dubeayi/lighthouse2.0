@@ -636,7 +636,11 @@
 
 }
 
-
+@media (max-width: 900px) {
+    .navbar-nav {
+        overflow: auto;
+    }
+}
 
 @media screen and (min-width:991px){
     .burger-menu{
