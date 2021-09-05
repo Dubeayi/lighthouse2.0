@@ -4,7 +4,7 @@ import React from "react";
 import { Container } from "reactstrap";
 import "aos/dist/aos.css";
 
-import Logo1 from 'assets/img/logo/logoLight.svg';
+import Logo1 from 'assets/img/logo/logoLight7.svg';
 import { Link } from "react-router-dom";
 
 

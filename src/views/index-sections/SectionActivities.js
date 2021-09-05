@@ -32,7 +32,6 @@ function SectionActivities() {
               <Button
                 className="btn-round ml-1"
                 color="danger"
-                // href="https://nucleoapp.com/?ref=1712"
                 outline
                 target="_blank"
               >

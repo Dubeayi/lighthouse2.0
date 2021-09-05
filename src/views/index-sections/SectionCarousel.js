@@ -11,11 +11,16 @@ import {
 } from "reactstrap";
 
 const items = [
-  // {
-  //   src: require("assets/img/lekki.png").default,
-  //   altText: "Lighthouse Building",
-  //   caption: "",
-  // },
+  {
+    src: require("assets/img/front.jpeg").default,
+    altText: "Lighthouse Home",
+    caption: "Welcome to Lighthouse Lekki",
+  },
+  {
+    src: require("assets/img/building.jpeg").default,
+    altText: "Lighthouse Building",
+    caption: "A home away from home",
+  },
   {
     src: require("assets/img/treatment.jpg").default,
     altText: "24/7 staff on site",
@@ -30,11 +35,6 @@ const items = [
     src: require("assets/img/bed.png").default,
     altText: "With high quality facilities",
     caption: "With high quality facilities",
-  },
-  {
-    src: require("assets/img/gym.jpg").default,
-    altText: "Physical health is just as important as mental health",
-    caption: "Physical health is just as important as mental health",
   },
 ];
 

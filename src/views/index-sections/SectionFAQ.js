@@ -366,17 +366,6 @@ function SectionFAQ() {
                 </div>
                 <div className="modal-body">
                   <h5>Lighthouse offers rehabilitation for anyone with a dependency problem <br />
-                      For more information, check out our
-                      <a
-                      onClick={toggleClientCharacteristics}
-                      href="/client_char"
-                      style={{
-                        fontWeight: "400",
-                        color: "F5593D"
-                      }}
-                    >
-                      &nbsp;Client Characteristics page
-                      </a>
                   </h5>
                 </div>
               </Modal>

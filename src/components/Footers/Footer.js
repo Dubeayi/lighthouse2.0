@@ -52,32 +52,32 @@ function Footer() {
 
               <NavLink
                 data-placement="bottom"
-                href="#"
-                target="_blank"
+                href="https://twitter.com/lighthouselekki"
+                target="https://twitter.com/lighthouselekki"
                 title="Follow us on Twitter"
               >
                 <i className="fa fa-twitter" />
               </NavLink>
               <NavLink
                 data-placement="bottom"
-                href="#"
-                target="_blank"
+                href="https://web.facebook.com/profile.php?id=100070266453006"
+                target="https://web.facebook.com/profile.php?id=100070266453006"
                 title="Like us on Facebook"
               >
                 <i className="fa fa-facebook-square" />
               </NavLink>
               <NavLink
                 data-placement="bottom"
-                href="#"
-                target="_blank"
+                href="https://www.instagram.com/lighthouselekki/"
+                target="https://www.instagram.com/lighthouselekki/"
                 title="Follow us on Instagram"
               >
                 <i className="fa fa-instagram" />
               </NavLink>
               <NavLink
                 data-placement="bottom"
-                href="#"
-                target="_blank"
+                href="https://www.linkedin.com/in/lighthouselekki"
+                target="https://www.linkedin.com/in/lighthouselekki"
                 title="Follow us on Linkedin"
               >
                 <i className="fa fa-linkedin" />

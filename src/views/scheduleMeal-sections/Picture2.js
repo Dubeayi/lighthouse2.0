@@ -2,7 +2,7 @@ import React from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
-import image from 'assets/img/nijaFood.jpg';
+import image from 'assets/img/meal.jpg';
 
 // core components
 

@@ -4,7 +4,7 @@ import React from "react";
 import { Container } from "reactstrap";
 
 import { Headset } from 'react-bootstrap-icons';
-import Logo1 from 'assets/img/logo/logoLight.svg';
+import Logo1 from 'assets/img/logo/logoLight7.svg';
 
 function LandingPage() {
   return (
@@ -13,7 +13,7 @@ function LandingPage() {
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/ruben-hanssen-xrlerw3BaiQ-unsplash.jpg").default + ")",
+            "url(" + require("assets/img/ruben-hanssen-xrlerw3BaiQ-unsplash.png").default + ")",
             // "url('https://i.ibb.co/ZcmvRR9/ruben-hanssen-xrlerw3-Bai-Q-unsplash.jpg')"
             flexDirection: "column"
         }}

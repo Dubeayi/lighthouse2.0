@@ -16,16 +16,18 @@ function SectionActivities() {
         <Container>
           <Row>
             <Col lg="6" md="12" className="title1">
-              <h2 className="title">Compulsory Activities</h2>
+              <h2 className="title">Leadership & Professional Training</h2>
               <br />
               <div className="bodyText">
                 Some of Lighthouse Lekki's compulsory activities include, but are not limited to:
               <ul className="activities">
                 <br />
-                  <li>Therapy groups</li>
-                  <li>Counselling sessions</li>
-                  <li>Devotional /praise and prayer time/ Discipleship training</li>
-                  <li>Recreational and fitness activities</li>
+                  <li>Coupleship program</li>
+                  <li>Occupational Therapy</li>
+                  <li>Leadership / business coaching</li>
+                  <li>Healing Trauma Program</li>
+                  <li>Health sexuality and intimacy program</li>
+                  <li>Life coaching</li>
                 </ul>
               </div>
               <br />

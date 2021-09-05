@@ -9,6 +9,7 @@ import Footer from "components/Footers/Footer.js";
 
 import Introduction from "./scheduleMeal-sections/Introduction.js";
 import Picture from "./scheduleMeal-sections/Picture.js";
+import Picture2 from "./scheduleMeal-sections/Picture2.js";
 import MidSection from "./scheduleMeal-sections/MidSection.js";
 import BottomSection from "./scheduleMeal-sections/BottomSection.js";
 
@@ -33,7 +34,7 @@ function Index() {
       <Introduction />
       <Picture />
       <MidSection />
-      <Picture />
+      <Picture2 />
       <BottomSection />
         <Footer />
       </div>
