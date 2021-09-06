@@ -19,7 +19,7 @@ function SectionHoursOfOperation() {
                 Wednesday: 9 a.m. – 6 p.m.<br />
                 Thursday: 9 a.m. – 6 p.m.<br />
                 Friday: 9 a.m. – 6 p.m.<br />
-                Saturday: closed<br />
+                Saturday: 9 a.m. - 12 p.m.<br />
                 Sunday: closed<br />
                 <br />
               </p>
