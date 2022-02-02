@@ -87,7 +87,7 @@ function Footer() {
           <div className="credits ml-auto">
             <span className="copyright">
               © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Dubeayi Okorie
+              <i className="fa fa-heart heart" /> by Lighthouse Lekki
             </span>
           </div>
         </Row>

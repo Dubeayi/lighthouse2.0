@@ -102,15 +102,15 @@ function SectionFAQ() {
                 <div className="modal-body">
                   <h5>We are located in Lekki phase 1, opposite GTB.
 
-                    Click this &nbsp;
+                    Click &nbsp;
                     <a
                     href="https://goo.gl/maps/tGLrPzC6rPo7DgUPA"
                     target="https://goo.gl/maps/tGLrPzC6rPo7DgUPA"
                     style={{fontWeight: 600}}
                     >
-                    link
+                    here
                     </a>
-                    &nbsp; for our exact location
+                    &nbsp; to see our exact location
                   </h5>
                 </div>
                 <div className="modal-footer">
@@ -320,7 +320,7 @@ function SectionFAQ() {
                   <h5>At Lighthouse Lekki, we believe that a healthy body is essential to a healthy mind, and feed our clients 3 square meals per day. For more information, please visit our
                       <a
                       onClick={toggleFood}
-                      href="/prohibited_items"
+                      href="/meal_plan"
                       style={{
                         fontWeight: "400",
                         color: "F5593D"

@@ -6848,20 +6848,16 @@ ul.activities {
   margin-bottom: 41px;
 }
 
-.carouselCaptionText {
-  font-weight: 700 !important;
+.carouselCaptionText p {
   font-size: 18px;
   line-height: 1.5em;
   margin-bottom: 5px;
   border-radius: 3%;
-  /* background: #f559; */
   background: #45463bb8;
   text-transform: capitalize;
+  font-weight: 400;
 }
 
-.carouselCaptionText h2 h3 {
-  font-weight: 700;
-}
 
 @media (max-width: 500px) {
   .reviews {

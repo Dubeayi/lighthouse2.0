@@ -8,6 +8,7 @@
     "bootstrap": "4.6.0",
     "classnames": "2.2.6",
     "emailjs-com": "^3.2.0",
+    "img-optimize-loader": "^1.0.7",
     "moment": "2.29.1",
     "node-sass": "5.0.0",
     "nouislider": "14.6.4",
@@ -19,7 +20,8 @@
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.3",
-    "reactstrap": "8.9.0"
+    "reactstrap": "8.9.0",
+    "webp-converter": "^2.3.3"
   },
   "scripts": {
     "start": "react-scripts start",

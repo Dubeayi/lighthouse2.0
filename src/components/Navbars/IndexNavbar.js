@@ -65,7 +65,7 @@ function IndexNavbar() {
           <NavbarBrand
             data-placement="bottom"
             href="/index"
-            title="Coded by Dubeayi O"
+            title="Return to Homepage"
             className={classnames(lighthouseLogo)}
             style={{
               backgroundImage: `url(${LogoDark})`,

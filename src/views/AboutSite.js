@@ -26,7 +26,7 @@ function AboutSite() {
                 <div className="card-body">
                   <div className="d-flex flex-column align-items-center text-center">
                     <img
-                      src="https://media-exp1.licdn.com/dms/image/C4E03AQFXi2gV22Duzw/profile-displayphoto-shrink_200_200/0/1516951307374?e=1632960000&v=beta&t=C6tXvgBgYANxa5Jn77IfbyUtkepyb7CQwTI53yu87rQ"
+                      src="https://lighthouselekki.s3.us-east-2.amazonaws.com/20211222_161005.jpg"
                       alt="Admin"
                       className="rounded-circle"
                       width="150"
@@ -39,10 +39,19 @@ function AboutSite() {
                       <p className="text-muted font-size-sm">
                         Northridge, Los Angeles, CA
                       </p>
-                      <button className="btn btn-primary">Follow</button>
-                      <button className="btn btn-outline-primary">
+                      <a
+                        className="btn btn-primary"
+                        target="https:linkedin.com/in/dubeayi"
+                        href="https:linkedin.com/in/dubeayi"
+
+                      >Follow
+                      </a>
+                      <a
+                        className="btn btn-outline-primary"
+                        href="mailto:dubeayi@gmail.com"
+                      >
                         Message
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -370,13 +379,13 @@ function AboutSite() {
                   <a
                     target="https://www.linkedin.com/in/anarchalk"
                     href="https://www.linkedin.com/in/anarchalk"
-                  ><span className="contributor" style={{color:"#0a66c2", fontWeight:"bold"}}>LinkedIn</span> </a>{" "}
+                  ><span className="contributor" style={{ color: "#0a66c2", fontWeight: "bold" }}>LinkedIn</span> </a>{" "}
                   || {""}
                   <a
                     target="https://github.com/Anarchalk"
                     href="https://github.com/Anarchalk"
                   >
-                   <span className="contributor" style={{color:"#000", fontWeight:"bold"}}> Github</span>
+                    <span className="contributor" style={{ color: "#000", fontWeight: "bold" }}> Github</span>
                   </a>
                 </div>
               </div>

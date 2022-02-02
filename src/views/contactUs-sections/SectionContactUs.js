@@ -25,7 +25,7 @@ function SectionContactUs() {
                   5B Tokunbo Omisore Street
                   <br />
                   Lekki Phase 1,{''}Lekki Lagos. <br />
-                 Phone: 09098846237
+                 Phone: +234 9048434776
                 </address>
                 <br />
               </div>
