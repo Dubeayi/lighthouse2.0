@@ -2,22 +2,25 @@ import React from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
-import Aos from "aos";
+// import Aos from "aos";
 import "aos/dist/aos.css";
-import village from "assets/img/hug1.jpg";
+// import village from "assets/img/hug1.jpg";
 
 function SectionIntroduction() {
-  React.useEffect(() => {
-    Aos.init({ duration: 2000 });
-  });
+  // React.useEffect(() => {
+  //   Aos.init({ duration: 2000 });
+  // });
 
   return (
     <>
       <div
-        className="section section-buttons lookingDown"
+        className="section lookingDown"
+        loading="lazy"
         style={{
-          backgroundImage: `url(${village})`,
+          // backgroundImage: `url(${village})`,
+          backgroundImage: `url(https://i.ibb.co/whS3XT0/hug1.jpg)`,
           boxShadow: "5px 5px 10px rgba(0,0,0,0.5)"
+
         }}
       >
         <Container>
@@ -42,9 +45,6 @@ function SectionIntroduction() {
               here to support you on this journey, so that you don’t have to do
               it alone. You will smile again.
             </h2>
-            {/* <h5 className="textBody">
-              Our purpose is to restore the dignity and vision back into the lives of individuals, one mind
-              at a time. */}
           </div>
         </Container>
       </div>

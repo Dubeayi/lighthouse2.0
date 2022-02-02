@@ -9,32 +9,37 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from "reactstrap";
+import home from 'assets/img/front.jpeg';
+import building from 'assets/img/building.jpeg';
+import staff from 'assets/img/treatment.jpg';
+import garden from 'assets/img/garden.png';
+import bed from 'assets/img/bed.png';
 
 const items = [
-  // {
-  //   src: require("assets/img/lekki.png").default,
-  //   altText: "Lighthouse Building",
-  //   caption: "",
-  // },
   {
-    src: require("assets/img/treatment.jpg").default,
+    src: home,
+    altText: "Lighthouse Home",
+    caption: "Welcome to Lighthouse Lekki",
+  },
+  {
+    src: building,
+    altText: "Lighthouse Building",
+    caption: "A home away from home",
+  },
+  {
+    src: staff,
     altText: "24/7 staff on site",
     caption: "Has 24/7 staff on site",
   },
   {
-    src: require("assets/img/garden.png").default,
+    src: garden,
     altText: "Together we can work to help you see the world differently",
     caption: "Together we can work to help you see the world differently",
   },
   {
-    src: require("assets/img/bed.png").default,
+    src: bed,
     altText: "With high quality facilities",
     caption: "With high quality facilities",
-  },
-  {
-    src: require("assets/img/gym.jpg").default,
-    altText: "Physical health is just as important as mental health",
-    caption: "Physical health is just as important as mental health",
   },
 ];
 
@@ -83,6 +88,7 @@ function SectionCarousel() {
                         onExiting={onExiting}
                         onExited={onExited}
                         key={item.src}
+                        loading="lazy"
                       >
                         <img src={item.src} alt={item.altText} />
                         <CarouselCaption

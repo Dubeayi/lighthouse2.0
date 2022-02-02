@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { Document, Page } from 'react-pdf';
-import { Modal, Container } from "reactstrap";
-import pdf from "./dailytimetable.pdf";
+import { Modal, Container, Button } from "reactstrap";
 import image from 'assets/img/pdf.png';
 
 export default function SectionTimetable() {
@@ -9,7 +7,6 @@ export default function SectionTimetable() {
 
   const toggleModalClicked = () => {
     setModalClicked(!modalClicked);
-    // document.documentElement.classList.toggle("nav-open");
   };
   return (
     <div className="section section-nucleo-icons"
@@ -27,25 +24,28 @@ export default function SectionTimetable() {
         <div className="centeredRow">
               <figure>
                 <img
-                  alt="..."
+                  alt="dailyTimeTable"
                   src={(image)}
                   onClick={toggleModalClicked}
                   className="pdfTings"
                 />
               </figure>
-              <p style={{fontWeight: 400}}>Click to zoom</p>
+              <div style={{paddingBottom: "25px"}}>
+              <Button className="btn-round" color="info" href='dailytimetable.pdf' download>
+                <i aria-hidden={true} className="nc-icon nc-spaceship" />{" "}
+                Download Daily Timetable
+              </Button>
+              </div>
               {/* Modal */}
               <Modal isOpen={modalClicked} toggle={toggleModalClicked} style={{overflowx:"auto"}}>
                 <div className="testModal">
-                  <Document
-                    file={pdf}
-                    options={{ workerSrc: "/pdf.worker.js" }}
-                    onClick={toggleModalClicked}
+                  <figure>
+                  <img
                     alt="Pdf of daily activities"
-
-                  >
-                    <Page pageNumber={1}/>
-                  </Document>
+                    src={(image)}
+                    onClick={toggleModalClicked}
+                  />
+                  </figure>
                 </div>
               </Modal>
         </div>

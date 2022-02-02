@@ -13,7 +13,6 @@ import {
   UncontrolledPopover,
 } from "reactstrap";
 
-import { Link } from "react-router-dom";
 
 function SectionFAQ() {
   const [location, setLocation] = React.useState(false);
@@ -103,15 +102,15 @@ function SectionFAQ() {
                 <div className="modal-body">
                   <h5>We are located in Lekki phase 1, opposite GTB.
 
-                    Click this &nbsp;
+                    Click &nbsp;
                     <a
                     href="https://goo.gl/maps/tGLrPzC6rPo7DgUPA"
                     target="https://goo.gl/maps/tGLrPzC6rPo7DgUPA"
                     style={{fontWeight: 600}}
                     >
-                    link
+                    here
                     </a>
-                    &nbsp; for our exact location
+                    &nbsp; to see our exact location
                   </h5>
                 </div>
                 <div className="modal-footer">
@@ -270,7 +269,18 @@ function SectionFAQ() {
                 <div className="modal-body">
                   <h5>
                     You cannot put a price on Freedom. Your health is our priority, and we will help you become the best version of you. <br /> <br />
-                    For pricing details, please call us for more info
+                    For pricing details, please
+                    <a
+                      onClick={togglePricing}
+                      href="/contact_us"
+                      style={{
+                        fontWeight: "400",
+                        color: "F5593D"
+                      }}
+                    >
+                      &nbsp;contact us
+                      </a>
+                      &nbsp;for more info
                   </h5>
                 </div>
               </Modal>
@@ -310,13 +320,13 @@ function SectionFAQ() {
                   <h5>At Lighthouse Lekki, we believe that a healthy body is essential to a healthy mind, and feed our clients 3 square meals per day. For more information, please visit our
                       <a
                       onClick={toggleFood}
-                      href="/prohibited_items"
+                      href="/meal_plan"
                       style={{
                         fontWeight: "400",
                         color: "F5593D"
                       }}
                     >
-                      &nbsp; Meals
+                      &nbsp;Meals
                       </a>
                       &nbsp;page
                   </h5>
@@ -356,16 +366,6 @@ function SectionFAQ() {
                 </div>
                 <div className="modal-body">
                   <h5>Lighthouse offers rehabilitation for anyone with a dependency problem <br />
-                      For more information, check out our
-                      <Link to="/client_char"
-                      onClick={toggleClientCharacteristics}
-                      style={{
-                        fontWeight: "400",
-                        color: "F5593D"
-                      }}
-                    >
-                      &nbsp;Client Characteristics page
-                      </Link>
                   </h5>
                 </div>
               </Modal>

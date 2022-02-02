@@ -21,8 +21,8 @@ function Footer() {
             <ul>
               <li>
                 <a
-                  href="#"
-                  target="_blank"
+                  href="/about_site"
+                  target="/about_site"
                 >
                   About this site
                 </a>
@@ -52,32 +52,32 @@ function Footer() {
 
               <NavLink
                 data-placement="bottom"
-                href="#"
-                target="_blank"
+                href="https://twitter.com/lighthouselekki"
+                target="https://twitter.com/lighthouselekki"
                 title="Follow us on Twitter"
               >
                 <i className="fa fa-twitter" />
               </NavLink>
               <NavLink
                 data-placement="bottom"
-                href="#"
-                target="_blank"
+                href="https://web.facebook.com/profile.php?id=100070266453006"
+                target="https://web.facebook.com/profile.php?id=100070266453006"
                 title="Like us on Facebook"
               >
                 <i className="fa fa-facebook-square" />
               </NavLink>
               <NavLink
                 data-placement="bottom"
-                href="#"
-                target="_blank"
+                href="https://www.instagram.com/lighthouselekki/"
+                target="https://www.instagram.com/lighthouselekki/"
                 title="Follow us on Instagram"
               >
                 <i className="fa fa-instagram" />
               </NavLink>
               <NavLink
                 data-placement="bottom"
-                href="#"
-                target="_blank"
+                href="https://www.linkedin.com/in/lighthouselekki"
+                target="https://www.linkedin.com/in/lighthouselekki"
                 title="Follow us on Linkedin"
               >
                 <i className="fa fa-linkedin" />
@@ -87,7 +87,7 @@ function Footer() {
           <div className="credits ml-auto">
             <span className="copyright">
               © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Dubeayi Okorie
+              <i className="fa fa-heart heart" /> by Lighthouse Lekki
             </span>
           </div>
         </Row>

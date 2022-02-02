@@ -777,7 +777,7 @@
   -ms-transition: all 150ms linear;
   transition: all 150ms linear; }
   .btn.btn-border, .btn.btn-link {
-    background-color: transparent; }
+    background-color: transparent !important;  }
   .btn:hover, .btn:focus, .btn:active, .btn.active, .btn:active:focus, .btn:active:hover, .btn.active:focus, .btn:not(:disabled):not(.disabled):active:focus, .btn:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled).active:focus,
   .show > .btn.dropdown-toggle {
     background-color: #403D39;
@@ -976,14 +976,14 @@
     border-top-color: #FFFFFF; }
 
 .btn-danger {
-  background-color: #f5593d;
-  border-color: #f5593d;
+  background-color: #ee2d35 !important;
+  border-color: #f44336;
   color: #FFFFFF;
   opacity: 1;
   filter: alpha(opacity=100); }
   .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .btn-danger:active:focus, .btn-danger:active:hover, .btn-danger.active:focus, .btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active, .btn-danger:not(:disabled):not(.disabled).active:focus,
   .show > .btn-danger.dropdown-toggle {
-    background-color: #f33816;
+    background-color: #b71c1c !important;
     color: #FFFFFF;
     border-color: #f33816;
     box-shadow: none; }
@@ -996,14 +996,14 @@
   fieldset[disabled] .btn-danger.focus,
   fieldset[disabled] .btn-danger:active,
   fieldset[disabled] .btn-danger.active {
-    background-color: #f33816;
+    background-color: #ee2d35;
     border-color: #f33816; }
   .btn-danger.btn-link {
-    color: #f5593d; }
+    color: #ee2d35 !important; }
     .btn-danger.btn-link:hover, .btn-danger.btn-link:focus, .btn-danger.btn-link:active, .btn-danger.btn-link.active, .btn-danger.btn-link:focus:active,
     .open > .btn-danger.btn-link.dropdown-toggle {
       background-color: transparent !important;
-      color: #f33816 !important; }
+      color: #ee2d35!important; }
     .btn-danger.btn-link .caret {
       border-top-color: #f5593d; }
   .btn-danger .caret {
@@ -1169,14 +1169,14 @@
     border-color: #fbc658; }
 
 .btn-outline-danger {
-  border-color: #f5593d;
-  color: #f5593d;
+  border-color: #ee2d35 !important;
+  color: #ee2d35 !important;
   opacity: 1;
   filter: alpha(opacity=100); }
   .btn-outline-danger:hover, .btn-outline-danger:focus, .btn-outline-danger:active, .btn-outline-danger.active, .btn-outline-danger:active:focus, .btn-outline-danger:active:hover, .btn-outline-danger.active:focus,
   .show > .btn-outline-danger.dropdown-toggle {
-    background-color: #f5593d !important;
-    color: rgba(255, 255, 255, 0.8);
+    background-color: #ee2d35 !important;
+    color: rgba(255, 255, 255, 0.8) !important;
     border-color: #f5593d !important; }
     .btn-outline-danger:hover .caret, .btn-outline-danger:focus .caret, .btn-outline-danger:active .caret, .btn-outline-danger.active .caret, .btn-outline-danger:active:focus .caret, .btn-outline-danger:active:hover .caret, .btn-outline-danger.active:focus .caret,
     .show > .btn-outline-danger.dropdown-toggle .caret {
@@ -4679,7 +4679,7 @@ License - nucleoapp.com/license/
   margin-top: 10px; }
 
 .title-brand {
-  max-width: 730px;
+  max-width: 830px;
   margin: 0 auto;
   position: relative;
   text-align: center;
@@ -6672,7 +6672,7 @@ td.rdtYear:hover {
   .homePageLogo {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 16em;
+    background-size: 12em;
     font-size: 2.3em !important;
     height: 6em;
     width: 100%;
@@ -6848,20 +6848,16 @@ ul.activities {
   margin-bottom: 41px;
 }
 
-.carouselCaptionText {
-  font-weight: 700 !important;
+.carouselCaptionText p {
   font-size: 18px;
   line-height: 1.5em;
   margin-bottom: 5px;
   border-radius: 3%;
-  /* background: #f559; */
   background: #45463bb8;
   text-transform: capitalize;
+  font-weight: 400;
 }
 
-.carouselCaptionText h2 h3 {
-  font-weight: 700;
-}
 
 @media (max-width: 500px) {
   .reviews {
@@ -6931,9 +6927,10 @@ ul.hoursOfOper {
   height: 26em;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   z-index: 0;
   width: 100%;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   margin-top: -53px;
 }
 
@@ -7036,6 +7033,7 @@ ul.hoursOfOper {
 .pdfTings {
   width: 39em;
   cursor: zoom-in;
+  padding-bottom: 15px;
 }
 
 @media (max-width: 768px) {
@@ -7184,7 +7182,26 @@ ul.hoursOfOper {
   }
 }
 
-/* border-bottom: ridge;
-    border-color: #efe9d9;
-     */
-/*# sourceMappingURL=paper-kit.css.map */
+.phoneNumber {
+  z-index: 1;
+  padding: 0 15px;
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+}
+.phone {
+  z-index: 7;
+  padding-bottom: 2em;
+  padding-top: 8em;
+}
+.phoneNumber:hover {
+  color: #ee2d35 !important; }
+
+  @media (max-width: 380) {
+    .phone {
+      padding-bottom: 8em;
+    }
+  }
+
+/*# sourceMappingURL=stylesheet.css.map */

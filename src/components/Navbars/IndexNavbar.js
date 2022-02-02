@@ -1,7 +1,8 @@
 import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
-import LogoDark from "assets/img/logo/logoDark.svg";
+// import LogoDark from "assets/img/logo/logoDark.svg";
+import LogoDark from "assets/img/logo/logoMain2.png";
 import SocialMedia from "views/index-sections/SectionSocialMedia.js";
 // reactstrap components
 import {
@@ -64,7 +65,7 @@ function IndexNavbar() {
           <NavbarBrand
             data-placement="bottom"
             href="/index"
-            title="Coded by Dubeayi O"
+            title="Return to Homepage"
             className={classnames(lighthouseLogo)}
             style={{
               backgroundImage: `url(${LogoDark})`,
@@ -128,9 +129,6 @@ function IndexNavbar() {
                 <DropdownItem header tag="span">
                   Clients
                 </DropdownItem>
-                <Link to="/client_char" style={{ color: "black" }}>
-                  <DropdownItem>Who We Accept</DropdownItem>
-                </Link>
                 <Link to="/meal_plan" style={{ color: "black" }}>
                   <DropdownItem>Meal Plan</DropdownItem>
                 </Link>
