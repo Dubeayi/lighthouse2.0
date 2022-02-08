@@ -13,7 +13,7 @@ function SectionActivities() {
         className="section section-nucleo-icons"
         style={{ backgroundColor: "floralwhite" }}
       >
-        <Container>
+        <Container data-aos="fade-zoom-in">
           <Row>
             <Col lg="6" md="12" className="title1">
               <h2 className="title">Leadership & Professional Training</h2>

@@ -18,7 +18,14 @@ function Reviews() {
               <h3 style={{textAlign: "center", paddingBottom: "15px"}}>Client Reviews</h3>
             </div>
             <Row style={{marginBottom: "11em"}}>
-              <Col className="mr-auto ml-auto ipad" style={{height: "fit-content"}} md="2" sm="3">
+              <Col
+              className="mr-auto ml-auto ipad"
+              style={{height: "fit-content"}}
+              md="2"
+              sm="3"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              >
                 <img
                   alt="..."
                   className="img-circle img-no-padding img-responsive"
@@ -27,7 +34,14 @@ function Reviews() {
                 />
                 <p className="textLeft"><em>Deciding to go to Lighthouse for my drug addiction is definitely the healthiest decision I could have made for my career. The staff were so encouraging! As soon as I entered, I knew I was in the right place</em></p>
               </Col>
-              <Col className="mr-auto ml-auto ipad" style={{height: "fit-content"}}  md="2" sm="3">
+              <Col
+              className="mr-auto ml-auto ipad"
+              style={{height: "fit-content"}}
+              md="2"
+              sm="3"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              >
                 <img
                   alt="..."
                   className="img-circle img-no-padding img-responsive"
@@ -36,7 +50,14 @@ function Reviews() {
                 />
                 <p className="textLeft"><em>I initially didn't want to go to Lighthouse, but was forced by my family. And boy was it the best decision for me! I didn't realize it then, but I was on a crash course to destruction. I knew I needed help, and always going to be grateful to Olawale for believing in me when I didn't believe in myself!</em></p>
               </Col>
-              <Col className="mr-auto ml-auto ipad" style={{height: "fit-content"}}  md="2" sm="3">
+              <Col
+              className="mr-auto ml-auto ipad"
+              style={{height: "fit-content"}}
+              md="2"
+              sm="3"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              >
                 <img
                   alt="..."
                   className="img-circle img-no-padding img-responsive"

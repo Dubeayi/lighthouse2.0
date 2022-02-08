@@ -13,10 +13,10 @@ import "aos/dist/aos.css";
 import SectionIntroduction from "views/index-sections/SectionIntroduction.js";
 import SectionReviews from "views/index-sections/SectionReviews.js";
 import SectionFAQ from "views/index-sections/SectionFAQ.js";
-import SectionCarousel from "views/index-sections/SectionCarousel.js";
+import SectionVideo from "views/index-sections/SectionVideo.js";
 import SectionThreeSteps from "views/index-sections/SectionThreeSteps.js";
 import SectionActivities from "views/index-sections/SectionActivities.js";
-import SectionHoursOfOperation from "views/index-sections/SectionHoursOfOperation.js";
+// import SectionHoursOfOperation from "views/index-sections/SectionHoursOfOperation.js";
 import SectionBrochure from "views/index-sections/SectionBrochure.js";
 import SectionDivider from "views/index-sections/SectionDivider.js";
 
@@ -39,10 +39,10 @@ function Index() {
         </div>
         <SectionIntroduction />
         <SectionThreeSteps />
-        <SectionCarousel />
+        <SectionVideo />
         <SectionReviews />
         <SectionActivities />
-        <SectionHoursOfOperation />
+        {/* <SectionHoursOfOperation /> */}
         <SectionFAQ />
         <SectionBrochure />
         <Footer />

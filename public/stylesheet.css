@@ -7204,4 +7204,22 @@ ul.hoursOfOper {
     }
   }
 
+.videoPlayerWrapper {
+  position: relative;
+  cursor: auto;
+  min-height: 33em;
+}
+
+.react-player {
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .react-player {
+    position: absolute;
+    width: 22em;
+    height: 22em;
+  }
+}
 /*# sourceMappingURL=stylesheet.css.map */

@@ -14,7 +14,7 @@ function SectionOfferings() {
       <div
         className="section section-nucleo-icons"
         style={{ backgroundColor: "floralwhite" }}
-      // data-aos="fade-up"
+        data-aos="fade-zoom-in"
       >
         <Container>
           <Row>

@@ -11,7 +11,7 @@ function SectionActivities() {
     <>
       <div className="section section-dark section-nucleo-icons" style={{backgroundColor: "#655e4e"}}>
         <Container>
-          <Row>
+          <Row data-aos="fade-zoom-in">
             <Col lg="6" md="12">
               <h2 className="title fontWhite">Lighthouse Activities</h2>
               <br />
@@ -19,23 +19,22 @@ function SectionActivities() {
                 Here at Lighthouse, we believe that the key to stability is keeping the body healthy and the mind active. As a result, our days are filled with activities to keep each client engaged, and healthy meals to nourish both body and mind.
               </p>
               <br />
-             <Link to="/timetable">
+             <Link to="/service">
               <Button
                 className="btn-round"
                 color="danger"
-                // href="/nucleo-icons"
               >
-                View Daily schedule
+                Our Services
               </Button>
               </Link>
-             <Link to="/meal_plan">
+             <Link to="/contact_us">
               <Button
                 className="btn-round ml-1"
                 color="danger"
                 outline
                 target="_blank"
               >
-                View Meal Plan
+                Times of Operation
               </Button>
               </Link>
             </Col>
