@@ -18,7 +18,7 @@ function SectionIntroduction() {
         loading="lazy"
         style={{
           // backgroundImage: `url(${village})`,
-          backgroundImage: `url(https://i.ibb.co/whS3XT0/hug1.jpg)`,
+          backgroundImage: `url(https://lighthouselekki.s3.us-east-2.amazonaws.com/hug1.jpg)`,
           boxShadow: "5px 5px 10px rgba(0,0,0,0.5)"
 
         }}

@@ -9,7 +9,7 @@ function SectionBrochure() {
   return (
     <>
       <div className="section" style={{backgroundColor: "floralwhite"}}>
-        <Container className="text-center">
+        <Container className="text-center" data-aos="fade-zoom-in">
           <Row className="text-center upgrade-pro">
             <Col className="ml-auto mr-auto" md="8">
               <h2 className="title">Want to learn more?</h2>

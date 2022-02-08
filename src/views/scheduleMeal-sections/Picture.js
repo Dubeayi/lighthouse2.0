@@ -2,9 +2,6 @@ import React from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
-import image from 'assets/img/nijaFood.jpg';
-
-// core components
 
 function Picture() {
   return (
@@ -17,7 +14,7 @@ function Picture() {
         <Container>
                  <div className="mealPlan"
                   style={{
-                    backgroundImage: `url(${image})`
+                    backgroundImage: `url(https://lighthouselekki.s3.us-east-2.amazonaws.com/nijaFood.jpg)`
                   }}
               />
         </Container>

@@ -61,7 +61,11 @@ function SectionFAQ() {
     <>
       <div className="faqSection">
         <Container>
-          <div className="faqTitle">
+          <div
+          className="faqTitle"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          >
             <h2 style={{ textAlign: "center" }}>Frequestly Asked Questions<span> <img src={faq} alt="question icon" /></span></h2>
           </div>
           <Row id="modals" className="faq">
@@ -147,7 +151,7 @@ function SectionFAQ() {
                 </div>
               </Modal>
             </Col>
-            <Col className="faqBoxes" data-aos="fade-up">
+            <Col className="faqBoxes" data-aos="fade-up" data-aos-duration="3000">
               <Button
                 className="btn-round btn-long"
                 color="danger"
@@ -196,7 +200,7 @@ function SectionFAQ() {
               </Modal>
             </Col>
 
-            <Col className="faqBoxes" data-aos="fade-up">
+            <Col className="faqBoxes" data-aos="fade-up" data-aos-duration="3000">
               <Button
                 className="btn-round btn-long"
                 color="danger"
@@ -235,7 +239,7 @@ function SectionFAQ() {
             </Col>
             </Col>
             <Col>
-            <Col className="faqBoxes" data-aos="fade-up">
+            <Col className="faqBoxes" data-aos="fade-up" data-aos-duration="3000">
               <Button
                 className="btn-round btn-long"
                 color="danger"
@@ -285,7 +289,7 @@ function SectionFAQ() {
                 </div>
               </Modal>
             </Col>
-            <Col className="faqBoxes" data-aos="fade-up">
+            <Col className="faqBoxes" data-aos="fade-up" data-aos-duration="3000">
               <Button
                 className="btn-round btn-long"
                 color="danger"
@@ -333,7 +337,7 @@ function SectionFAQ() {
                 </div>
               </Modal>
             </Col>
-            <Col className="faqBoxes" data-aos="fade-up">
+            <Col className="faqBoxes" data-aos="fade-up" data-aos-duration="3000">
               <Button
                 className="btn-round btn-long"
                 color="danger"
@@ -373,7 +377,7 @@ function SectionFAQ() {
             </Col>
             <br />
             <Col>
-            <Col className="faqBoxes" data-aos="fade-up">
+            <Col className="faqBoxes" data-aos="fade-up" data-aos-duration="3000">
               <Button
                 className="btn-round btn-long"
                 color="danger"
@@ -441,7 +445,7 @@ function SectionFAQ() {
                 </div>
               </Modal>
             </Col>
-            <Col className="faqBoxes" data-aos="fade-up">
+            <Col className="faqBoxes" data-aos="fade-up" data-aos-duration="3000">
               <Button
                 className="btn-round btn-long"
                 color="danger"
@@ -490,7 +494,7 @@ function SectionFAQ() {
               </Modal>
             </Col>
 
-            <Col className="faqBoxes" data-aos="fade-up">
+            <Col className="faqBoxes" data-aos="fade-up" data-aos-duration="3000">
               <Button
                 className="btn-round btn-long"
                 color="danger"
